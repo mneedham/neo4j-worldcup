@@ -1,33 +1,33 @@
-country,group
-Brazil,Group A
-Croatia,Group A
-Mexico,Group A
-Cameroon,Group A
-Spain,Group B
-Netherlands,Group B
-Chile,Group B
-Australia,Group B
-Colombia,Group C
-Greece,Group C
-Côte d'Ivoire,Group C
-Japan,Group C
-Uruguay,Group D
-Costa Rica,Group D
-England,Group D
-Italy,Group D
-Switzerland,Group E
-Ecuador,Group E
-France,Group E
-Honduras,Group E
-Argentina,Group F
-Bosnia and Herzegovina,Group F
-Iran,Group F
-Nigeria,Group F
-Germany,Group G
-Portugal,Group G
-Ghana,Group G
-USA,Group G
-Belgium,Group H
-Algeria,Group H
-Russia,Group H
-South Korea,Group H
+"country","group"
+"Brazil","Group A"
+"Croatia","Group A"
+"Mexico","Group A"
+"Cameroon","Group A"
+"Spain","Group B"
+"Netherlands","Group B"
+"Chile","Group B"
+"Australia","Group B"
+"Colombia","Group C"
+"Greece","Group C"
+"Ivory Coast","Group C"
+"Japan","Group C"
+"Uruguay","Group D"
+"Costa Rica","Group D"
+"England","Group D"
+"Italy","Group D"
+"Switzerland","Group E"
+"Ecuador","Group E"
+"France","Group E"
+"Honduras","Group E"
+"Argentina","Group F"
+"Bosnia & Herzegovina","Group F"
+"Iran","Group F"
+"Nigeria","Group F"
+"Germany","Group G"
+"Portugal","Group G"
+"Ghana","Group G"
+"USA","Group G"
+"Belgium","Group H"
+"Algeria","Group H"
+"Russia","Group H"
+"South Korea","Group H"
