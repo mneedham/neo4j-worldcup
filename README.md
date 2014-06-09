@@ -27,7 +27,7 @@ ruby scripts/to_csv
 
 ## Importing into Neo4j
 
-[load.cyp](data/import.cyp) contains a cypher script which reads [matches.csv](data/import.matches) that was created above. You'll need to update the path as it's hardcoded for my machine
+[load.cyp](data/import/load.cyp) contains a cypher script which reads [matches.csv](data/import/matches.csv) that was created above. You'll need to update the path as it's hardcoded for my machine
 
 We then import using Neo4j shell:
 
