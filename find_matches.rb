@@ -30,6 +30,7 @@ world_cups.each do |year, download_link|
 	matches = @doc.css("table.fixture tbody tr")
 
 	matches.each do |match|
+		match_number = match.css(".mNum").text
 		venue = match.css(".v").text
 		home = match.css(".homeTeam a").text
 		home_link = match.css(".homeTeam a").attr("href").value
@@ -38,7 +39,7 @@ world_cups.each do |year, download_link|
 		link = match.css("td:nth-child(6) a").attr("href").value
 		result = match.css(".c a").text.strip
 
-		puts "#{year},#{home},#{home_link},#{away},#{away_link},#{link},#{result},#{venue}"
+		puts "#{year},#{home},#{home_link},#{away},#{away_link},#{link},#{result},#{venue},#{match_number}"
 	end
 end
 
