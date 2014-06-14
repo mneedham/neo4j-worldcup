@@ -3,7 +3,7 @@ require 'open-uri'
 
 all_teams = Dir["data/teams/*"]
 
-positions = {"Goalkeepers" => "GK", "Defenders" => "DF", "Midfielders" => "MF",	"Forwards" => "FW"}
+POSITIONS = {"Goalkeepers" => "GK", "Defenders" => "DF", "Midfielders" => "MF",	"Forwards" => "FW"}
 
 all_teams.each do |file|
 	@doc = Nokogiri::HTML(open(file))
@@ -30,7 +30,7 @@ all_teams.each do |file|
 			else
 				next if current_position == "Coach"
 				number = player.css("td:nth-child(1)").text
-				pos = positions[current_position]
+				pos = POSITIONS[current_position]
 				profile = player.css("td:nth-child(2)")
 				name = profile.text
 				link = profile.css("a").empty? ? "" : profile.css("a").attr("href").value
