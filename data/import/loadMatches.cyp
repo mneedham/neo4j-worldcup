@@ -50,6 +50,4 @@ MERGE (mn:MatchNumber {value: matchNumber})
 MERGE (match)-[:HAS_MATCH_NUMBER]->(mn)
 
 MERGE (time:Time {time: csvLine.time})
-MERGE (match)-[:PLAYED_AT_TIME]->(time)
-
-RETURN match;
+MERGE (match)-[:PLAYED_AT_TIME]->(time);

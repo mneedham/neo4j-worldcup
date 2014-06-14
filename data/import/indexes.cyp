@@ -6,3 +6,4 @@ CREATE INDEX ON :Country(name);
 CREATE INDEX ON :Time(time);
 CREATE INDEX ON :MatchNumber(value);
 CREATE INDEX ON :Player(id);
+CREATE INDEX ON :Player(name);

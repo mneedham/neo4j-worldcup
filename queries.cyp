@@ -85,3 +85,7 @@ ORDER BY times DESC, wc
 
 RETURN player.name, times, COLLECT(wc), country.name
 ORDER BY times DESC
+
+// which matches did Jens Lehmann participate in
+MATCH (p:Player {name: "Jens Lehmann"})-[r:STARTED|:SUBSTITUTE]->()-[:IN_MATCH]->()<-[:CONTAINS_MATCH]-(wc)
+RETURN TYPE(r), COUNT(*), COLLECT(DISTINCT wc.name)
