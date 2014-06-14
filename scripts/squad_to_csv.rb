@@ -1,16 +1,15 @@
 require "nokogiri"
 require 'open-uri'
 require 'date'
+require_relative 'functions.rb'
 
 POSITIONS = {"Goalkeepers" => "GK", "Defenders" => "DF", "Midfielders" => "MF",	"Forwards" => "FW"}
 SQUADS = {}
-
 
 team_files = Dir["data/teams/*"]
 
 team_files.select {|file| !file.end_with? ".md" }.each do |team_file|
 	year, team = team_file.gsub(/\.html/, "").split("/")[-1].split("-")
-
 
 	SQUADS[year] ||= {}
 	SQUADS[year][team] ||= []
@@ -35,7 +34,7 @@ team_files.select {|file| !file.end_with? ".md" }.each do |team_file|
 				
 				SQUADS[year][team] << {
 					:player_id => link.split("/")[-2].split("=")[1],
-					:player => name.split(" ").map(&:capitalize).join(" "),
+					:player => Functions.clean_up_player(name),
 					:position => pos,
 					:squad_number => number
 				}
@@ -49,7 +48,7 @@ team_files.select {|file| !file.end_with? ".md" }.each do |team_file|
 			position = row.css("td:nth-child(4)")
 			
 			SQUADS[year][team] << { :player_id => player.attr('href').text.split("/")[-2].split("=")[1],
-									:player => player.text.split(" ").map(&:capitalize).join(" "), 
+									:player => Functions.clean_up_player(player.text), 
 									:dob => dob.text, 
 									:position => position.text
 								  }

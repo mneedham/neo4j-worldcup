@@ -57,3 +57,31 @@ WITH match, host, worldCup,
 WHERE toInt(hostGoals) > toInt(oppositionGoals)
 
 RETURN host.name, worldCup.name
+
+// England squad in 1966
+
+MATCH (c:Country {name: "England"})-[:NAMED_SQUAD]->(squad),
+      (squad)-[:FOR_WORLD_CUP]->(worldCup)-[:IN_YEAR]->(year {year: 1966}),
+      (squad)<-[:IN_SQUAD]-(player)
+RETURN c, squad, year, worldCup, player
+
+// Squad sizes over the years
+
+MATCH (c:Country)-[:NAMED_SQUAD]->(squad),
+      (squad)-[:FOR_WORLD_CUP]->(worldCup)-[:IN_YEAR]-(year),
+      (squad)<-[:IN_SQUAD]-(player)
+WITH c.name AS country, worldCup.name AS worldCup, COUNT(*) as squadSize, year
+ORDER BY year.year
+RETURN country, worldCup, squadSize
+
+// Players named in more than 2 World Cup Squads
+MATCH (year)<-[:IN_YEAR]-()<-[:FOR_WORLD_CUP]-(squad)<-[:IN_SQUAD]-(player), (country)-[:NAMED_SQUAD]->(squad)
+WITH player, country, COLLECT(year.year) AS wcs, COUNT(*) AS times
+WHERE times > 2
+
+UNWIND wcs AS wc
+WITH player, country, wc, times
+ORDER BY times DESC, wc
+
+RETURN player.name, times, COLLECT(wc), country.name
+ORDER BY times DESC

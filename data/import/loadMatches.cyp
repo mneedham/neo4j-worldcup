@@ -1,13 +1,3 @@
-CREATE INDEX ON :Match(id);
-CREATE INDEX ON :WorldCup(name);
-CREATE INDEX ON :Stadium(stadium);
-CREATE INDEX ON :Phase(phase);
-CREATE INDEX ON :Country(name);
-CREATE INDEX ON :Time(time);
-CREATE INDEX ON :MatchNumber(value);
-
-MATCH (n) OPTIONAL MATCH (n)-[r]-() DELETE n,r;
-
 USING PERIODIC COMMIT 1000
 //LOAD CSV WITH HEADERS FROM "https://dl.dropboxusercontent.com/u/7619809/matches.csv" AS csvLine
 LOAD CSV WITH HEADERS FROM "file:/Users/markneedham/projects/neo4j-worldcup/data/import/matches.csv" AS csvLine
