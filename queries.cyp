@@ -39,3 +39,21 @@ ORDER BY times DESC
 // show the phases
 MATCH (p:Phase)
 RETURN p
+
+// hosts who won
+
+MATCH (phase:Phase {name: "Final"})<-[:IN_PHASE]-(match),
+      (match)-[rel:HOME_TEAM|:AWAY_TEAM]-(host:Country)<-[:HOSTED_BY]-(worldCup),
+      (worldCup)-[:CONTAINS_MATCH]->(match)
+RETURN match, host
+
+MATCH (phase:Phase {name: "Final"})<-[:IN_PHASE]-(match),
+      (match)-[rel:HOME_TEAM|:AWAY_TEAM]->(host:Country)<-[:HOSTED_BY]-(worldCup),
+      (worldCup)-[:CONTAINS_MATCH]->(match)
+
+WITH match, host, worldCup,
+     CASE WHEN TYPE(rel) = "HOME_TEAM" THEN match.h_score ELSE match.a_score END AS hostGoals,
+     CASE WHEN TYPE(rel) = "HOME_TEAM" THEN match.a_score ELSE match.h_score END AS oppositionGoals
+WHERE toInt(hostGoals) > toInt(oppositionGoals)
+
+RETURN host.name, worldCup.name

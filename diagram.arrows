@@ -1,0 +1,53 @@
+<ul class="graph-diagram-markup" data-internal-scale="1" data-external-scale="1">
+  <li class="node" data-node-id="0" data-x="-173.8193741045814" data-y="73.90739645827722">
+    <span class="caption">Host</span>
+  </li>
+  <li class="node" data-node-id="1" data-x="258.40285325536524" data-y="503.3691745274132">
+    <span class="caption">World Cup</span>
+  </li>
+  <li class="node" data-node-id="2" data-x="754.4756817835813" data-y="-76.41924713904871">
+    <span class="caption">Home vs Away</span>
+  </li>
+  <li class="node" data-node-id="3" data-x="754.4756817835813" data-y="569.7886874169018">
+    <span class="caption">Home Country</span>
+  </li>
+  <li class="node" data-node-id="4" data-x="1201.1175278822848" data-y="524.6480926094354">
+    <span class="caption">Away Country</span>
+  </li>
+  <li class="node" data-node-id="5" data-x="50.92156190184852" data-y="-76.41924713904871">
+    <span class="caption">Year</span>
+  </li>
+  <li class="node" data-node-id="8" data-x="1544.7447878761432" data-y="-100.95217063869529">
+    <span class="caption">Time</span>
+  </li>
+  <li class="node" data-node-id="12" data-x="1315.674072265625" data-y="-501.65509461219324">
+    <span class="caption">Round</span>
+  </li>
+  <li class="node" data-node-id="13" data-x="-25.05376434326172" data-y="-318.7207531815292">
+    <span class="caption">Stadium</span>
+  </li>
+  <li class="relationship" data-from="1" data-to="0">
+    <span class="type">HOSTED_BY</span>
+  </li>
+  <li class="relationship" data-from="1" data-to="2">
+    <span class="type">CONTAINS_MATCH</span>
+  </li>
+  <li class="relationship" data-from="2" data-to="3">
+    <span class="type">HOME_TEAM</span>
+  </li>
+  <li class="relationship" data-from="2" data-to="4">
+    <span class="type">AWAY_TEAM</span>
+  </li>
+  <li class="relationship" data-from="1" data-to="5">
+    <span class="type">IN_YEAR</span>
+  </li>
+  <li class="relationship" data-from="2" data-to="8">
+    <span class="type">PLAYED_AT_TIME</span>
+  </li>
+  <li class="relationship" data-from="2" data-to="12">
+    <span class="type">IN_PHASE</span>
+  </li>
+  <li class="relationship" data-from="2" data-to="13">
+    <span class="type">PLAYED_IN_STADIUM</span>
+  </li>
+</ul>
