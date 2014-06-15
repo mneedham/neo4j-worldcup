@@ -5,7 +5,7 @@ LOAD CSV WITH HEADERS FROM "file:/Users/markneedham/projects/neo4j-worldcup/data
 
 MATCH (home)<-[:HOME_TEAM]-(match:Match {id: csvLine.match_id})-[:AWAY_TEAM]->(away)
 
-MATCH (player:Player {name: csvLine.player})-[:IN_SQUAD]->(squad)<-[:NAMED_SQUAD]-(team)
+MATCH (player:Player {id: csvLine.player_id})-[:IN_SQUAD]->(squad)<-[:NAMED_SQUAD]-(team)
 MATCH (player)-[:STARTED|:SUBSTITUTE]->(stats)-[:IN_MATCH]->(match)
 
 // penalties

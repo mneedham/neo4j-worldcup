@@ -16,4 +16,14 @@ describe "#Functions" do
     	expect(Functions.clean_up_player("PelÉ (edson Arantes Do Nascimento)")).to eq("Pelé")
     	expect(Functions.clean_up_player("RomÁrio")).to eq("Romário")
     end
+
+    it "removes squad number" do
+        expect(Functions.clean_up_player("3 John HEITINGA (109')")).to eq("John Heitinga")
+        expect(Functions.clean_up_player("(68') Jorge FUCILE 4")).to eq("Jorge Fucile")
+        expect(Functions.clean_up_player(" (90'+3) Anther YAHIA 4  ")).to eq("Anther Yahia")
+    end
+
+    it "remove punctuation and extra spaces" do
+        expect(Functions.clean_up_player(", Victor NDIP (CMR) 46'")).to eq("Victor Ndip")
+    end
 end

@@ -20,8 +20,9 @@ all_the_matches.each do |match|
 	}
 end
 
-match_files = Dir["data/matches/*"]
+player_id_lookup = Functions.player_id_lookup
 
+match_files = Dir["data/matches/*"]
 match_files.select {|file| !file.end_with? ".md" }.each do |match_file|
 	match_id = match_file.gsub(/\.html/, "").split("/")[-1]
 	puts match_id
@@ -29,8 +30,6 @@ match_files.select {|file| !file.end_with? ".md" }.each do |match_file|
 		
 	@doc = Nokogiri::HTML(open(match_file))
 	world_cup = @doc.css("div.content_header h1").text
-
-	player_id_lookup = Functions.player_id_lookup
 
 	if year == "2010"
 		home_team = @doc.css(".mh_header h1 a").first.text
