@@ -1,6 +1,6 @@
 USING PERIODIC COMMIT 1000
-//LOAD CSV WITH HEADERS FROM "https://dl.dropboxusercontent.com/u/7619809/matches.csv" AS csvLine
-LOAD CSV WITH HEADERS FROM "file:/Users/markneedham/projects/neo4j-worldcup/data/import/matches.csv" AS csvLine
+LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/mneedham/neo4j-worldcup/master/data/import/matches.csv" AS csvLine
+//LOAD CSV WITH HEADERS FROM "file:/Users/markneedham/projects/neo4j-worldcup/data/import/matches.csv" AS csvLine
 
 WITH csvLine, toInt(csvLine.match_number) AS matchNumber 
 
