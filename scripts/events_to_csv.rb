@@ -39,13 +39,27 @@ match_files.select {|file| !file.end_with?(".md") && !file.include?("stats") }.e
 		@doc = Nokogiri::HTML(open("data/matches/stats/#{match_id}.html"))	
 
 		@doc.css("div.scorers ul.shome li").each do |scorer|
-			vals = Functions.process_scorer(scorer.text, COUNTRY_CODES, player_id_lookup[year][:all])
-			EVENTS << {:match_id => match_id}.merge(vals)
+			if Functions.multiple_goals?(scorer.text)
+				goals = Functions.process_multiple_scorer(scorer.text, COUNTRY_CODES, player_id_lookup[year][:all])
+				goals.each do |goal|
+					EVENTS << {:match_id => match_id}.merge(goal)
+				end
+			else
+				vals = Functions.process_scorer(scorer.text, COUNTRY_CODES, player_id_lookup[year][:all])
+				EVENTS << {:match_id => match_id}.merge(vals)
+			end			
 		end
 
 		@doc.css("div.scorers ul.saway li").each do |scorer|
-			vals = Functions.process_scorer(scorer.text, COUNTRY_CODES, player_id_lookup[year][:all])
-			EVENTS << {:match_id => match_id}.merge(vals)
+			if Functions.multiple_goals?(scorer.text)
+				goals = Functions.process_multiple_scorer(scorer.text, COUNTRY_CODES, player_id_lookup[year][:all])
+				goals.each do |goal|
+					EVENTS << {:match_id => match_id}.merge(goal)
+				end
+			else
+				vals = Functions.process_scorer(scorer.text, COUNTRY_CODES, player_id_lookup[year][:all])
+				EVENTS << {:match_id => match_id}.merge(vals)
+			end	
 		end		
 
 		@doc.css("table.cards ul li").each do |row|

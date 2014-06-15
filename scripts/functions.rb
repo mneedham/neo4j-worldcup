@@ -51,9 +51,12 @@ module Functions
     else
       time = scorer.match(/(\d{1,3})'/)
       time ? time[1] : nil
-    end
-  	
+    end 	
   end  
+
+  def self.multiple_goals?(scorer)
+    scorer.scan(/\d{1,3}/).count > 1
+  end
 
   def self.process_scorer(scorer, country_codes, player_id_lookup)
   	# p scorer
@@ -70,6 +73,19 @@ module Functions
   	  :type => type
   	}
   end
+
+  def self.process_multiple_scorer(scorer, country_codes, player_id_lookup)
+    # p scorer
+    player = clean_up_player(scorer)
+    player_id = player_id_lookup[player]
+
+    type = "goal"
+    times = scorer.scan(/\d{1,3}/)
+
+    times.map do |time|
+      {:player => player, :player_id => player_id, :time => time, :type => type}
+    end
+  end  
 
   def self.process_card(scorer, country_codes, player_id_lookup)
     player = clean_up_player(scorer)

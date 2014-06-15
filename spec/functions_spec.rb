@@ -26,4 +26,9 @@ describe "#Functions" do
     it "remove punctuation and extra spaces" do
         expect(Functions.clean_up_player(", Victor NDIP (CMR) 46'")).to eq("Victor Ndip")
     end
+
+    it "detects multiple goals" do
+        expect(Functions.multiple_goals?("Miroslav KLOSE (68' 89') ")).to eq(true)
+        expect(Functions.multiple_goals?("Miroslav KLOSE (68')")).to eq(false)
+    end
 end
