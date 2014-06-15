@@ -1,6 +1,25 @@
 #encoding: UTF-8
+require 'csv'
 
 module Functions  
+  def self.player_id_lookup()
+    players = []
+    CSV.foreach("data/import/players_with_dups.csv", :headers => true, :encoding => "UTF-8") do |row|
+      players << row
+    end
+
+    player_lookup = {}
+    players.group_by { |x| x["year"]}.each do |key, values|
+      player_lookup[key] ||= {}
+
+      values.each do |value|    
+        player_lookup[key][value['team']] ||= {}
+        player_lookup[key][value['team']][value['player_name']] = value['player_id']
+      end 
+    end
+    player_lookup 
+  end
+
   def self.clean_up_player(player)
   	 player = player.strip
 
@@ -29,14 +48,12 @@ module Functions
   def self.process_scorer(scorer, country_codes)
   	# p scorer
   	player = clean_up_player(scorer)
-  	country = country_codes[extract_country_code(scorer)]
 
   	type = "goal"
-  	type = "owngoal" if scorer.include? "Own goal"
-  	type = "penalty" if scorer.include? "Penalty goal" 
+  	type = "owngoal" if scorer.include?("Own goal") || scorer.include?("OG")
+  	type = "penalty" if scorer.include?("Penalty goal") || scorer.include?("PEN")
 
   	{ :player => player, 
-  	  :for => country, 
   	  :time => extract_time(scorer).to_i,
   	  :type => type
   	}
@@ -44,10 +61,8 @@ module Functions
 
   def self.process_card(scorer, country_codes)
     player = clean_up_player(scorer)
-    country = country_codes[extract_country_code(scorer)]
 
     { :player => player, 
-      :for => country, 
       :time => extract_time(scorer).to_i
     }
   end  
