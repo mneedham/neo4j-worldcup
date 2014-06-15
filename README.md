@@ -30,7 +30,7 @@ ruby scripts/to_csv
 The [data/import](data/import/) directory contains all the cypher scripts you need to import the data. The scripts contain links to the raw version of CSV files containing the various bits of data.
 
 
-You can import everything into a local Neo4j 2.1.2 database by using the following script, making sure that you tell it where to look for Neo4j first by setting $WC_DB:
+You can import everything into a local Neo4j 2.1.2 database by using [doit.sh](doit.sh), making sure that you tell it where to look for Neo4j first by setting $WC_DB:
 
 ````
 export WC_DB="/Users/markneedham/test-bench/databases/050/neo4j-enterprise-2.1.2"
