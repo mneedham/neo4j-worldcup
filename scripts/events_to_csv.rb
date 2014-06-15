@@ -97,12 +97,6 @@ match_files.select {|file| !file.end_with?(".md") && !file.include?("stats") }.e
 			next if scorer.text.start_with? ", "
 			vals = Functions.process_card(scorer.text, COUNTRY_CODES, player_id_lookup[year][:all])
 
-			if vals[:player_id].nil? 
-				puts scorer
-				puts vals
-				exit 1
-			end
-
 			EVENTS << {:match_id => match_id, :type => "yellow"}.merge(vals)
 		end
 
