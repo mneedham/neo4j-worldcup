@@ -27,12 +27,20 @@ ruby scripts/to_csv
 
 ## Importing into Neo4j
 
-[load.cyp](data/import/load.cyp) contains a cypher script which reads [matches.csv](data/import/matches.csv) that was created above. You'll need to update the path as it's hardcoded for my machine
+The [data/import](data/import/) directory contains all the cypher scripts you need to import the data. The scripts contain links to the raw version of CSV files containing the various bits of data.
 
-We then import using Neo4j shell:
+e.g.
 
 ````
-/path/to/neo4j/bin/neo4j-shell --file /path/to/neo4j-world-cup/data/import.load.cyp
+/path/to/neo4j/bin/neo4j-shell --file data/import/loadMatches.cyp
 ````
 
-And we're done!
+Or if you want to import all the things you can run the following after updating your Neo4j path:
+
+````
+export WC_DB="/Users/markneedham/test-bench/databases/050/neo4j-enterprise-2.1.2"
+````
+
+````
+./doit.sh
+````
