@@ -2,8 +2,7 @@ USING PERIODIC COMMIT 1000
 //LOAD CSV WITH HEADERS FROM "https://dl.dropboxusercontent.com/u/7619809/matches.csv" AS csvLine
 LOAD CSV WITH HEADERS FROM "file:/Users/markneedham/projects/neo4j-worldcup/data/import/lineups.csv" AS csvLine
 
-
-MATCH (match:Match {id: csvLine.match_id})
+MATCH (home)<-[:HOME_TEAM]-(match:Match {id: csvLine.match_id})-[:AWAY_TEAM]->(away)
 MATCH (player:Player {name: csvLine.player})
 MATCH (wc:WorldCup {name: csvLine.world_cup})
 MATCH (wc)<-[:FOR_WORLD_CUP]-()<-[:IN_SQUAD]-(player)
@@ -32,7 +31,7 @@ FOREACH(n IN (CASE csvLine.team WHEN "away" THEN [1] else [] END) |
 	)
 
 	FOREACH(o IN (CASE csvLine.type WHEN "sub" THEN [1] else [] END) |
-		MERGE (match)-[:AWAY_TEAM]->(home)
+		MERGE (match)-[:AWAY_TEAM]->(away)
 		MERGE (player)-[:SUBSTITUTE]->(stats)-[:IN_MATCH]->(match)
 		MERGE (stats)-[:FOR]->(away)
 	)	
