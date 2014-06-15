@@ -33,4 +33,20 @@ FOREACH(n IN (CASE csvLine.type WHEN "owngoal" THEN [1] else [] END) |
 	)		
 )
 
+// yellow card
+FOREACH(n IN (CASE csvLine.type WHEN "yellow" THEN [1] else [] END) |
+	FOREACH(team IN CASE WHEN team = home THEN [home] ELSE [away] END |
+		MERGE (stats)-[:BOOKED]->(yellow {time: csvLine.time})
+		MERGE (yellow)-[:FOR]->(team)
+	)		
+)
+
+// red card
+FOREACH(n IN (CASE csvLine.type WHEN "red" THEN [1] else [] END) |
+	FOREACH(team IN CASE WHEN team = home THEN [home] ELSE [away] END |
+		MERGE (stats)-[:SENT_OFF]->(red {time: csvLine.time})
+		MERGE (red)-[:FOR]->(team)
+	)		
+)
+
 ;

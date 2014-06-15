@@ -17,8 +17,13 @@ module Functions
   	scorer.match(/\(([A-Z]{3})\)/)[1]
   end
 
-  def self.extract_goal_time(scorer)
-  	scorer.match(/(\d{1,3})'/)[1]
+  def self.extract_time(scorer)
+    if scorer.include? "PSO"
+      120
+    else
+      scorer.match(/(\d{1,3})'/)[1]  
+    end
+  	
   end  
 
   def self.process_scorer(scorer, country_codes)
@@ -32,9 +37,19 @@ module Functions
 
   	{ :player => player, 
   	  :for => country, 
-  	  :time => extract_goal_time(scorer).to_i,
+  	  :time => extract_time(scorer).to_i,
   	  :type => type
   	}
   end
+
+  def self.process_card(scorer, country_codes)
+    player = clean_up_player(scorer)
+    country = country_codes[extract_country_code(scorer)]
+
+    { :player => player, 
+      :for => country, 
+      :time => extract_time(scorer).to_i
+    }
+  end  
 end
 

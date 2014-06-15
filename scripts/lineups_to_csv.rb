@@ -29,7 +29,6 @@ match_files.select {|file| !file.end_with? ".md" }.each do |match_file|
 	
 	@doc = Nokogiri::HTML(open(match_file))
 	world_cup = @doc.css("div.content_header h1").text
-
 	
 	home_team =  @doc.css("div.lnupTeam").first
 	home_team.css("ul:nth-child(2) li").each do |row|

@@ -75,7 +75,7 @@ ORDER BY year.year
 RETURN country, worldCup, squadSize
 
 // Players named in more than 2 World Cup Squads
-MATCH (year)<-[:IN_YEAR]-()<-[:FOR_WORLD_CUP]-(squad)<-[:IN_SQUAD]-(player), (country)-[:NAMED_SQUAD]->(squad)
+MATCH (year:Year)<-[:IN_YEAR]-()<-[:FOR_WORLD_CUP]-(squad)<-[:IN_SQUAD]-(player), (country)-[:NAMED_SQUAD]->(squad)
 WITH player, country, COLLECT(year.year) AS wcs, COUNT(*) AS times
 WHERE times > 2
 
@@ -89,3 +89,18 @@ ORDER BY times DESC
 // which matches did Jens Lehmann participate in
 MATCH (p:Player {name: "Jens Lehmann"})-[r:STARTED|:SUBSTITUTE]->()-[:IN_MATCH]->()<-[:CONTAINS_MATCH]-(wc)
 RETURN TYPE(r), COUNT(*), COLLECT(DISTINCT wc.name)
+
+// find the teams that most benefited from own goals
+MATCH (player)-[:STARTED|SUBSTITUTE]->(stats)-[:SCORED_OWN_GOAL]->()-[:FOR]->(team:Country)
+RETURN team.name, COUNT(*) AS ogs
+ORDER BY ogs DESC
+
+// top scorers
+MATCH (player)-[:STARTED|:SUBSTITUTE]->(stats)-[:SCORED_PENALTY|:SCORED_OPEN_PLAY_GOAL]->(),
+      (stats)-[:IN_MATCH]->()<-[:CONTAINS_MATCH]-(wc:WorldCup)-[:IN_YEAR]->(year)
+WITH  player.name AS player, COUNT(*) AS goals, COLLECT(DISTINCT year.year) AS competitions
+UNWIND competitions AS competition 
+WITH player, goals, competition ORDER BY player, goals, competition
+RETURN player, goals, COLLECT(competition) AS competitions
+ORDER BY goals DESC
+LIMIT 20
