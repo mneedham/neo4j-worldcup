@@ -12,13 +12,11 @@ FOREACH(n IN (CASE csvLine.team WHEN "home" THEN [1] else [] END) |
 	FOREACH(o IN (CASE csvLine.type WHEN "starting" THEN [1] else [] END) |
 		MERGE (match)-[:HOME_TEAM]->(home)
 		MERGE (player)-[:STARTED]->(stats)-[:IN_MATCH]->(match)
-		MERGE (stats)-[:FOR]->(home)
 	)
 
 	FOREACH(o IN (CASE csvLine.type WHEN "sub" THEN [1] else [] END) |
 		MERGE (match)-[:HOME_TEAM]->(home)
 		MERGE (player)-[:SUBSTITUTE]->(stats)-[:IN_MATCH]->(match)
-		MERGE (stats)-[:FOR]->(home)
 	)	
 )
 
@@ -27,13 +25,11 @@ FOREACH(n IN (CASE csvLine.team WHEN "away" THEN [1] else [] END) |
 	FOREACH(o IN (CASE csvLine.type WHEN "starting" THEN [1] else [] END) |
 		MERGE (match)-[:AWAY_TEAM]->(away)
 		MERGE (player)-[:STARTED]->(stats)-[:IN_MATCH]->(match)
-		MERGE (stats)-[:FOR]->(away)
 	)
 
 	FOREACH(o IN (CASE csvLine.type WHEN "sub" THEN [1] else [] END) |
 		MERGE (match)-[:AWAY_TEAM]->(away)
 		MERGE (player)-[:SUBSTITUTE]->(stats)-[:IN_MATCH]->(match)
-		MERGE (stats)-[:FOR]->(away)
 	)	
 )
 ;

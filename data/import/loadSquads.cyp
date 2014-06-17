@@ -5,6 +5,7 @@ LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/mneedham/neo4j-wor
 MATCH (y:Year {year: toInt(csvLine.year)})<-[:IN_YEAR]-(worldCup),
       (c:Country {name: csvLine.country})
 
+MERGE (squad:Squad {name: c.name + " Squad for " + worldCup.name })
 MERGE (c)-[:NAMED_SQUAD]->(squad)-[:FOR_WORLD_CUP]->(worldCup)
 
 MERGE (p:Player {id: csvLine.player_id})
