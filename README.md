@@ -1,6 +1,8 @@
 World Cup 2014 with Neo4j
 ==============
 
+We've built a Neo4j World Cup Graph which you can read more about at [worldcup.neo4j.org](http://worldcup.neo4j.org/). Instructions on getting it up and running locally are below.
+
 ## Starting Neo4j
 
 The import of this data set uses LOAD CSV which was introduced in Neo4j 2.1.2 so you'll need to use that version.
