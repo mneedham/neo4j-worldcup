@@ -1,4 +1,19 @@
-// find the stadiums which hosted the most matches
+// Top scorer across all World Cups
+MATCH (player)-[:STARTED|:SUBSTITUTE]->(stats)-[:SCORED_GOAL]->(goal),
+      (stats)-[:IN_MATCH]->()<-[:CONTAINS_MATCH]-(wc:WorldCup)-[:IN_YEAR]->(year)
+WHERE goal.type IN ["goal", "penalty"]
+WITH  player.name AS player, COUNT(*) AS goals, COLLECT(DISTINCT year.year) AS competitions
+UNWIND competitions AS competition 
+WITH player, goals, competition ORDER BY player, goals, competition
+RETURN player, goals, COLLECT(competition) AS competitions
+ORDER BY goals DESC
+LIMIT 20
+
+// Matches that Jens Lehmann participated in
+MATCH (p:Player {name: "Jens Lehmann"})-[r:STARTED|:SUBSTITUTE]->()-[:IN_MATCH]->()<-[:CONTAINS_MATCH]-(wc)
+RETURN TYPE(r), COUNT(*), COLLECT(DISTINCT wc.name)
+
+// Stadiums that hosted the most matches over all World Cups
 MATCH (n:Stadium)<-[:PLAYED_IN_STADIUM]-()<-[:CONTAINS_MATCH]-(wc)-[:HOSTED_BY]-(host),
       (wc)-[:IN_YEAR]-(year)
 
@@ -7,7 +22,7 @@ RETURN n.name, host.name, years, count
 ORDER BY count DESC
 LIMIT 5
 
-// stadiums that hosted most matches with better ordering
+// Stadiums that hosted the most matches over all World Cups with World Cups ordered by year ascending
 
 MATCH (stadium:Stadium)<-[:PLAYED_IN_STADIUM]-()<-[:CONTAINS_MATCH]-(wc)-[:HOSTED_BY]-(host),
       (wc)-[:IN_YEAR]-(year)
@@ -23,7 +38,7 @@ RETURN stadium.name, host.name, COLLECT(year) AS years, count
 ORDER BY count DESC
 LIMIT 5
 
-// country that hosted most world cups
+// Countries that hosted most world cups
 
 MATCH (host:Country)<-[:HOSTED_BY]-()-[:IN_YEAR]->(year)
 
@@ -40,13 +55,14 @@ ORDER BY times DESC
 MATCH (p:Phase)
 RETURN p
 
-// hosts who won
+// Hosts who reached the final
 
 MATCH (phase:Phase {name: "Final"})<-[:IN_PHASE]-(match),
       (match)-[rel:HOME_TEAM|:AWAY_TEAM]-(host:Country)<-[:HOSTED_BY]-(worldCup),
       (worldCup)-[:CONTAINS_MATCH]->(match)
-RETURN match, host
+RETURN  host.name, match.description, worldCup.name
 
+// Hosts who won the World Cup
 MATCH (phase:Phase {name: "Final"})<-[:IN_PHASE]-(match),
       (match)-[rel:HOME_TEAM|:AWAY_TEAM]->(host:Country)<-[:HOSTED_BY]-(worldCup),
       (worldCup)-[:CONTAINS_MATCH]->(match)
@@ -77,7 +93,7 @@ RETURN country, worldCup, squadSize
 // Players named in more than 2 World Cup Squads
 MATCH (year:Year)<-[:IN_YEAR]-()<-[:FOR_WORLD_CUP]-(squad)<-[:IN_SQUAD]-(player), (country)-[:NAMED_SQUAD]->(squad)
 WITH player, country, COLLECT(year.year) AS wcs, COUNT(*) AS times
-WHERE times > 2
+WHERE times > 3
 
 UNWIND wcs AS wc
 WITH player, country, wc, times
@@ -86,21 +102,8 @@ ORDER BY times DESC, wc
 RETURN player.name, times, COLLECT(wc), country.name
 ORDER BY times DESC
 
-// which matches did Jens Lehmann participate in
-MATCH (p:Player {name: "Jens Lehmann"})-[r:STARTED|:SUBSTITUTE]->()-[:IN_MATCH]->()<-[:CONTAINS_MATCH]-(wc)
-RETURN TYPE(r), COUNT(*), COLLECT(DISTINCT wc.name)
+// Queries from the London Hackathon - 18th June 2014
 
-// find the teams that most benefited from own goals
-MATCH (player)-[:STARTED|SUBSTITUTE]->(stats)-[:SCORED_OWN_GOAL]->()-[:FOR]->(team:Country)
-RETURN team.name, COUNT(*) AS ogs
-ORDER BY ogs DESC
-
-// top scorers
-MATCH (player)-[:STARTED|:SUBSTITUTE]->(stats)-[:SCORED_PENALTY|:SCORED_OPEN_PLAY_GOAL]->(),
-      (stats)-[:IN_MATCH]->()<-[:CONTAINS_MATCH]-(wc:WorldCup)-[:IN_YEAR]->(year)
-WITH  player.name AS player, COUNT(*) AS goals, COLLECT(DISTINCT year.year) AS competitions
-UNWIND competitions AS competition 
-WITH player, goals, competition ORDER BY player, goals, competition
-RETURN player, goals, COLLECT(competition) AS competitions
-ORDER BY goals DESC
-LIMIT 20
+// Find teams that beat each other in the same world cups
+MATCH (s:Squad) -[:BEAT]-> () -[:BEAT]-> (s)
+RETURN s
