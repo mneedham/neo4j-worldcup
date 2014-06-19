@@ -107,3 +107,29 @@ ORDER BY times DESC
 // Find teams that beat each other in the same world cups
 MATCH (s:Squad) -[:BEAT]-> () -[:BEAT]-> (s)
 RETURN s
+
+// Revenge is a dish best served cold
+// Find how long it took for a team to gain revenge for an earlier defeat
+
+MATCH (year1) <-[:IN_YEAR]- (cup:WorldCup) -[:NEXT*0..18]-> (nextcup:WorldCup) -[:IN_YEAR]-> (year2)
+MATCH (country1:Country) -[:NAMED_SQUAD]-> (c1s1:Squad) -[:FOR_WORLD_CUP]-> (cup)
+MATCH (country2:Country) -[:NAMED_SQUAD]-> (c2s1:Squad) -[:FOR_WORLD_CUP]-> (cup)
+MATCH (country1) -[:NAMED_SQUAD]-> (c1s2:Squad) -[:FOR_WORLD_CUP]-> (nextcup)
+MATCH (country2) -[:NAMED_SQUAD]-> (c2s2:Squad) -[:FOR_WORLD_CUP]-> (nextcup)
+MATCH (c1s1) -[:BEAT]-> (c2s1)
+MATCH (c2s2) -[:BEAT]-> (c1s2)
+WITH year2.year - year1.year as wait, year1, year2, country1, country2
+ORDER BY wait desc, year1.year, year2.year
+ 
+RETURN "In " + year2.year + ", " + country2.name + " gained revenge over " + country1.name + " for beating them in " + year1.year + " after a wait of " + wait + " years" AS message
+
+// Distance between Countries
+MATCH (c1:Country)
+MATCH (c2:Country)
+WHERE c1 <> c2
+WITH c1, c2, 2 * 6371 * asin(sqrt(haversin(radians(c1.lat - c2.lat))+ cos(radians(c1.lat))*
+  cos(radians(c2.lat))* haversin(radians(c1.lon - c2.lon)))) AS dist
+WHERE dist > 0
+RETURN c1.name, c2.name, dist
+ORDER BY dist
+LIMIT 1000
