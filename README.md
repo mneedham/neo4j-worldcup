@@ -89,6 +89,10 @@ Copy the contents of the following files into your Neo4j browser window one afte
 * [connectAdjacentWorldCups.cyp](data/import/connectAdjacentWorldCups.cyp)
 * [addGeoLocations.cyp](data/import/addGeoLocations.cyp)
 
+## Querying the data set
+
+We're collating interesting queries you can write against the data set in [queries.cyp](queries.cyp). Try some of them out!
+
 ## Getting the raw data
 
 There are 3 steps to getting the data ready for Neo4j:
