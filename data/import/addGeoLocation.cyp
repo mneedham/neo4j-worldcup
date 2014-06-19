@@ -18,6 +18,6 @@ END as countryNames
 MATCH (country:Country)
 WHERE country.name IN countryNames OR country.name = line.CountryName
 // data is screwed up for United States, because captial city field contains a comma!
-SET country.lon = toFloat(CASE line.CountryName WHEN 'United States' THEN line.CountryCode ELSE line.CapitalLongitude END)
-SET country.lat = toFloat(CASE line.CountryName WHEN 'United States' THEN line.CapitalLongitude ELSE line.CapitalLatitude END)
-RETURN count(country)
+SET country.lon = line.CapitalLongitude
+SET country.lat = line.CapitalLatitude
+RETURN count(country);
