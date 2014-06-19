@@ -30,6 +30,8 @@ Run the [doit.sh](doit.sh) script to import all the data:
 
 ### Windows
 
+Launch Neo4j using the desktop application.
+
 Clear everything in the database and create indexes by running the following cypher statements in [Neo4j browser](http://localhost:7474)
 
 ````
