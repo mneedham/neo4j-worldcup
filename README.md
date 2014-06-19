@@ -1,22 +1,22 @@
 World Cup 2014 with Neo4j
 ==============
 
-## Importing the data set
+## Starting Neo4j
 
 The import of this data set uses LOAD CSV which was introduced in Neo4j 2.1.2 so you'll need to use that version.
 
 You can [download Neo4j 2.1.2](http://www.neo4j.org/download) from the Neo4j website.
 
-### Starting Neo4j
-
-####Mac / Unix
+###Mac / Unix
 ````
 cd /path/to/where/you/installed/neo4j
 ./bin/neo4j start
 ````
 
-####Windows
+###Windows
 Launch Neo4j using the desktop application
+
+## Importing the data set
 
 ### Mac / Unix (with command line skillz)
 
