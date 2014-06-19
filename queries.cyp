@@ -152,3 +152,20 @@ match (wc:WorldCup)-->(m:Match)
 optional match (m)<--()-[:SCORED_GOAL]->(g:Goal)
 return wc.name, (count(distinct g) * 1.0 / count(distinct m)) as average
 order by wc.name desc
+
+// All stadiums that germany ever played in
+
+MATCH (stadium:Stadium)<-[:PLAYED_IN_STADIUM]-(m)-[:HOME_TEAM|AWAY_TEAM] ->(Country)
+WHERE Country.name="Germany"
+return stadium, Country.name, Count(*)
+order by Count(*) DESC
+
+// Average size of squad per team per year 
+
+MATCH (player:Player) - [:IN_SQUAD]- (squad:Squad) - [:FOR_WORLD_CUP] -(wc) - [:IN_YEAR] - (year:Year),
+(country:Country)-[:NAMED_SQUAD]->(squad)
+with squad, wc, country, year, count(*) as count_player
+
+return year, avg(count_player)
+order by year.year DESC
+limit 30
