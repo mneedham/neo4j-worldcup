@@ -74,10 +74,10 @@ CREATE INDEX ON :Player(name);
 
 Copy the contents of the following files into your Neo4j browser window one after the other and run them:
 
-[loadMatches.cyp](data/import/loadMatches.cyp)
-[loadSquads.cyp](data/import/loadSquads.cyp)
-[loadLineUps.cyp](data/import/loadLineUps.cyp)
-[loadEvents.cyp](data/import/loadEvents.cyp)
+* [loadMatches.cyp](data/import/loadMatches.cyp)
+* [loadSquads.cyp](data/import/loadSquads.cyp)
+* [loadLineUps.cyp](data/import/loadLineUps.cyp)
+* [loadEvents.cyp](data/import/loadEvents.cyp)
 
 ## Getting the raw data
 
