@@ -7,14 +7,20 @@ The import of this data set uses LOAD CSV which was introduced in Neo4j 2.1.2 so
 
 You can [download Neo4j 2.1.2](http://www.neo4j.org/download) from the Neo4j website.
 
-### Mac / Unix
+### Starting Neo4j
 
-Start Neo4j:
-
+####Mac / Unix
 ````
 cd /path/to/where/you/installed/neo4j
 ./bin/neo4j start
 ````
+
+####Windows
+Launch Neo4j using the desktop application
+
+### Mac / Unix (with command line skillz)
+
+Clone this repository
 
 Set the $WC_DB environment variable to the path to where you've installed Neo4j:
 
@@ -28,9 +34,7 @@ Run the [doit.sh](doit.sh) script to import all the data:
 ./doit.sh
 ````
 
-### Windows
-
-Launch Neo4j using the desktop application.
+### Windows / Not familiar with the command line
 
 Clear everything in the database and create indexes by running the following cypher statements in [Neo4j browser](http://localhost:7474)
 
