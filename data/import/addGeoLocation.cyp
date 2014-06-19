@@ -17,7 +17,6 @@ WHEN 'Indonesia' THEN ['Dutch East Indies']
 END as countryNames
 MATCH (country:Country)
 WHERE country.name IN countryNames OR country.name = line.CountryName
-// data is screwed up for United States, because captial city field contains a comma!
 SET country.lon = line.CapitalLongitude
 SET country.lat = line.CapitalLatitude
 RETURN count(country);

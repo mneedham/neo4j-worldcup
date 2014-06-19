@@ -133,3 +133,22 @@ WHERE dist > 0
 RETURN c1.name, c2.name, dist
 ORDER BY dist
 LIMIT 1000
+
+// Unused squad members across World Cups
+MATCH (a)-[:`IN_SQUAD`]->(b) 
+WHERE not(a-[:SUBSTUTED|:STARTED]->()) 
+RETURN b,count(a) 
+order by count(a) desc
+
+// Goals scored by English Players
+match (s:Squad)--(player:Player)--()-[:SCORED_GOAL]->(g)
+where s.name =~ "England.*"
+return player.name, count(distinct g) as count
+order by count desc
+limit 10
+
+// Average goals per match across all World Cups
+match (wc:WorldCup)-->(m:Match)
+optional match (m)<--()-[:SCORED_GOAL]->(g:Goal)
+return wc.name, (count(distinct g) * 1.0 / count(distinct m)) as average
+order by wc.name desc
