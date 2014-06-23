@@ -1,0 +1,215 @@
+Country,Code,IncomeGroup
+American Samoa,ASM,High
+Australia,AUS,Highest
+Brunei Darussalam,BRN,Highest
+China,CHN,High
+Fiji,FJI,High
+"Micronesia, Fed. Sts.",FSM,Medium
+Guam,GUM,Highest
+"Hong Kong SAR, China",HKG,Highest
+Indonesia,IDN,Medium
+Japan,JPN,Highest
+Cambodia,KHM,Low
+Kiribati,KIR,Medium
+"Korea, Rep.",KOR,Highest
+Lao PDR,LAO,Medium
+"Macao SAR, China",MAC,Highest
+Marshall Islands,MHL,High
+Myanmar,MMR,Low
+Mongolia,MNG,Medium
+Northern Mariana Islands,MNP,Highest
+Malaysia,MYS,High
+New Caledonia,NCL,Highest
+New Zealand,NZL,Highest
+Philippines,PHL,Medium
+Palau,PLW,High
+Papua New Guinea,PNG,Medium
+"Korea, Dem. Rep.",PRK,Low
+French Polynesia,PYF,Highest
+Singapore,SGP,Highest
+Solomon Islands,SLB,Medium
+Thailand,THA,High
+Timor-Leste,TLS,Medium
+Tonga,TON,High
+Tuvalu,TUV,High
+Vietnam,VNM,Medium
+Vanuatu,VUT,Medium
+Samoa,WSM,Medium
+Albania,ALB,High
+Andorra,AND,Highest
+Armenia,ARM,Medium
+Austria,AUT,Highest
+Azerbaijan,AZE,High
+Belgium,BEL,Highest
+Bulgaria,BGR,High
+Bosnia and Herzegovina,BIH,High
+Belarus,BLR,High
+Switzerland,CHE,Highest
+Channel Islands,CHI,Highest
+Cyprus,CYP,Highest
+Czech Republic,CZE,Highest
+Germany,DEU,Highest
+Denmark,DNK,Highest
+Spain,ESP,Highest
+Estonia,EST,Highest
+Finland,FIN,Highest
+France,FRA,Highest
+Faeroe Islands,FRO,Highest
+United Kingdom,GBR,Highest
+Georgia,GEO,Medium
+Greece,GRC,Highest
+Greenland,GRL,Highest
+Croatia,HRV,Highest
+Hungary,HUN,High
+Isle of Man,IMN,Highest
+Ireland,IRL,Highest
+Iceland,ISL,Highest
+Italy,ITA,Highest
+Kazakhstan,KAZ,High
+Kyrgyz Republic,KGZ,Low
+Kosovo,KSV,Medium
+Liechtenstein,LIE,Highest
+Lithuania,LTU,Highest
+Luxembourg,LUX,Highest
+Latvia,LVA,Highest
+Monaco,MCO,Highest
+Moldova,MDA,Medium
+"Macedonia, FYR",MKD,High
+Montenegro,MNE,High
+Netherlands,NLD,Highest
+Norway,NOR,Highest
+Poland,POL,Highest
+Portugal,PRT,Highest
+Romania,ROU,High
+Russian Federation,RUS,Highest
+San Marino,SMR,Highest
+Serbia,SRB,High
+Slovak Republic,SVK,Highest
+Slovenia,SVN,Highest
+Sweden,SWE,Highest
+Tajikistan,TJK,Low
+Turkmenistan,TKM,High
+Turkey,TUR,High
+Ukraine,UKR,Medium
+Uzbekistan,UZB,Medium
+Aruba,ABW,Highest
+Argentina,ARG,High
+Antigua and Barbuda,ATG,Highest
+"Bahamas, The",BHS,Highest
+Belize,BLZ,High
+Bolivia,BOL,Medium
+Brazil,BRA,High
+Barbados,BRB,Highest
+Chile,CHL,Highest
+Colombia,COL,High
+Costa Rica,CRI,High
+Cuba,CUB,High
+Curaçao,CUW,Highest
+Cayman Islands,CYM,Highest
+Dominica,DMA,High
+Dominican Republic,DOM,High
+Ecuador,ECU,High
+Grenada,GRD,High
+Guatemala,GTM,Medium
+Guyana,GUY,Medium
+Honduras,HND,Medium
+Haiti,HTI,Low
+Jamaica,JAM,High
+St. Kitts and Nevis,KNA,Highest
+St. Lucia,LCA,High
+St. Martin (French part),MAF,Highest
+Mexico,MEX,High
+Nicaragua,NIC,Medium
+Panama,PAN,High
+Peru,PER,High
+Puerto Rico,PRI,Highest
+Paraguay,PRY,Medium
+El Salvador,SLV,Medium
+Suriname,SUR,High
+Sint Maarten (Dutch part),SXM,Highest
+Turks and Caicos Islands,TCA,Highest
+Trinidad and Tobago,TTO,Highest
+Uruguay,URY,Highest
+St. Vincent and the Grenadines,VCT,High
+"Venezuela, RB",VEN,High
+Virgin Islands (U.S.),VIR,Highest
+United Arab Emirates,ARE,Highest
+Bahrain,BHR,Highest
+Djibouti,DJI,Medium
+Algeria,DZA,High
+"Egypt, Arab Rep.",EGY,Medium
+"Iran, Islamic Rep.",IRN,High
+Iraq,IRQ,High
+Israel,ISR,Highest
+Jordan,JOR,High
+Kuwait,KWT,Highest
+Lebanon,LBN,High
+Libya,LBY,High
+Morocco,MAR,Medium
+Malta,MLT,Highest
+Oman,OMN,Highest
+West Bank and Gaza,PSE,Medium
+Qatar,QAT,Highest
+Saudi Arabia,SAU,Highest
+Syrian Arab Republic,SYR,Medium
+Tunisia,TUN,High
+"Yemen, Rep.",YEM,Medium
+Bermuda,BMU,Highest
+Canada,CAN,Highest
+United States,USA,Highest
+Afghanistan,AFG,Low
+Bangladesh,BGD,Low
+Bhutan,BTN,Medium
+India,IND,Medium
+Sri Lanka,LKA,Medium
+Maldives,MDV,High
+Nepal,NPL,Low
+Pakistan,PAK,Medium
+Angola,AGO,High
+Burundi,BDI,Low
+Benin,BEN,Low
+Burkina Faso,BFA,Low
+Botswana,BWA,High
+Central African Republic,CAF,Low
+Côte d'Ivoire,CIV,Medium
+Cameroon,CMR,Medium
+"Congo, Dem. Rep.",COD,Low
+"Congo, Rep.",COG,Medium
+Comoros,COM,Low
+Cabo Verde,CPV,Medium
+Eritrea,ERI,Low
+Ethiopia,ETH,Low
+Gabon,GAB,High
+Ghana,GHA,Medium
+Guinea,GIN,Low
+"Gambia, The",GMB,Low
+Guinea-Bissau,GNB,Low
+Equatorial Guinea,GNQ,Highest
+Kenya,KEN,Low
+Liberia,LBR,Low
+Lesotho,LSO,Medium
+Madagascar,MDG,Low
+Mali,MLI,Low
+Mozambique,MOZ,Low
+Mauritania,MRT,Medium
+Mauritius,MUS,High
+Malawi,MWI,Low
+Namibia,NAM,High
+Niger,NER,Low
+Nigeria,NGA,Medium
+Rwanda,RWA,Low
+Sudan,SDN,Medium
+Senegal,SEN,Medium
+Sierra Leone,SLE,Low
+Somalia,SOM,Low
+South Sudan,SSD,Low
+São Tomé and Principe,STP,Medium
+Swaziland,SWZ,Medium
+Seychelles,SYC,High
+Chad,TCD,Low
+Togo,TGO,Low
+Tanzania,TZA,Low
+Uganda,UGA,Low
+South Africa,ZAF,High
+Zambia,ZMB,Medium
+Zimbabwe,ZWE,Low

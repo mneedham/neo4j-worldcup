@@ -1,4 +1,4 @@
-LOAD CSV WITH HEADERS FROM "http://techslides.com/demos/country-capitals.csv" AS line
+LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/mneedham/neo4j-worldcup/master/data/countryNames/country-capitals.csv" AS line
 WITH line, CASE line.CountryName 
 WHEN 'South Korea' THEN ['Korea Republic']
 WHEN 'United Kingdom' THEN ['England', 'Scotland', 'Wales']
@@ -17,6 +17,6 @@ WHEN 'Indonesia' THEN ['Dutch East Indies']
 END as countryNames
 MATCH (country:Country)
 WHERE country.name IN countryNames OR country.name = line.CountryName
-SET country.lon = line.CapitalLongitude
-SET country.lat = line.CapitalLatitude
+SET country.lon = toFloat(line.CapitalLongitude)
+SET country.lat = toFloat(line.CapitalLatitude)
 RETURN count(country);
