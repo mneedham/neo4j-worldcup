@@ -9,6 +9,7 @@ Bosnia and Herzegovina
 Bulgaria
 Croatia
 Cyprus
+Czechoslovakia
 Czech Republic
 Denmark
 England
@@ -17,6 +18,8 @@ Finland
 France
 Georgia
 Germany
+German DR
+Germany FR
 Greece
 Hungary
 Iceland
@@ -36,11 +39,13 @@ Norway
 Northern Ireland
 Poland
 Portugal
+Republic of Ireland
 Romania
 Russia
 San Marino
 Scotland
 Serbia
+Serbia and Montenegro
 Slovakia
 Slovenia
 Spain
@@ -49,4 +54,5 @@ Switzerland
 Ukraine
 United Kingdom
 Vatican City
+Yugoslavia
 Wales

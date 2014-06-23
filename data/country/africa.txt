@@ -11,6 +11,7 @@ Chad
 Comoros
 Congo
 Congo, Democratic Republic of
+Côte d'Ivoire
 Djibouti
 Egypt
 Equatorial Guinea
@@ -50,5 +51,6 @@ Tanzania
 Togo
 Tunisia
 Uganda
+Zaire
 Zambia
 Zimbabwe

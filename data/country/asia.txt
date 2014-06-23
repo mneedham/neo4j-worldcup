@@ -6,6 +6,8 @@ Brunei
 Burma (Myanmar)
 Cambodia
 China
+China PR
+Dutch East Indies
 East Timor
 India
 Indonesia
@@ -17,6 +19,7 @@ Jordan
 Kazakhstan
 North Korea
 South Korea
+Korea DPR
 Kuwait
 Kyrgyzstan
 Laos
@@ -31,6 +34,7 @@ Philippines
 Qatar
 Saudi Arabia
 Singapore
+Soviet Union
 Sri Lanka
 Syria
 Tajikistan
