@@ -22,3 +22,4 @@ ${WC_DB}/bin/neo4j-shell --file data/import/loadLineUps.cyp
 ${WC_DB}/bin/neo4j-shell --file data/import/loadEvents.cyp
 ${WC_DB}/bin/neo4j-shell --file data/import/connectAdjacentWorldCups.cyp
 ${WC_DB}/bin/neo4j-shell --file data/import/addGeoLocations.cyp
+${WC_DB}/bin/neo4j-shell --file data/import/loadCountryInformation.cyp

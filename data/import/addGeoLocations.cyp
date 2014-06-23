@@ -1,4 +1,4 @@
-LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/mneedham/neo4j-worldcup/master/data/countryNames/country-capitals.csv" AS line
+LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/mneedham/neo4j-worldcup/master/data/country/country-capitals.csv" AS line
 WITH line, CASE line.CountryName 
 WHEN 'South Korea' THEN ['Korea Republic']
 WHEN 'United Kingdom' THEN ['England', 'Scotland', 'Wales']
