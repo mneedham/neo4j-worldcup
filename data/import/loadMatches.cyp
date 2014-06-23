@@ -32,7 +32,7 @@ MERGE (year)<-[:IN_YEAR]-(worldCup)
 MERGE (stadium:Stadium {name: csvLine.stadium})
 MERGE (match)-[:PLAYED_IN_STADIUM]->(stadium)
 
-MERGE (p:Phase {name: phase})
+MERGE (p:Phase {name: csvLine.phase})
 MERGE (match)-[:IN_PHASE]->(p)
 
 MERGE (time:Time {time: csvLine.time})

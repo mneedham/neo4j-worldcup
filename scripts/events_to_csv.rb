@@ -14,7 +14,7 @@ all_the_matches.each do |match|
 end
 
 COUNTRY_CODES = {}
-cc = File.readlines("data/cc.csv").
+cc = File.readlines("data/country/cc.csv").
                        map { |row| row.gsub(/\n/, "").split(",") }
 
 cc.each {|k, v| COUNTRY_CODES[k] = v.strip }
