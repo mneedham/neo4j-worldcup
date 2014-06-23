@@ -15,7 +15,7 @@ all_the_matches.each do |match|
 	}
 end
 
-match_files = Dir["data/matches/*"]
+match_files = Dir["data/matches/*"].select { |f| f.end_with? ".html" }
 
 match_files.each do |match_file|
 	match_id = match_file.gsub(/\.html/, "").split("/")[-1]
@@ -60,6 +60,25 @@ match_files.each do |match_file|
 		end
 	end
 
+	phase = phase == "Third place" ? "Match for third place" : phase
+
+	if phase.empty?
+		match_number = matches[match_id][:match_number].to_i
+		phase = if match_number <= 48 
+			"Group matches"
+		elsif match_number > 48 && match_number <= 56
+			"Round of 16"
+		elsif match_number > 56 && match_number <= 60 
+			"Quarter-finals"
+		elsif match_number > 60 && match_number <= 62 
+			"Semi-finals"
+		elsif match_number == 63
+			"Match for third place"
+		else
+			"Final"
+		end		
+	end
+
 	matches[match_id] = matches[match_id].merge( {:home => home, 
 					     :host => host,
 						 :away => away, 
@@ -71,7 +90,7 @@ match_files.each do |match_file|
 						 :attendance => attendance,
 						 :world_cup => world_cup,
 						 :phase => phase
-						})
+						})	
 end
 
 matches.group_by { |match_id, match| match[:world_cup] }.each do | wc, rows |

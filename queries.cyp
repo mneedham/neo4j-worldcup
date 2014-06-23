@@ -112,16 +112,21 @@ RETURN s
 // Find how long it took for a team to gain revenge for an earlier defeat
 
 MATCH (year1) <-[:IN_YEAR]- (cup:WorldCup) -[:NEXT*0..18]-> (nextcup:WorldCup) -[:IN_YEAR]-> (year2)
-MATCH (country1:Country) -[:NAMED_SQUAD]-> (c1s1:Squad) -[:FOR_WORLD_CUP]-> (cup)
-MATCH (country2:Country) -[:NAMED_SQUAD]-> (c2s1:Squad) -[:FOR_WORLD_CUP]-> (cup)
-MATCH (country1) -[:NAMED_SQUAD]-> (c1s2:Squad) -[:FOR_WORLD_CUP]-> (nextcup)
-MATCH (country2) -[:NAMED_SQUAD]-> (c2s2:Squad) -[:FOR_WORLD_CUP]-> (nextcup)
+MATCH (country1:Country) -[:NAMED_SQUAD]-> (c1s1) -[:FOR_WORLD_CUP]-> (cup)
+MATCH (country2:Country) -[:NAMED_SQUAD]-> (c2s1) -[:FOR_WORLD_CUP]-> (cup)
+MATCH (country1) -[:NAMED_SQUAD]-> (c1s2) -[:FOR_WORLD_CUP]-> (nextcup)
+MATCH (country2) -[:NAMED_SQUAD]-> (c2s2) -[:FOR_WORLD_CUP]-> (nextcup)
 MATCH (c1s1) -[:BEAT]-> (c2s1)
 MATCH (c2s2) -[:BEAT]-> (c1s2)
 WITH year2.year - year1.year as wait, year1, year2, country1, country2
 ORDER BY wait desc, year1.year, year2.year
- 
-RETURN "In " + year2.year + ", " + country2.name + " gained revenge over " + country1.name + " for beating them in " + year1.year + " after a wait of " + wait + " years" AS message
+
+WITH year2, country2, country1, wait
+ORDER BY wait 
+
+WITH year2, country2, country1, COLLECT(wait) AS smallestWait
+
+RETURN year2.year, country2.name, country1.name, smallestWait
 
 // Distance between Countries
 MATCH (c1:Country)
@@ -169,3 +174,44 @@ with squad, wc, country, year, count(*) as count_player
 return year, avg(count_player)
 order by year.year DESC
 limit 30
+
+// Top scorer by country
+
+match (c:Country)-[:NAMED_SQUAD]->(s:Squad)--(player:Player)--()-[:SCORED_GOAL]->(g)
+WITH c, player, count(distinct g) AS goals
+WITH c, COLLECT({player:player.name, count: goals}) AS playersGoals
+
+UNWIND playersGoals as playerGoals
+
+WITH c, playerGoals
+ORDER BY c.name, playerGoals.count DESC
+
+WITH c, COLLECT(playerGoals)[0] AS topScorer
+RETURN c.name, topScorer.player, topScorer.count
+ORDER BY topScorer.count DESC
+
+// Teams that went through a World Cup without losing a match (excluding penalties)
+match (c:Country)<-[r:HOME_TEAM|:AWAY_TEAM]-(match)<-[:CONTAINS_MATCH]-(worldCup)-[:IN_YEAR]->(year)
+
+WITH c, year,
+     CASE WHEN TYPE(r) = "HOME_TEAM" THEN toInt(match.h_score) ELSE toInt(match.a_score) END AS goals,
+     CASE WHEN TYPE(r) = "HOME_TEAM" THEN toInt(match.a_score) ELSE toInt(match.h_score) END AS oppositionGoals
+
+WITH c, year, [result IN COLLECT({us: goals, them: oppositionGoals}) 
+WHERE result.us < result.them] AS defeats
+
+WITH c, year, defeats WHERE LENGTH(defeats) = 0
+WITH c, COLLECT(year.year) AS times
+RETURN c.name, times, LENGTH(times)
+ORDER BY LENGTH(times) DESC
+
+// World Cup winners who reached the final the next time around
+
+MATCH (phase:Phase {name: "Final"})<-[:IN_PHASE]-(match),
+      (match)-[rel:HOME_TEAM|:AWAY_TEAM]->(team:Country)
+
+WITH match, team, worldCup,
+     CASE WHEN TYPE(rel) = "HOME_TEAM" THEN match.h_score ELSE match.a_score END AS hostGoals,
+     CASE WHEN TYPE(rel) = "HOME_TEAM" THEN match.a_score ELSE match.h_score END AS oppositionGoals
+WHERE toInt(hostGoals) > toInt(oppositionGoals)
+RETURN team
