@@ -12,7 +12,6 @@ SET match.h_score = csvLine.h_score,
     match.description = csvLine.home + " vs. " + csvLine.away,
     match.number = toInt(matchNumber)
 
-MERGE (host:Country {name: csvLine.host})
 
 MERGE (home:Country {name: csvLine.home})
 MERGE (match)-[:HOME_TEAM]->(home)
@@ -28,7 +27,17 @@ MERGE (worldCup:WorldCup {name: csvLine.world_cup})
 ON CREATE SET worldCup.year = toInt(csvLine.year)
 
 MERGE (match)<-[:CONTAINS_MATCH]-(worldCup)
-MERGE (host)<-[:HOSTED_BY]-(worldCup)
+
+FOREACH(i IN CASE WHEN csvLine.host = "Korea/Japan" THEN [1] ELSE [] END |
+	MERGE (host1:Country {name: "Korea Republic"})
+	MERGE (host2:Country {name: "Japan"})
+	MERGE (host1)<-[:HOSTED_BY]-(worldCup)
+	MERGE (host2)<-[:HOSTED_BY]-(worldCup))
+
+FOREACH(i IN CASE WHEN csvLine.host <> "Korea/Japan" THEN [1] ELSE [] END |
+	MERGE (host:Country {name: csvLine.host})
+	MERGE (host)<-[:HOSTED_BY]-(worldCup))
+
 MERGE (year)<-[:IN_YEAR]-(worldCup)
 
 MERGE (stadium:Stadium {name: csvLine.stadium})
