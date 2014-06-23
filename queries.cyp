@@ -160,7 +160,7 @@ order by wc.name desc
 
 // All stadiums that germany ever played in
 
-MATCH (stadium:Stadium)<-[:PLAYED_IN_STADIUM]-(m)-[:HOME_TEAM|AWAY_TEAM] ->(Country)
+MATCH (stadium:Stadium)<-[:PLAYED_IN_STADIUM]-(m)<-[:PLAYED_IN] -(Country)
 WHERE Country.name="Germany"
 return stadium, Country.name, Count(*)
 order by Count(*) DESC
@@ -223,3 +223,9 @@ WITH match,country,cup ORDER BY match.id,country.name
 WITH match,collect(country) as countries,cup
 WITH distinct countries,[ wc in collect(cup) | wc.name] as worldcup WHERE length(worldcup) > 1
 RETURN [c in countries | c.name] AS finalists, worldcup
+
+// Stadiums with the most goals
+match (s:Stadium)<-[:PLAYED_IN_STADIUM]-(m)<-[:CONTAINS_MATCH]-(wc)
+WITH s, COLLECT(DISTINCT wc.year) AS worldCups, COLLECT(toInt(m.h_score) +  toInt(m.a_score)) AS goals
+RETURN s.name, worldCups,  REDUCE(acc=0, g IN goals | acc + g) as totalGoals
+ORDER BY totalGoals DESC
