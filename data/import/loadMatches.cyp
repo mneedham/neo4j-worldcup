@@ -16,9 +16,11 @@ MERGE (host:Country {name: csvLine.host})
 
 MERGE (home:Country {name: csvLine.home})
 MERGE (match)-[:HOME_TEAM]->(home)
+MERGE (match)<-[:PLAYED_IN]-(home)
 
 MERGE (away:Country {name: csvLine.away})
 MERGE (match)-[:AWAY_TEAM]->(away)
+MERGE (match)<-[:PLAYED_IN]-(away)
 
 MERGE (year:Year {year: toInt(csvLine.year)})
 

@@ -215,3 +215,11 @@ WITH match, team, worldCup,
      CASE WHEN TYPE(rel) = "HOME_TEAM" THEN match.a_score ELSE match.h_score END AS oppositionGoals
 WHERE toInt(hostGoals) > toInt(oppositionGoals)
 RETURN team
+
+// Teams that played each other in more than one final
+MATCH (phase:Phase {name:"Final"})<-[:IN_PHASE]-(match)<-[:CONTAINS_MATCH]-(cup)
+MATCH (country)-[:PLAYED_IN]->(match)
+WITH match,country,cup ORDER BY match.id,country.name
+WITH match,collect(country) as countries,cup
+WITH distinct countries,[ wc in collect(cup) | wc.name] as worldcup WHERE length(worldcup) > 1
+RETURN [c in countries | c.name] AS finalists, worldcup
