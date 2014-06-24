@@ -229,3 +229,11 @@ match (s:Stadium)<-[:PLAYED_IN_STADIUM]-(m)<-[:CONTAINS_MATCH]-(wc)
 WITH s, COLLECT(DISTINCT wc.year) AS worldCups, COLLECT(toInt(m.h_score) +  toInt(m.a_score)) AS goals
 RETURN s.name, worldCups,  REDUCE(acc=0, g IN goals | acc + g) as totalGoals
 ORDER BY totalGoals DESC
+
+// World Cup Finals by continent
+MATCH (phase:Phase {name: "Final"})<-[:IN_PHASE]-(match),
+      (match)<-[rel:PLAYED_IN]-(team:Country)-[:IN_CONTINENT]->(cont),
+      (match)<-[:CONTAINS_MATCH]-(wc)-[:IN_YEAR]->(year), 
+      (wc)-[:HOSTED_BY]->()-[:IN_CONTINENT]->(hostCont)
+return year.year, hostCont.name AS hostContinent, collect(cont.name) AS continentsInFinal
+ORDER BY year.year
