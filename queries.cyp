@@ -231,9 +231,10 @@ RETURN s.name, worldCups,  REDUCE(acc=0, g IN goals | acc + g) as totalGoals
 ORDER BY totalGoals DESC
 
 // World Cup Finals by continent
+MATCH (wc:WorldCup)-[:HOSTED_BY]->(host)-[:IN_CONTINENT]->(hostCont)
 MATCH (phase:Phase {name: "Final"})<-[:IN_PHASE]-(match),
       (match)<-[rel:PLAYED_IN]-(team:Country)-[:IN_CONTINENT]->(cont),
-      (match)<-[:CONTAINS_MATCH]-(wc)-[:IN_YEAR]->(year), 
-      (wc)-[:HOSTED_BY]->()-[:IN_CONTINENT]->(hostCont)
-return year.year, hostCont.name AS hostContinent, collect(cont.name) AS continentsInFinal
+      (match)<-[:CONTAINS_MATCH]-(wc)-[:IN_YEAR]->(year)
+
+return year.year, collect(team.name), host.name, hostCont.name AS hostContinent, collect(cont.name) AS continentsInFinal
 ORDER BY year.year
