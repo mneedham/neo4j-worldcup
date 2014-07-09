@@ -139,6 +139,18 @@ RETURN c1.name, c2.name, dist
 ORDER BY dist
 LIMIT 1000
 
+
+// Bitter rivals search
+// Attempt to location countries who have both hosted worldcups and who are less than 500 miles apart
+MATCH (c1:Country), (c2:Country)
+WHERE c1 <> c2 AND (c1:Country)<-[:HOSTED_BY]-(:WorldCup) AND (c2:Country)<-[:HOSTED_BY]-(:WorldCup)
+WITH c1, c2, 2 * 6371 * asin(sqrt(haversin(radians(c1.lat - c2.lat))+ cos(radians(c1.lat))*
+  cos(radians(c2.lat))* haversin(radians(c1.lon - c2.lon)))) AS dist
+WHERE dist < 500
+RETURN c1.name, c2.name, dist
+LIMIT 1000
+
+
 // Unused squad members across World Cups
 MATCH (a)-[:`IN_SQUAD`]->(b) 
 WHERE not(a-[:SUBSTUTED|:STARTED]->()) 
