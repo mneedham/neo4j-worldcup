@@ -49,4 +49,22 @@ public class WorldCupResource
 
         return new EventView(result);
     }
+
+    @GET
+    @Timed
+    @Path( "/matches/{matchId}" )
+    public MatchView match( @PathParam("matchId")String matchId)
+    {
+        Map<String, Object> properties = new HashMap<>(  );
+        properties.put("matchId", matchId);
+
+        JsonNode result = neo4j.query(
+                "MATCH (match:Match {id: {matchId} })<-[:IN_MATCH]-()<-[:STARTED]-(player)" +
+                        "-[:IN_SQUAD]->(squad)<-[:NAMED_SQUAD]-(team), " +
+                "      (squad)-[:FOR_WORLD_CUP]->(wc)-[:CONTAINS_MATCH]->(match)\n" +
+                "WITH match, team, COLLECT(player) AS players\n" +
+                "RETURN match, COLLECT({team: team, players: players}) AS teams", properties );
+
+        return new MatchView(result);
+    }
 }

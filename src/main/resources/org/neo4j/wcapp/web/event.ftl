@@ -1,4 +1,4 @@
-<#-- @ftlvariable name="" type="org.neo4j.wcapp.web.HomeView" -->
+<#-- @ftlvariable name="" type="org.neo4j.wcapp.web.EventView" -->
 <html>
 <head>
   <title>World Cup Graph</title>
@@ -24,7 +24,7 @@
       <tbody>
       <#list matches as match>
         <tr>
-          <td> <a href="/matches/${match.description}">${match.description}</a></td>
+          <td> <a href="/matches/${match.id}">${match.description}</a></td>
         </tr>
 
       </#list>

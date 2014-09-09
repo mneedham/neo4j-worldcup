@@ -31,7 +31,13 @@ public class EventView extends View
         for ( JsonNode row : rows )
         {
 
-            matches.add( new Match( row.get( "row" ).get( 0 ).get( "description" ).asText() ) );
+            JsonNode rowContents = row.get( "row" ).get( 0 );
+            String description = rowContents.get( "description" ).asText();
+            String id = rowContents.get( "id" ).asText();
+            String homeScore = rowContents.get( "h_score" ).asText();
+            String awayScore = rowContents.get( "a_score" ).asText();
+            String date = rowContents.get( "date" ).asText();
+            matches.add( new Match(id, description, homeScore, awayScore, date ) );
         }
         return matches;
     }
