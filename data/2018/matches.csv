@@ -1,0 +1,853 @@
+year,matchNumber,venue,home,homeCode,homeId,away,awayCode,awayId,link,result
+2014,Match 1,Sao Paulo,Brazil,BRA,43924,Croatia,CRO,43938,/worldcup/matches/round=255931/match=300186456/index.html#nosticky,3-1
+2014,Match 2,Natal,Mexico,MEX,43911,Cameroon,CMR,43849,/worldcup/matches/round=255931/match=300186492/index.html#nosticky,1-0
+2014,Match 3,Salvador,Spain,ESP,43969,Netherlands,NED,43960,/worldcup/matches/round=255931/match=300186510/index.html#nosticky,1-5
+2014,Match 4,Cuiaba,Chile,CHI,43925,Australia,AUS,43976,/worldcup/matches/round=255931/match=300186473/index.html#nosticky,3-1
+2014,Match 5,Belo Horizonte,Colombia,COL,43926,Greece,GRE,43949,/worldcup/matches/round=255931/match=300186471/index.html#nosticky,3-0
+2014,Match 7,Fortaleza,Uruguay,URU,43930,Costa Rica,CRC,43901,/worldcup/matches/round=255931/match=300186489/index.html#nosticky,1-3
+2014,Match 8,Manaus,England,ENG,43942,Italy,ITA,43954,/worldcup/matches/round=255931/match=300186513/index.html#nosticky,1-2
+2014,Match 6,Recife,CÃ´te d'Ivoire,CIV,43854,Japan,JPN,43819,/worldcup/matches/round=255931/match=300186507/index.html#nosticky,2-1
+2014,Match 9,Brasilia,Switzerland,SUI,43971,Ecuador,ECU,43927,/worldcup/matches/round=255931/match=300186494/index.html#nosticky,2-1
+2014,Match 10,Porto Alegre,France,FRA,43946,Honduras,HON,43909,/worldcup/matches/round=255931/match=300186496/index.html#nosticky,3-0
+2014,Match 11,Rio De Janeiro,Argentina,ARG,43922,Bosnia and Herzegovina,BIH,44037,/worldcup/matches/round=255931/match=300186477/index.html#nosticky,2-1
+2014,Match 13,Salvador,Germany,GER,43948,Portugal,POR,43963,/worldcup/matches/round=255931/match=300186475/index.html#nosticky,4-0
+2014,Match 12,Curitiba,IR Iran,IRN,43817,Nigeria,NGA,43876,/worldcup/matches/round=255931/match=300186505/index.html#nosticky,0-0
+2014,Match 14,Natal,Ghana,GHA,43860,USA,USA,43921,/worldcup/matches/round=255931/match=300186512/index.html#nosticky,1-2
+2014,Match 15,Belo Horizonte,Belgium,BEL,43935,Algeria,ALG,43843,/worldcup/matches/round=255931/match=300186479/index.html#nosticky,2-1
+2014,Match 17,Fortaleza,Brazil,BRA,43924,Mexico,MEX,43911,/worldcup/matches/round=255931/match=300186509/index.html#nosticky,0-0
+2014,Match 16,Cuiaba,Russia,RUS,43965,Korea Republic,KOR,43822,/worldcup/matches/round=255931/match=300186499/index.html#nosticky,1-1
+2014,Match 20,Porto Alegre,Australia,AUS,43976,Netherlands,NED,43960,/worldcup/matches/round=255931/match=300186478/index.html#nosticky,2-3
+2014,Match 19,Rio De Janeiro,Spain,ESP,43969,Chile,CHI,43925,/worldcup/matches/round=255931/match=300186498/index.html#nosticky,0-2
+2014,Match 18,Manaus,Cameroon,CMR,43849,Croatia,CRO,43938,/worldcup/matches/round=255931/match=300186453/index.html#nosticky,0-4
+2014,Match 21,Brasilia,Colombia,COL,43926,CÃ´te d'Ivoire,CIV,43854,/worldcup/matches/round=255931/match=300186468/index.html#nosticky,2-1
+2014,Match 23,Sao Paulo,Uruguay,URU,43930,England,ENG,43942,/worldcup/matches/round=255931/match=300186486/index.html#nosticky,2-1
+2014,Match 22,Natal,Japan,JPN,43819,Greece,GRE,43949,/worldcup/matches/round=255931/match=300186454/index.html#nosticky,0-0
+2014,Match 24,Recife,Italy,ITA,43954,Costa Rica,CRC,43901,/worldcup/matches/round=255931/match=300186500/index.html#nosticky,0-1
+2014,Match 25,Salvador,Switzerland,SUI,43971,France,FRA,43946,/worldcup/matches/round=255931/match=300186514/index.html#nosticky,2-5
+2014,Match 26,Curitiba,Honduras,HON,43909,Ecuador,ECU,43927,/worldcup/matches/round=255931/match=300186463/index.html#nosticky,1-2
+2014,Match 27,Belo Horizonte,Argentina,ARG,43922,IR Iran,IRN,43817,/worldcup/matches/round=255931/match=300186466/index.html#nosticky,1-0
+2014,Match 29,Fortaleza,Germany,GER,43948,Ghana,GHA,43860,/worldcup/matches/round=255931/match=300186493/index.html#nosticky,2-2
+2014,Match 28,Cuiaba,Nigeria,NGA,43876,Bosnia and Herzegovina,BIH,44037,/worldcup/matches/round=255931/match=300186511/index.html#nosticky,1-0
+2014,Match 31,Rio De Janeiro,Belgium,BEL,43935,Russia,RUS,43965,/worldcup/matches/round=255931/match=300186481/index.html#nosticky,1-0
+2014,Match 32,Porto Alegre,Korea Republic,KOR,43822,Algeria,ALG,43843,/worldcup/matches/round=255931/match=300186495/index.html#nosticky,2-4
+2014,Match 30,Manaus,USA,USA,43921,Portugal,POR,43963,/worldcup/matches/round=255931/match=300186483/index.html#nosticky,2-2
+2014,Match 35,Curitiba,Australia,AUS,43976,Spain,ESP,43969,/worldcup/matches/round=255931/match=300186467/index.html#nosticky,0-3
+2014,Match 36,Sao Paulo,Netherlands,NED,43960,Chile,CHI,43925,/worldcup/matches/round=255931/match=300186470/index.html#nosticky,2-0
+2014,Match 33,Brasilia,Cameroon,CMR,43849,Brazil,BRA,43924,/worldcup/matches/round=255931/match=300186472/index.html#nosticky,1-4
+2014,Match 34,Recife,Croatia,CRO,43938,Mexico,MEX,43911,/worldcup/matches/round=255931/match=300186452/index.html#nosticky,1-3
+2014,Match 39,Natal,Italy,ITA,43954,Uruguay,URU,43930,/worldcup/matches/round=255931/match=300186465/index.html#nosticky,0-1
+2014,Match 40,Belo Horizonte,Costa Rica,CRC,43901,England,ENG,43942,/worldcup/matches/round=255931/match=300186484/index.html#nosticky,0-0
+2014,Match 37,Cuiaba,Japan,JPN,43819,Colombia,COL,43926,/worldcup/matches/round=255931/match=300186457/index.html#nosticky,1-4
+2014,Match 38,Fortaleza,Greece,GRE,43949,CÃ´te d'Ivoire,CIV,43854,/worldcup/matches/round=255931/match=300186455/index.html#nosticky,2-1
+2014,Match 43,Porto Alegre,Nigeria,NGA,43876,Argentina,ARG,43922,/worldcup/matches/round=255931/match=300186458/index.html#nosticky,2-3
+2014,Match 44,Salvador,Bosnia and Herzegovina,BIH,44037,IR Iran,IRN,43817,/worldcup/matches/round=255931/match=300186464/index.html#nosticky,3-1
+2014,Match 41,Manaus,Honduras,HON,43909,Switzerland,SUI,43971,/worldcup/matches/round=255931/match=300186482/index.html#nosticky,0-3
+2014,Match 42,Rio De Janeiro,Ecuador,ECU,43927,France,FRA,43946,/worldcup/matches/round=255931/match=300186515/index.html#nosticky,0-0
+2014,Match 45,Recife,USA,USA,43921,Germany,GER,43948,/worldcup/matches/round=255931/match=300186469/index.html#nosticky,0-1
+2014,Match 46,Brasilia,Portugal,POR,43963,Ghana,GHA,43860,/worldcup/matches/round=255931/match=300186476/index.html#nosticky,2-1
+2014,Match 47,Sao Paulo,Korea Republic,KOR,43822,Belgium,BEL,43935,/worldcup/matches/round=255931/match=300186480/index.html#nosticky,0-1
+2014,Match 48,Curitiba,Algeria,ALG,43843,Russia,RUS,43965,/worldcup/matches/round=255931/match=300186506/index.html#nosticky,1-1
+2014,Match 49,Belo Horizonte,Brazil,BRA,43924,Chile,CHI,43925,/worldcup/matches/round=255951/match=300186487/index.html#nosticky,1-1
+2014,Match 50,Rio De Janeiro,Colombia,COL,43926,Uruguay,URU,43930,/worldcup/matches/round=255951/match=300186491/index.html#nosticky,2-0
+2014,Match 53,Brasilia,France,FRA,43946,Nigeria,NGA,43876,/worldcup/matches/round=255951/match=300186462/index.html#nosticky,2-0
+2014,Match 54,Porto Alegre,Germany,GER,43948,Algeria,ALG,43843,/worldcup/matches/round=255951/match=300186460/index.html#nosticky,2-1
+2014,Match 57,Fortaleza,Brazil,BRA,43924,Colombia,COL,43926,/worldcup/matches/round=255953/match=300186461/index.html#nosticky,2-1
+2014,Match 58,Rio De Janeiro,France,FRA,43946,Germany,GER,43948,/worldcup/matches/round=255953/match=300186485/index.html#nosticky,0-1
+2014,Match 61,Belo Horizonte,Brazil,BRA,43924,Germany,GER,43948,/worldcup/matches/round=255955/match=300186474/index.html#nosticky,1-7
+2014,Match 63,Brasilia,Brazil,BRA,43924,Netherlands,NED,43960,/worldcup/matches/round=255957/match=300186502/index.html#nosticky,0-3
+2014,Match 64,Rio De Janeiro,Germany,GER,43948,Argentina,ARG,43922,/worldcup/matches/round=255959/match=300186501/index.html#nosticky,1-0
+2014,Match 62,Sao Paulo,Netherlands,NED,43960,Argentina,ARG,43922,/worldcup/matches/round=255955/match=300186490/index.html#nosticky,0-0
+2014,Match 59,Salvador,Netherlands,NED,43960,Costa Rica,CRC,43901,/worldcup/matches/round=255953/match=300186488/index.html#nosticky,0-0
+2014,Match 60,Brasilia,Argentina,ARG,43922,Belgium,BEL,43935,/worldcup/matches/round=255953/match=300186504/index.html#nosticky,1-0
+2014,Match 51,Fortaleza,Netherlands,NED,43960,Mexico,MEX,43911,/worldcup/matches/round=255951/match=300186508/index.html#nosticky,2-1
+2014,Match 52,Recife,Costa Rica,CRC,43901,Greece,GRE,43949,/worldcup/matches/round=255951/match=300186459/index.html#nosticky,1-1
+2014,Match 55,Sao Paulo,Argentina,ARG,43922,Switzerland,SUI,43971,/worldcup/matches/round=255951/match=300186503/index.html#nosticky,1-0
+2014,Match 56,Salvador,Belgium,BEL,43935,USA,USA,43921,/worldcup/matches/round=255951/match=300186497/index.html#nosticky,2-1
+2014,Match 49,Belo Horizonte,Brazil,BRA,43924,Chile,CHI,43925,/worldcup/matches/round=255951/match=300186487/index.html#nosticky,1-1
+2014,Match 50,Rio De Janeiro,Colombia,COL,43926,Uruguay,URU,43930,/worldcup/matches/round=255951/match=300186491/index.html#nosticky,2-0
+2014,Match 51,Fortaleza,Netherlands,NED,43960,Mexico,MEX,43911,/worldcup/matches/round=255951/match=300186508/index.html#nosticky,2-1
+2014,Match 52,Recife,Costa Rica,CRC,43901,Greece,GRE,43949,/worldcup/matches/round=255951/match=300186459/index.html#nosticky,1-1
+2014,Match 53,Brasilia,France,FRA,43946,Nigeria,NGA,43876,/worldcup/matches/round=255951/match=300186462/index.html#nosticky,2-0
+2014,Match 54,Porto Alegre,Germany,GER,43948,Algeria,ALG,43843,/worldcup/matches/round=255951/match=300186460/index.html#nosticky,2-1
+2014,Match 55,Sao Paulo,Argentina,ARG,43922,Switzerland,SUI,43971,/worldcup/matches/round=255951/match=300186503/index.html#nosticky,1-0
+2014,Match 56,Salvador,Belgium,BEL,43935,USA,USA,43921,/worldcup/matches/round=255951/match=300186497/index.html#nosticky,2-1
+2014,Match 58,Rio De Janeiro,France,FRA,43946,Germany,GER,43948,/worldcup/matches/round=255953/match=300186485/index.html#nosticky,0-1
+2014,Match 57,Fortaleza,Brazil,BRA,43924,Colombia,COL,43926,/worldcup/matches/round=255953/match=300186461/index.html#nosticky,2-1
+2014,Match 60,Brasilia,Argentina,ARG,43922,Belgium,BEL,43935,/worldcup/matches/round=255953/match=300186504/index.html#nosticky,1-0
+2014,Match 59,Salvador,Netherlands,NED,43960,Costa Rica,CRC,43901,/worldcup/matches/round=255953/match=300186488/index.html#nosticky,0-0
+2014,Match 61,Belo Horizonte,Brazil,BRA,43924,Germany,GER,43948,/worldcup/matches/round=255955/match=300186474/index.html#nosticky,1-7
+2014,Match 62,Sao Paulo,Netherlands,NED,43960,Argentina,ARG,43922,/worldcup/matches/round=255955/match=300186490/index.html#nosticky,0-0
+2014,Match 63,Brasilia,Brazil,BRA,43924,Netherlands,NED,43960,/worldcup/matches/round=255957/match=300186502/index.html#nosticky,0-3
+2014,Match 64,Rio De Janeiro,Germany,GER,43948,Argentina,ARG,43922,/worldcup/matches/round=255959/match=300186501/index.html#nosticky,1-0
+2010,Match 1,Johannesburg,South Africa,RSA,43883,Mexico,MEX,43911,/worldcup/matches/round=249722/match=300061454/index.html#nosticky,1-1
+2010,Match 2,Cape Town,Uruguay,URU,43930,France,FRA,43946,/worldcup/matches/round=249722/match=300061453/index.html#nosticky,0-0
+2010,Match 4,Nelson Mandela Bay/Port Elizabeth,Korea Republic,KOR,43822,Greece,GRE,43949,/worldcup/matches/round=249722/match=300061459/index.html#nosticky,2-0
+2010,Match 3,Johannesburg,Argentina,ARG,43922,Nigeria,NGA,43876,/worldcup/matches/round=249722/match=300061460/index.html#nosticky,1-0
+2010,Match 5,Phokeng,England,ENG,43942,USA,USA,43921,/worldcup/matches/round=249722/match=300061466/index.html#nosticky,1-1
+2010,Match 6,Polokwane,Algeria,ALG,43843,Slovenia,SVN,43968,/worldcup/matches/round=249722/match=300061465/index.html#nosticky,0-1
+2010,Match 8,Tshwane/Pretoria,Serbia,SRB,1902465,Ghana,GHA,43860,/worldcup/matches/round=249722/match=300061471/index.html#nosticky,0-1
+2010,Match 7,Durban,Germany,GER,43948,Australia,AUS,43976,/worldcup/matches/round=249722/match=300111116/index.html#nosticky,4-0
+2010,Match 9,Johannesburg,Netherlands,NED,43960,Denmark,DEN,43941,/worldcup/matches/round=249722/match=300061478/index.html#nosticky,2-0
+2010,Match 10,Mangaung/Bloemfontein,Japan,JPN,43819,Cameroon,CMR,43849,/worldcup/matches/round=249722/match=300061477/index.html#nosticky,1-0
+2010,Match 11,Cape Town,Italy,ITA,43954,Paraguay,PAR,43928,/worldcup/matches/round=249722/match=300061484/index.html#nosticky,1-1
+2010,Match 12,Phokeng,New Zealand,NZL,43978,Slovakia,SVK,44002,/worldcup/matches/round=249722/match=300061483/index.html#nosticky,1-1
+2010,Match 13,Nelson Mandela Bay/Port Elizabeth,CÃ´te d'Ivoire,CIV,43854,Portugal,POR,43963,/worldcup/matches/round=249722/match=300061489/index.html#nosticky,0-0
+2010,Match 14,Johannesburg,Brazil,BRA,43924,Korea DPR,PRK,43821,/worldcup/matches/round=249722/match=300061490/index.html#nosticky,2-1
+2010,Match 15,Nelspruit,Honduras,HON,43909,Chile,CHI,43925,/worldcup/matches/round=249722/match=300061495/index.html#nosticky,0-1
+2010,Match 16,Durban,Spain,ESP,43969,Switzerland,SUI,43971,/worldcup/matches/round=249722/match=300111112/index.html#nosticky,0-1
+2010,Match 17,Tshwane/Pretoria,South Africa,RSA,43883,Uruguay,URU,43930,/worldcup/matches/round=249722/match=300061452/index.html#nosticky,0-3
+2010,Match 20,Johannesburg,Argentina,ARG,43922,Korea Republic,KOR,43822,/worldcup/matches/round=249722/match=300061458/index.html#nosticky,4-1
+2010,Match 19,Mangaung/Bloemfontein,Greece,GRE,43949,Nigeria,NGA,43876,/worldcup/matches/round=249722/match=300061457/index.html#nosticky,2-1
+2010,Match 18,Polokwane,France,FRA,43946,Mexico,MEX,43911,/worldcup/matches/round=249722/match=300061451/index.html#nosticky,0-2
+2010,Match 21,Nelson Mandela Bay/Port Elizabeth,Germany,GER,43948,Serbia,SRB,1902465,/worldcup/matches/round=249722/match=300061470/index.html#nosticky,0-1
+2010,Match 22,Johannesburg,Slovenia,SVN,43968,USA,USA,43921,/worldcup/matches/round=249722/match=300061463/index.html#nosticky,2-2
+2010,Match 23,Cape Town,England,ENG,43942,Algeria,ALG,43843,/worldcup/matches/round=249722/match=300061464/index.html#nosticky,0-0
+2010,Match 25,Durban,Netherlands,NED,43960,Japan,JPN,43819,/worldcup/matches/round=249722/match=300111117/index.html#nosticky,1-0
+2010,Match 24,Phokeng,Ghana,GHA,43860,Australia,AUS,43976,/worldcup/matches/round=249722/match=300061469/index.html#nosticky,1-1
+2010,Match 26,Tshwane/Pretoria,Cameroon,CMR,43849,Denmark,DEN,43941,/worldcup/matches/round=249722/match=300061475/index.html#nosticky,1-2
+2010,Match 27,Mangaung/Bloemfontein,Slovakia,SVK,44002,Paraguay,PAR,43928,/worldcup/matches/round=249722/match=300061481/index.html#nosticky,0-2
+2010,Match 28,Nelspruit,Italy,ITA,43954,New Zealand,NZL,43978,/worldcup/matches/round=249722/match=300061482/index.html#nosticky,1-1
+2010,Match 29,Johannesburg,Brazil,BRA,43924,CÃ´te d'Ivoire,CIV,43854,/worldcup/matches/round=249722/match=300061488/index.html#nosticky,3-1
+2010,Match 30,Cape Town,Portugal,POR,43963,Korea DPR,PRK,43821,/worldcup/matches/round=249722/match=300061487/index.html#nosticky,7-0
+2010,Match 31,Nelson Mandela Bay/Port Elizabeth,Chile,CHI,43925,Switzerland,SUI,43971,/worldcup/matches/round=249722/match=300061493/index.html#nosticky,1-0
+2010,Match 32,Johannesburg,Spain,ESP,43969,Honduras,HON,43909,/worldcup/matches/round=249722/match=300061494/index.html#nosticky,2-0
+2010,Match 33,Phokeng,Mexico,MEX,43911,Uruguay,URU,43930,/worldcup/matches/round=249722/match=300061450/index.html#nosticky,0-1
+2010,Match 34,Mangaung/Bloemfontein,France,FRA,43946,South Africa,RSA,43883,/worldcup/matches/round=249722/match=300061449/index.html#nosticky,1-2
+2010,Match 35,Durban,Nigeria,NGA,43876,Korea Republic,KOR,43822,/worldcup/matches/round=249722/match=300111115/index.html#nosticky,2-2
+2010,Match 36,Polokwane,Greece,GRE,43949,Argentina,ARG,43922,/worldcup/matches/round=249722/match=300061455/index.html#nosticky,0-2
+2010,Match 37,Nelson Mandela Bay/Port Elizabeth,Slovenia,SVN,43968,England,ENG,43942,/worldcup/matches/round=249722/match=300061462/index.html#nosticky,0-1
+2010,Match 38,Tshwane/Pretoria,USA,USA,43921,Algeria,ALG,43843,/worldcup/matches/round=249722/match=300061461/index.html#nosticky,1-0
+2010,Match 39,Johannesburg,Ghana,GHA,43860,Germany,GER,43948,/worldcup/matches/round=249722/match=300061468/index.html#nosticky,0-1
+2010,Match 40,Nelspruit,Australia,AUS,43976,Serbia,SRB,1902465,/worldcup/matches/round=249722/match=300061467/index.html#nosticky,2-1
+2010,Match 41,Johannesburg,Slovakia,SVK,44002,Italy,ITA,43954,/worldcup/matches/round=249722/match=300061480/index.html#nosticky,3-2
+2010,Match 42,Polokwane,Paraguay,PAR,43928,New Zealand,NZL,43978,/worldcup/matches/round=249722/match=300061479/index.html#nosticky,0-0
+2010,Match 43,Phokeng,Denmark,DEN,43941,Japan,JPN,43819,/worldcup/matches/round=249722/match=300061474/index.html#nosticky,1-3
+2010,Match 44,Cape Town,Cameroon,CMR,43849,Netherlands,NED,43960,/worldcup/matches/round=249722/match=300061473/index.html#nosticky,1-2
+2010,Match 45,Durban,Portugal,POR,43963,Brazil,BRA,43924,/worldcup/matches/round=249722/match=300111111/index.html#nosticky,0-0
+2010,Match 46,Nelspruit,Korea DPR,PRK,43821,CÃ´te d'Ivoire,CIV,43854,/worldcup/matches/round=249722/match=300061486/index.html#nosticky,0-3
+2010,Match 47,Tshwane/Pretoria,Chile,CHI,43925,Spain,ESP,43969,/worldcup/matches/round=249722/match=300061491/index.html#nosticky,1-2
+2010,Match 48,Mangaung/Bloemfontein,Switzerland,SUI,43971,Honduras,HON,43909,/worldcup/matches/round=249722/match=300061492/index.html#nosticky,0-0
+2010,Match 49,Nelson Mandela Bay/Port Elizabeth,Uruguay,URU,43930,Korea Republic,KOR,43822,/worldcup/matches/round=249717/match=300061504/index.html#nosticky,2-1
+2010,Match 50,Phokeng,USA,USA,43921,Ghana,GHA,43860,/worldcup/matches/round=249717/match=300061503/index.html#nosticky,1-2
+2010,Match 51,Mangaung/Bloemfontein,Germany,GER,43948,England,ENG,43942,/worldcup/matches/round=249717/match=300061501/index.html#nosticky,4-1
+2010,Match 52,Johannesburg,Argentina,ARG,43922,Mexico,MEX,43911,/worldcup/matches/round=249717/match=300061502/index.html#nosticky,3-1
+2010,Match 53,Durban,Netherlands,NED,43960,Slovakia,SVK,44002,/worldcup/matches/round=249717/match=300111113/index.html#nosticky,2-1
+2010,Match 54,Johannesburg,Brazil,BRA,43924,Chile,CHI,43925,/worldcup/matches/round=249717/match=300061500/index.html#nosticky,3-0
+2010,Match 55,Tshwane/Pretoria,Paraguay,PAR,43928,Japan,JPN,43819,/worldcup/matches/round=249717/match=300061497/index.html#nosticky,0-0
+2010,Match 56,Cape Town,Spain,ESP,43969,Portugal,POR,43963,/worldcup/matches/round=249717/match=300061498/index.html#nosticky,1-0
+2010,Match 57,Nelson Mandela Bay/Port Elizabeth,Netherlands,NED,43960,Brazil,BRA,43924,/worldcup/matches/round=249718/match=300061507/index.html#nosticky,2-1
+2010,Match 58,Johannesburg,Uruguay,URU,43930,Ghana,GHA,43860,/worldcup/matches/round=249718/match=300061508/index.html#nosticky,1-1
+2010,Match 59,Cape Town,Argentina,ARG,43922,Germany,GER,43948,/worldcup/matches/round=249718/match=300061505/index.html#nosticky,0-4
+2010,Match 60,Johannesburg,Paraguay,PAR,43928,Spain,ESP,43969,/worldcup/matches/round=249718/match=300061506/index.html#nosticky,0-1
+2010,Match 61,Cape Town,Uruguay,URU,43930,Netherlands,NED,43960,/worldcup/matches/round=249719/match=300061512/index.html#nosticky,2-3
+2010,Match 62,Durban,Germany,GER,43948,Spain,ESP,43969,/worldcup/matches/round=249719/match=300111114/index.html#nosticky,0-1
+2010,Match 63,Nelson Mandela Bay/Port Elizabeth,Uruguay,URU,43930,Germany,GER,43948,/worldcup/matches/round=249720/match=300061510/index.html#nosticky,2-3
+2010,Match 64,Johannesburg,Netherlands,NED,43960,Spain,ESP,43969,/worldcup/matches/round=249721/match=300061509/index.html#nosticky,0-1
+2006,Match 1,Munich,Germany,GER,43948,Costa Rica,CRC,43901,/worldcup/matches/round=97410100/match=97410001/index.html#nosticky,4-2
+2006,Match 2,Gelsenkirchen,Poland,POL,43962,Ecuador,ECU,43927,/worldcup/matches/round=97410100/match=97410002/index.html#nosticky,0-2
+2006,Match 3,Frankfurt/Main,England,ENG,43942,Paraguay,PAR,43928,/worldcup/matches/round=97410100/match=97410003/index.html#nosticky,1-0
+2006,Match 4,Dortmund,Trinidad and Tobago,TRI,43920,Sweden,SWE,43970,/worldcup/matches/round=97410100/match=97410004/index.html#nosticky,0-0
+2006,Match 5,Hamburg,Argentina,ARG,43922,CÃ´te d'Ivoire,CIV,43854,/worldcup/matches/round=97410100/match=97410005/index.html#nosticky,2-1
+2006,Match 6,Leipzig,Serbia and Montenegro,SCG,1890244,Netherlands,NED,43960,/worldcup/matches/round=97410100/match=97410006/index.html#nosticky,0-1
+2006,Match 7,Nuremberg,Mexico,MEX,43911,IR Iran,IRN,43817,/worldcup/matches/round=97410100/match=97410007/index.html#nosticky,3-1
+2006,Match 8,Cologne,Angola,ANG,43844,Portugal,POR,43963,/worldcup/matches/round=97410100/match=97410008/index.html#nosticky,0-1
+2006,Match 12,Kaiserslautern,Australia,AUS,43976,Japan,JPN,43819,/worldcup/matches/round=97410100/match=97410012/index.html#nosticky,3-1
+2006,Match 10,Gelsenkirchen,USA,USA,43921,Czech Republic,CZE,43995,/worldcup/matches/round=97410100/match=97410010/index.html#nosticky,0-3
+2006,Match 9,Hanover,Italy,ITA,43954,Ghana,GHA,43860,/worldcup/matches/round=97410100/match=97410009/index.html#nosticky,2-0
+2006,Match 14,Frankfurt/Main,Korea Republic,KOR,43822,Togo,TOG,43887,/worldcup/matches/round=97410100/match=97410014/index.html#nosticky,2-1
+2006,Match 13,Stuttgart,France,FRA,43946,Switzerland,SUI,43971,/worldcup/matches/round=97410100/match=97410013/index.html#nosticky,0-0
+2006,Match 11,Berlin,Brazil,BRA,43924,Croatia,CRO,43938,/worldcup/matches/round=97410100/match=97410011/index.html#nosticky,1-0
+2006,Match 15,Leipzig,Spain,ESP,43969,Ukraine,UKR,43973,/worldcup/matches/round=97410100/match=97410015/index.html#nosticky,4-0
+2006,Match 16,Munich,Tunisia,TUN,43888,Saudi Arabia,KSA,43835,/worldcup/matches/round=97410100/match=97410016/index.html#nosticky,2-2
+2006,Match 17,Dortmund,Germany,GER,43948,Poland,POL,43962,/worldcup/matches/round=97410100/match=97410017/index.html#nosticky,1-0
+2006,Match 18,Hamburg,Ecuador,ECU,43927,Costa Rica,CRC,43901,/worldcup/matches/round=97410100/match=97410018/index.html#nosticky,3-0
+2006,Match 19,Nuremberg,England,ENG,43942,Trinidad and Tobago,TRI,43920,/worldcup/matches/round=97410100/match=97410019/index.html#nosticky,2-0
+2006,Match 20,Berlin,Sweden,SWE,43970,Paraguay,PAR,43928,/worldcup/matches/round=97410100/match=97410020/index.html#nosticky,1-0
+2006,Match 21,Gelsenkirchen,Argentina,ARG,43922,Serbia and Montenegro,SCG,1890244,/worldcup/matches/round=97410100/match=97410021/index.html#nosticky,6-0
+2006,Match 22,Stuttgart,Netherlands,NED,43960,CÃ´te d'Ivoire,CIV,43854,/worldcup/matches/round=97410100/match=97410022/index.html#nosticky,2-1
+2006,Match 23,Hanover,Mexico,MEX,43911,Angola,ANG,43844,/worldcup/matches/round=97410100/match=97410023/index.html#nosticky,0-0
+2006,Match 24,Frankfurt/Main,Portugal,POR,43963,IR Iran,IRN,43817,/worldcup/matches/round=97410100/match=97410024/index.html#nosticky,2-0
+2006,Match 26,Cologne,Czech Republic,CZE,43995,Ghana,GHA,43860,/worldcup/matches/round=97410100/match=97410026/index.html#nosticky,0-2
+2006,Match 25,Kaiserslautern,Italy,ITA,43954,USA,USA,43921,/worldcup/matches/round=97410100/match=97410025/index.html#nosticky,1-1
+2006,Match 28,Nuremberg,Japan,JPN,43819,Croatia,CRO,43938,/worldcup/matches/round=97410100/match=97410028/index.html#nosticky,0-0
+2006,Match 27,Munich,Brazil,BRA,43924,Australia,AUS,43976,/worldcup/matches/round=97410100/match=97410027/index.html#nosticky,2-0
+2006,Match 29,Leipzig,France,FRA,43946,Korea Republic,KOR,43822,/worldcup/matches/round=97410100/match=97410029/index.html#nosticky,1-1
+2006,Match 30,Dortmund,Togo,TOG,43887,Switzerland,SUI,43971,/worldcup/matches/round=97410100/match=97410030/index.html#nosticky,0-2
+2006,Match 32,Hamburg,Saudi Arabia,KSA,43835,Ukraine,UKR,43973,/worldcup/matches/round=97410100/match=97410032/index.html#nosticky,0-4
+2006,Match 31,Stuttgart,Spain,ESP,43969,Tunisia,TUN,43888,/worldcup/matches/round=97410100/match=97410031/index.html#nosticky,3-1
+2006,Match 33,Berlin,Ecuador,ECU,43927,Germany,GER,43948,/worldcup/matches/round=97410100/match=97410033/index.html#nosticky,0-3
+2006,Match 34,Hanover,Costa Rica,CRC,43901,Poland,POL,43962,/worldcup/matches/round=97410100/match=97410034/index.html#nosticky,1-2
+2006,Match 35,Cologne,Sweden,SWE,43970,England,ENG,43942,/worldcup/matches/round=97410100/match=97410035/index.html#nosticky,2-2
+2006,Match 36,Kaiserslautern,Paraguay,PAR,43928,Trinidad and Tobago,TRI,43920,/worldcup/matches/round=97410100/match=97410036/index.html#nosticky,2-0
+2006,Match 40,Leipzig,Iran,IRN,43817,Angola,ANG,43844,/worldcup/matches/round=97410100/match=97410040/index.html#nosticky,1-1
+2006,Match 39,Gelsenkirchen,Portugal,POR,43963,Mexico,MEX,43911,/worldcup/matches/round=97410100/match=97410039/index.html#nosticky,2-1
+2006,Match 37,Frankfurt/Main,Netherlands,NED,43960,Argentina,ARG,43922,/worldcup/matches/round=97410100/match=97410037/index.html#nosticky,0-0
+2006,Match 38,Munich,CÃ´te d'Ivoire,CIV,43854,Serbia and Montenegro,SCG,1890244,/worldcup/matches/round=97410100/match=97410038/index.html#nosticky,3-2
+2006,Match 41,Hamburg,Czech Republic,CZE,43995,Italy,ITA,43954,/worldcup/matches/round=97410100/match=97410041/index.html#nosticky,0-2
+2006,Match 42,Nuremberg,Ghana,GHA,43860,USA,USA,43921,/worldcup/matches/round=97410100/match=97410042/index.html#nosticky,2-1
+2006,Match 43,Dortmund,Japan,JPN,43819,Brazil,BRA,43924,/worldcup/matches/round=97410100/match=97410043/index.html#nosticky,1-4
+2006,Match 44,Stuttgart,Croatia,CRO,43938,Australia,AUS,43976,/worldcup/matches/round=97410100/match=97410044/index.html#nosticky,2-2
+2006,Match 48,Berlin,Ukraine,UKR,43973,Tunisia,TUN,43888,/worldcup/matches/round=97410100/match=97410048/index.html#nosticky,1-0
+2006,Match 47,Kaiserslautern,Saudi Arabia,KSA,43835,Spain,ESP,43969,/worldcup/matches/round=97410100/match=97410047/index.html#nosticky,0-1
+2006,Match 45,Cologne,Togo,TOG,43887,France,FRA,43946,/worldcup/matches/round=97410100/match=97410045/index.html#nosticky,0-2
+2006,Match 46,Hanover,Switzerland,SUI,43971,Korea Republic,KOR,43822,/worldcup/matches/round=97410100/match=97410046/index.html#nosticky,2-0
+2006,Match 49,Munich,Germany,GER,43948,Sweden,SWE,43970,/worldcup/matches/round=97410200/match=97410049/index.html#nosticky,2-0
+2006,Match 50,Leipzig,Argentina,ARG,43922,Mexico,MEX,43911,/worldcup/matches/round=97410200/match=97410050/index.html#nosticky,2-1
+2006,Match 51,Stuttgart,England,ENG,43942,Ecuador,ECU,43927,/worldcup/matches/round=97410200/match=97410051/index.html#nosticky,1-0
+2006,Match 52,Nuremberg,Portugal,POR,43963,Netherlands,NED,43960,/worldcup/matches/round=97410200/match=97410052/index.html#nosticky,1-0
+2006,Match 53,Kaiserslautern,Italy,ITA,43954,Australia,AUS,43976,/worldcup/matches/round=97410200/match=97410053/index.html#nosticky,1-0
+2006,Match 54,Cologne,Switzerland,SUI,43971,Ukraine,UKR,43973,/worldcup/matches/round=97410200/match=97410054/index.html#nosticky,0-0
+2006,Match 55,Dortmund,Brazil,BRA,43924,Ghana,GHA,43860,/worldcup/matches/round=97410200/match=97410055/index.html#nosticky,3-0
+2006,Match 56,Hanover,Spain,ESP,43969,France,FRA,43946,/worldcup/matches/round=97410200/match=97410056/index.html#nosticky,1-3
+2006,Match 57,Berlin,Germany,GER,43948,Argentina,ARG,43922,/worldcup/matches/round=97410300/match=97410057/index.html#nosticky,1-1
+2006,Match 58,Hamburg,Italy,ITA,43954,Ukraine,UKR,43973,/worldcup/matches/round=97410300/match=97410058/index.html#nosticky,3-0
+2006,Match 59,Gelsenkirchen,England,ENG,43942,Portugal,POR,43963,/worldcup/matches/round=97410300/match=97410059/index.html#nosticky,0-0
+2006,Match 60,Frankfurt/Main,Brazil,BRA,43924,France,FRA,43946,/worldcup/matches/round=97410300/match=97410060/index.html#nosticky,0-1
+2006,Match 61,Dortmund,Germany,GER,43948,Italy,ITA,43954,/worldcup/matches/round=97410400/match=97410061/index.html#nosticky,0-2
+2006,Match 62,Munich,Portugal,POR,43963,France,FRA,43946,/worldcup/matches/round=97410400/match=97410062/index.html#nosticky,0-1
+2006,Match 63,Stuttgart,Germany,GER,43948,Portugal,POR,43963,/worldcup/matches/round=97410500/match=97410063/index.html#nosticky,3-1
+2006,Match 64,Berlin,Italy,ITA,43954,France,FRA,43946,/worldcup/matches/round=97410600/match=97410064/index.html#nosticky,1-1
+2002,Match 1,Seoul,France,FRA,43946,Senegal,SEN,43879,/worldcup/matches/round=43950100/match=43950001/index.html#nosticky,0-1
+2002,Match 3,Ulsan,Uruguay,URU,43930,Denmark,DEN,43941,/worldcup/matches/round=43950100/match=43950003/index.html#nosticky,1-2
+2002,Match 2,Niigata,Republic of Ireland,IRL,43953,Cameroon,CMR,43849,/worldcup/matches/round=43950100/match=43950002/index.html#nosticky,1-1
+2002,Match 4,Sapporo,Germany,GER,43948,Saudi Arabia,KSA,43835,/worldcup/matches/round=43950100/match=43950004/index.html#nosticky,8-0
+2002,Match 7,Ibaraki,Argentina,ARG,43922,Nigeria,NGA,43876,/worldcup/matches/round=43950100/match=43950007/index.html#nosticky,1-0
+2002,Match 6,Busan,Paraguay,PAR,43928,South Africa,RSA,43883,/worldcup/matches/round=43950100/match=43950006/index.html#nosticky,2-2
+2002,Match 5,Saitama,England,ENG,43942,Sweden,SWE,43970,/worldcup/matches/round=43950100/match=43950005/index.html#nosticky,1-1
+2002,Match 8,Gwangju,Spain,ESP,43969,Slovenia,SVN,43968,/worldcup/matches/round=43950100/match=43950008/index.html#nosticky,3-1
+2002,Match 10,Ulsan,Brazil,BRA,43924,Turkey,TUR,43972,/worldcup/matches/round=43950100/match=43950010/index.html#nosticky,2-1
+2002,Match 11,Sapporo,Italy,ITA,43954,Ecuador,ECU,43927,/worldcup/matches/round=43950100/match=43950011/index.html#nosticky,2-0
+2002,Match 9,Niigata,Croatia,CRO,43938,Mexico,MEX,43911,/worldcup/matches/round=43950100/match=43950009/index.html#nosticky,0-1
+2002,Match 12,Gwangju,China PR,CHN,43812,Costa Rica,CRC,43901,/worldcup/matches/round=43950100/match=43950012/index.html#nosticky,0-2
+2002,Match 13,Saitama,Japan,JPN,43819,Belgium,BEL,43935,/worldcup/matches/round=43950100/match=43950013/index.html#nosticky,2-2
+2002,Match 14,Busan,Korea Republic,KOR,43822,Poland,POL,43962,/worldcup/matches/round=43950100/match=43950014/index.html#nosticky,2-0
+2002,Match 15,Kobe,Russia,RUS,43965,Tunisia,TUN,43888,/worldcup/matches/round=43950100/match=43950015/index.html#nosticky,2-0
+2002,Match 16,Suwon,USA,USA,43921,Portugal,POR,43963,/worldcup/matches/round=43950100/match=43950016/index.html#nosticky,3-2
+2002,Match 17,Ibaraki,Germany,GER,43948,Republic of Ireland,IRL,43953,/worldcup/matches/round=43950100/match=43950017/index.html#nosticky,1-1
+2002,Match 20,Daegu,Denmark,DEN,43941,Senegal,SEN,43879,/worldcup/matches/round=43950100/match=43950020/index.html#nosticky,1-1
+2002,Match 19,Saitama,Cameroon,CMR,43849,Saudi Arabia,KSA,43835,/worldcup/matches/round=43950100/match=43950019/index.html#nosticky,1-0
+2002,Match 18,Busan,France,FRA,43946,Uruguay,URU,43930,/worldcup/matches/round=43950100/match=43950018/index.html#nosticky,0-0
+2002,Match 21,Kobe,Sweden,SWE,43970,Nigeria,NGA,43876,/worldcup/matches/round=43950100/match=43950021/index.html#nosticky,2-1
+2002,Match 23,Sapporo,Argentina,ARG,43922,England,ENG,43942,/worldcup/matches/round=43950100/match=43950023/index.html#nosticky,0-1
+2002,Match 22,Jeonju,Spain,ESP,43969,Paraguay,PAR,43928,/worldcup/matches/round=43950100/match=43950022/index.html#nosticky,3-1
+2002,Match 24,Daegu,South Africa,RSA,43883,Slovenia,SVN,43968,/worldcup/matches/round=43950100/match=43950024/index.html#nosticky,1-0
+2002,Match 26,Jeju,Brazil,BRA,43924,China PR,CHN,43812,/worldcup/matches/round=43950100/match=43950026/index.html#nosticky,4-0
+2002,Match 25,Ibaraki,Italy,ITA,43954,Croatia,CRO,43938,/worldcup/matches/round=43950100/match=43950025/index.html#nosticky,1-2
+2002,Match 28,Incheon,Costa Rica,CRC,43901,Turkey,TUR,43972,/worldcup/matches/round=43950100/match=43950028/index.html#nosticky,1-1
+2002,Match 29,Yokohama,Japan,JPN,43819,Russia,RUS,43965,/worldcup/matches/round=43950100/match=43950029/index.html#nosticky,1-0
+2002,Match 27,Rifu,Mexico,MEX,43911,Ecuador,ECU,43927,/worldcup/matches/round=43950100/match=43950027/index.html#nosticky,2-1
+2002,Match 30,Daegu,Korea Republic,KOR,43822,USA,USA,43921,/worldcup/matches/round=43950100/match=43950030/index.html#nosticky,1-1
+2002,Match 32,Jeonju,Portugal,POR,43963,Poland,POL,43962,/worldcup/matches/round=43950100/match=43950032/index.html#nosticky,4-0
+2002,Match 31,Oita,Tunisia,TUN,43888,Belgium,BEL,43935,/worldcup/matches/round=43950100/match=43950031/index.html#nosticky,1-1
+2002,Match 33,Incheon,Denmark,DEN,43941,France,FRA,43946,/worldcup/matches/round=43950100/match=43950033/index.html#nosticky,2-0
+2002,Match 34,Suwon,Senegal,SEN,43879,Uruguay,URU,43930,/worldcup/matches/round=43950100/match=43950034/index.html#nosticky,3-3
+2002,Match 36,Yokohama,Saudi Arabia,KSA,43835,Republic of Ireland,IRL,43953,/worldcup/matches/round=43950100/match=43950036/index.html#nosticky,0-3
+2002,Match 35,Shizuoka,Cameroon,CMR,43849,Germany,GER,43948,/worldcup/matches/round=43950100/match=43950035/index.html#nosticky,0-2
+2002,Match 37,Rifu,Sweden,SWE,43970,Argentina,ARG,43922,/worldcup/matches/round=43950100/match=43950037/index.html#nosticky,1-1
+2002,Match 38,Osaka,Nigeria,NGA,43876,England,ENG,43942,/worldcup/matches/round=43950100/match=43950038/index.html#nosticky,0-0
+2002,Match 40,Jeju,Slovenia,SVN,43968,Paraguay,PAR,43928,/worldcup/matches/round=43950100/match=43950040/index.html#nosticky,1-3
+2002,Match 39,Daejeon,South Africa,RSA,43883,Spain,ESP,43969,/worldcup/matches/round=43950100/match=43950039/index.html#nosticky,2-3
+2002,Match 41,Suwon,Costa Rica,CRC,43901,Brazil,BRA,43924,/worldcup/matches/round=43950100/match=43950041/index.html#nosticky,2-5
+2002,Match 42,Seoul,Turkey,TUR,43972,China PR,CHN,43812,/worldcup/matches/round=43950100/match=43950042/index.html#nosticky,3-0
+2002,Match 44,Yokohama,Ecuador,ECU,43927,Croatia,CRO,43938,/worldcup/matches/round=43950100/match=43950044/index.html#nosticky,1-0
+2002,Match 43,Oita,Mexico,MEX,43911,Italy,ITA,43954,/worldcup/matches/round=43950100/match=43950043/index.html#nosticky,1-1
+2002,Match 45,Osaka,Tunisia,TUN,43888,Japan,JPN,43819,/worldcup/matches/round=43950100/match=43950045/index.html#nosticky,0-2
+2002,Match 47,Incheon,Portugal,POR,43963,Korea Republic,KOR,43822,/worldcup/matches/round=43950100/match=43950047/index.html#nosticky,0-1
+2002,Match 48,Daejeon,Poland,POL,43962,USA,USA,43921,/worldcup/matches/round=43950100/match=43950048/index.html#nosticky,3-1
+2002,Match 46,Shizuoka,Belgium,BEL,43935,Russia,RUS,43965,/worldcup/matches/round=43950100/match=43950046/index.html#nosticky,3-2
+2002,Match 50,Niigata,Denmark,DEN,43941,England,ENG,43942,/worldcup/matches/round=43950200/match=43950050/index.html#nosticky,0-3
+2002,Match 49,Jeju,Germany,GER,43948,Paraguay,PAR,43928,/worldcup/matches/round=43950200/match=43950049/index.html#nosticky,1-0
+2002,Match 52,Suwon,Spain,ESP,43969,Republic of Ireland,IRL,43953,/worldcup/matches/round=43950200/match=43950052/index.html#nosticky,1-1
+2002,Match 51,Oita,Sweden,SWE,43970,Senegal,SEN,43879,/worldcup/matches/round=43950200/match=43950051/index.html#nosticky,1-2
+2002,Match 54,Kobe,Brazil,BRA,43924,Belgium,BEL,43935,/worldcup/matches/round=43950200/match=43950054/index.html#nosticky,2-0
+2002,Match 53,Jeonju,Mexico,MEX,43911,USA,USA,43921,/worldcup/matches/round=43950200/match=43950053/index.html#nosticky,0-2
+2002,Match 55,Rifu,Japan,JPN,43819,Turkey,TUR,43972,/worldcup/matches/round=43950200/match=43950055/index.html#nosticky,0-1
+2002,Match 56,Daejeon,Korea Republic,KOR,43822,Italy,ITA,43954,/worldcup/matches/round=43950200/match=43950056/index.html#nosticky,2-1
+2002,Match 57,Shizuoka,England,ENG,43942,Brazil,BRA,43924,/worldcup/matches/round=43950300/match=43950057/index.html#nosticky,1-2
+2002,Match 58,Ulsan,Germany,GER,43948,USA,USA,43921,/worldcup/matches/round=43950300/match=43950058/index.html#nosticky,1-0
+2002,Match 60,Osaka,Senegal,SEN,43879,Turkey,TUR,43972,/worldcup/matches/round=43950300/match=43950060/index.html#nosticky,0-1
+2002,Match 59,Gwangju,Spain,ESP,43969,Korea Republic,KOR,43822,/worldcup/matches/round=43950300/match=43950059/index.html#nosticky,0-0
+2002,Match 61,Seoul,Germany,GER,43948,Korea Republic,KOR,43822,/worldcup/matches/round=43950400/match=43950061/index.html#nosticky,1-0
+2002,Match 62,Saitama,Brazil,BRA,43924,Turkey,TUR,43972,/worldcup/matches/round=43950400/match=43950062/index.html#nosticky,1-0
+2002,Match 63,Daegu,Korea Republic,KOR,43822,Turkey,TUR,43972,/worldcup/matches/round=43950500/match=43950063/index.html#nosticky,2-3
+2002,Match 64,Yokohama,Germany,GER,43948,Brazil,BRA,43924,/worldcup/matches/round=43950600/match=43950064/index.html#nosticky,0-2
+1998,Match 1,Saint-Denis,Brazil,BRA,43924,Scotland,SCO,43967,/worldcup/matches/round=1014/match=4000/index.html#nosticky,2-1
+1998,Match 2,Montpellier,Morocco,MAR,43872,Norway,NOR,43961,/worldcup/matches/round=1014/match=8725/index.html#nosticky,2-2
+1998,Match 4,Bordeaux,Italy,ITA,43954,Chile,CHI,43925,/worldcup/matches/round=1014/match=8726/index.html#nosticky,2-2
+1998,Match 3,Toulouse,Cameroon,CMR,43849,Austria,AUT,43934,/worldcup/matches/round=1014/match=8727/index.html#nosticky,1-1
+1998,Match 7,Montpellier,Paraguay,PAR,43928,Bulgaria,BUL,43936,/worldcup/matches/round=1014/match=8728/index.html#nosticky,0-0
+1998,Match 5,Lens,Saudi Arabia,KSA,43835,Denmark,DEN,43941,/worldcup/matches/round=1014/match=8729/index.html#nosticky,0-1
+1998,Match 6,Marseilles,France,FRA,43946,South Africa,RSA,43883,/worldcup/matches/round=1014/match=8730/index.html#nosticky,3-0
+1998,Match 10,Nantes,Spain,ESP,43969,Nigeria,NGA,43876,/worldcup/matches/round=1014/match=8731/index.html#nosticky,2-3
+1998,Match 9,Lyon,Korea Republic,KOR,43822,Mexico,MEX,43911,/worldcup/matches/round=1014/match=8732/index.html#nosticky,1-3
+1998,Match 8,Saint-Denis,Netherlands,NED,43960,Belgium,BEL,43935,/worldcup/matches/round=1014/match=8733/index.html#nosticky,0-0
+1998,Match 13,Toulouse,Argentina,ARG,43922,Japan,JPN,43819,/worldcup/matches/round=1014/match=8734/index.html#nosticky,1-0
+1998,Match 12,Saint-Etienne,Yugoslavia,YUG,43975,Iran,IRN,43817,/worldcup/matches/round=1014/match=8735/index.html#nosticky,1-0
+1998,Match 11,Lens,Jamaica,JAM,43910,Croatia,CRO,43938,/worldcup/matches/round=1014/match=8736/index.html#nosticky,1-3
+1998,Match 16,Marseilles,England,ENG,43942,Tunisia,TUN,43888,/worldcup/matches/round=1014/match=8740/index.html#nosticky,2-0
+1998,Match 15,Lyon,Romania,ROU,43964,Colombia,COL,43926,/worldcup/matches/round=1014/match=8739/index.html#nosticky,1-0
+1998,Match 14,Paris,Germany,GER,43948,USA,USA,43921,/worldcup/matches/round=1014/match=8738/index.html#nosticky,2-0
+1998,Match 17,Bordeaux,Scotland,SCO,43967,Norway,NOR,43961,/worldcup/matches/round=1014/match=8741/index.html#nosticky,1-1
+1998,Match 18,Nantes,Brazil,BRA,43924,Morocco,MAR,43872,/worldcup/matches/round=1014/match=8742/index.html#nosticky,3-0
+1998,Match 19,Saint-Etienne,Chile,CHI,43925,Austria,AUT,43934,/worldcup/matches/round=1014/match=8743/index.html#nosticky,1-1
+1998,Match 20,Montpellier,Italy,ITA,43954,Cameroon,CMR,43849,/worldcup/matches/round=1014/match=8744/index.html#nosticky,3-0
+1998,Match 22,Toulouse,South Africa,RSA,43883,Denmark,DEN,43941,/worldcup/matches/round=1014/match=8746/index.html#nosticky,1-1
+1998,Match 21,Saint-Denis,France,FRA,43946,Saudi Arabia,KSA,43835,/worldcup/matches/round=1014/match=8745/index.html#nosticky,4-0
+1998,Match 23,Paris,Nigeria,NGA,43876,Bulgaria,BUL,43936,/worldcup/matches/round=1014/match=8747/index.html#nosticky,1-0
+1998,Match 24,Saint-Etienne,Spain,ESP,43969,Paraguay,PAR,43928,/worldcup/matches/round=1014/match=8748/index.html#nosticky,0-0
+1998,Match 27,Nantes,Japan,JPN,43819,Croatia,CRO,43938,/worldcup/matches/round=1014/match=8751/index.html#nosticky,0-1
+1998,Match 26,Bordeaux,Belgium,BEL,43935,Mexico,MEX,43911,/worldcup/matches/round=1014/match=8750/index.html#nosticky,2-2
+1998,Match 25,Marseilles,Netherlands,NED,43960,Korea Republic,KOR,43822,/worldcup/matches/round=1014/match=8749/index.html#nosticky,5-0
+1998,Match 29,Lens,Germany,GER,43948,Yugoslavia,YUG,43975,/worldcup/matches/round=1014/match=8753/index.html#nosticky,2-2
+1998,Match 28,Paris,Argentina,ARG,43922,Jamaica,JAM,43910,/worldcup/matches/round=1014/match=8752/index.html#nosticky,5-0
+1998,Match 30,Lyon,USA,USA,43921,Iran,IRN,43817,/worldcup/matches/round=1014/match=8754/index.html#nosticky,1-2
+1998,Match 31,Montpellier,Colombia,COL,43926,Tunisia,TUN,43888,/worldcup/matches/round=1014/match=8755/index.html#nosticky,1-0
+1998,Match 32,Toulouse,Romania,ROU,43964,England,ENG,43942,/worldcup/matches/round=1014/match=8756/index.html#nosticky,2-1
+1998,Match 33,Saint-Denis,Italy,ITA,43954,Austria,AUT,43934,/worldcup/matches/round=1014/match=8757/index.html#nosticky,2-1
+1998,Match 36,Nantes,Chile,CHI,43925,Cameroon,CMR,43849,/worldcup/matches/round=1014/match=8760/index.html#nosticky,1-1
+1998,Match 34,Saint-Etienne,Scotland,SCO,43967,Morocco,MAR,43872,/worldcup/matches/round=1014/match=8758/index.html#nosticky,0-3
+1998,Match 35,Marseilles,Brazil,BRA,43924,Norway,NOR,43961,/worldcup/matches/round=1014/match=8759/index.html#nosticky,1-2
+1998,Match 38,Lyon,France,FRA,43946,Denmark,DEN,43941,/worldcup/matches/round=1014/match=8762/index.html#nosticky,2-1
+1998,Match 40,Bordeaux,South Africa,RSA,43883,Saudi Arabia,KSA,43835,/worldcup/matches/round=1014/match=8764/index.html#nosticky,2-2
+1998,Match 37,Lens,Spain,ESP,43969,Bulgaria,BUL,43936,/worldcup/matches/round=1014/match=8761/index.html#nosticky,6-1
+1998,Match 39,Toulouse,Nigeria,NGA,43876,Paraguay,PAR,43928,/worldcup/matches/round=1014/match=8763/index.html#nosticky,1-3
+1998,Match 41,Paris,Belgium,BEL,43935,Korea Republic,KOR,43822,/worldcup/matches/round=1014/match=8765/index.html#nosticky,1-1
+1998,Match 42,Saint-Etienne,Netherlands,NED,43960,Mexico,MEX,43911,/worldcup/matches/round=1014/match=8766/index.html#nosticky,2-2
+1998,Match 43,Montpellier,Germany,GER,43948,Iran,IRN,43817,/worldcup/matches/round=1014/match=8767/index.html#nosticky,2-0
+1998,Match 44,Nantes,USA,USA,43921,Yugoslavia,YUG,43975,/worldcup/matches/round=1014/match=8768/index.html#nosticky,0-1
+1998,Match 47,Lyon,Japan,JPN,43819,Jamaica,JAM,43910,/worldcup/matches/round=1014/match=8771/index.html#nosticky,1-2
+1998,Match 48,Bordeaux,Argentina,ARG,43922,Croatia,CRO,43938,/worldcup/matches/round=1014/match=8772/index.html#nosticky,1-0
+1998,Match 45,Saint-Denis,Romania,ROU,43964,Tunisia,TUN,43888,/worldcup/matches/round=1014/match=8769/index.html#nosticky,1-1
+1998,Match 46,Lens,Colombia,COL,43926,England,ENG,43942,/worldcup/matches/round=1014/match=8770/index.html#nosticky,0-2
+1998,Match 50,Marseilles,Italy,ITA,43954,Norway,NOR,43961,/worldcup/matches/round=1024/match=8774/index.html#nosticky,1-0
+1998,Match 49,Paris,Brazil,BRA,43924,Chile,CHI,43925,/worldcup/matches/round=1024/match=8773/index.html#nosticky,4-1
+1998,Match 52,Lens,France,FRA,43946,Paraguay,PAR,43928,/worldcup/matches/round=1024/match=8776/index.html#nosticky,1-0
+1998,Match 51,Saint-Denis,Nigeria,NGA,43876,Denmark,DEN,43941,/worldcup/matches/round=1024/match=8775/index.html#nosticky,1-4
+1998,Match 53,Montpellier,Germany,GER,43948,Mexico,MEX,43911,/worldcup/matches/round=1024/match=8777/index.html#nosticky,2-1
+1998,Match 54,Toulouse,Netherlands,NED,43960,Yugoslavia,YUG,43975,/worldcup/matches/round=1024/match=8778/index.html#nosticky,2-1
+1998,Match 56,Bordeaux,Romania,ROU,43964,Croatia,CRO,43938,/worldcup/matches/round=1024/match=8780/index.html#nosticky,0-1
+1998,Match 55,Saint-Etienne,Argentina,ARG,43922,England,ENG,43942,/worldcup/matches/round=1024/match=8779/index.html#nosticky,2-2
+1998,Match 57,Saint-Denis,Italy,ITA,43954,France,FRA,43946,/worldcup/matches/round=1025/match=8781/index.html#nosticky,0-0
+1998,Match 58,Nantes,Brazil,BRA,43924,Denmark,DEN,43941,/worldcup/matches/round=1025/match=8782/index.html#nosticky,3-2
+1998,Match 60,Marseilles,Netherlands,NED,43960,Argentina,ARG,43922,/worldcup/matches/round=1025/match=8784/index.html#nosticky,2-1
+1998,Match 59,Lyon,Germany,GER,43948,Croatia,CRO,43938,/worldcup/matches/round=1025/match=8783/index.html#nosticky,0-3
+1998,Match 61,Marseilles,Brazil,BRA,43924,Netherlands,NED,43960,/worldcup/matches/round=1026/match=8785/index.html#nosticky,1-1
+1998,Match 62,Saint-Denis,France,FRA,43946,Croatia,CRO,43938,/worldcup/matches/round=1026/match=8786/index.html#nosticky,2-1
+1998,Match 63,Paris,Netherlands,NED,43960,Croatia,CRO,43938,/worldcup/matches/round=1028/match=8787/index.html#nosticky,1-2
+1998,Match 64,Saint-Denis,Brazil,BRA,43924,France,FRA,43946,/worldcup/matches/round=1027/match=8788/index.html#nosticky,0-3
+1994,Match 2,Dallas,Spain,ESP,43969,Korea Republic,KOR,43822,/worldcup/matches/round=337/match=3050/index.html#nosticky,2-2
+1994,Match 1,Chicago,Germany,GER,43948,Bolivia,BOL,43923,/worldcup/matches/round=337/match=3049/index.html#nosticky,1-0
+1994,Match 3,Detroit,USA,USA,43921,Switzerland,SUI,43971,/worldcup/matches/round=337/match=3051/index.html#nosticky,1-1
+1994,Match 4,New York/New Jersey,Italy,ITA,43954,Republic of Ireland,IRL,43953,/worldcup/matches/round=337/match=3052/index.html#nosticky,0-1
+1994,Match 5,Los Angeles,Colombia,COL,43926,Romania,ROU,43964,/worldcup/matches/round=337/match=3053/index.html#nosticky,1-3
+1994,Match 6,Orlando,Belgium,BEL,43935,Morocco,MAR,43872,/worldcup/matches/round=337/match=3054/index.html#nosticky,1-0
+1994,Match 7,Washington Dc,Norway,NOR,43961,Mexico,MEX,43911,/worldcup/matches/round=337/match=3055/index.html#nosticky,1-0
+1994,Match 8,Los Angeles,Cameroon,CMR,43849,Sweden,SWE,43970,/worldcup/matches/round=337/match=3056/index.html#nosticky,2-2
+1994,Match 10,Washington Dc,Netherlands,NED,43960,Saudi Arabia,KSA,43835,/worldcup/matches/round=337/match=3058/index.html#nosticky,2-1
+1994,Match 9,San Francisco,Brazil,BRA,43924,Russia,RUS,43965,/worldcup/matches/round=337/match=3057/index.html#nosticky,2-0
+1994,Match 11,Boston,Argentina,ARG,43922,Greece,GRE,43949,/worldcup/matches/round=337/match=3059/index.html#nosticky,4-0
+1994,Match 13,Dallas,Nigeria,NGA,43876,Bulgaria,BUL,43936,/worldcup/matches/round=337/match=3061/index.html#nosticky,3-0
+1994,Match 12,Chicago,Germany,GER,43948,Spain,ESP,43969,/worldcup/matches/round=337/match=3060/index.html#nosticky,1-1
+1994,Match 14,Detroit,Romania,ROU,43964,Switzerland,SUI,43971,/worldcup/matches/round=337/match=3062/index.html#nosticky,1-4
+1994,Match 15,Los Angeles,USA,USA,43921,Colombia,COL,43926,/worldcup/matches/round=337/match=3063/index.html#nosticky,2-1
+1994,Match 16,New York/New Jersey,Italy,ITA,43954,Norway,NOR,43961,/worldcup/matches/round=337/match=3064/index.html#nosticky,1-0
+1994,Match 17,Boston,Korea Republic,KOR,43822,Bolivia,BOL,43923,/worldcup/matches/round=337/match=3065/index.html#nosticky,0-0
+1994,Match 18,Orlando,Mexico,MEX,43911,Republic of Ireland,IRL,43953,/worldcup/matches/round=337/match=3066/index.html#nosticky,2-1
+1994,Match 20,Detroit,Sweden,SWE,43970,Russia,RUS,43965,/worldcup/matches/round=337/match=3068/index.html#nosticky,3-1
+1994,Match 19,San Francisco,Brazil,BRA,43924,Cameroon,CMR,43849,/worldcup/matches/round=337/match=3067/index.html#nosticky,3-0
+1994,Match 21,Orlando,Belgium,BEL,43935,Netherlands,NED,43960,/worldcup/matches/round=337/match=3069/index.html#nosticky,1-0
+1994,Match 22,New York/New Jersey,Saudi Arabia,KSA,43835,Morocco,MAR,43872,/worldcup/matches/round=337/match=3070/index.html#nosticky,2-1
+1994,Match 23,Boston,Argentina,ARG,43922,Nigeria,NGA,43876,/worldcup/matches/round=337/match=3071/index.html#nosticky,2-1
+1994,Match 24,Chicago,Bulgaria,BUL,43936,Greece,GRE,43949,/worldcup/matches/round=337/match=3072/index.html#nosticky,4-0
+1994,Match 25,Los Angeles,USA,USA,43921,Romania,ROU,43964,/worldcup/matches/round=337/match=3073/index.html#nosticky,0-1
+1994,Match 26,San Francisco,Switzerland,SUI,43971,Colombia,COL,43926,/worldcup/matches/round=337/match=3074/index.html#nosticky,0-2
+1994,Match 28,Dallas,Germany,GER,43948,Korea Republic,KOR,43822,/worldcup/matches/round=337/match=3076/index.html#nosticky,3-2
+1994,Match 27,Chicago,Bolivia,BOL,43923,Spain,ESP,43969,/worldcup/matches/round=337/match=3075/index.html#nosticky,1-3
+1994,Match 29,New York/New Jersey,Republic of Ireland,IRL,43953,Norway,NOR,43961,/worldcup/matches/round=337/match=3077/index.html#nosticky,0-0
+1994,Match 32,Detroit,Brazil,BRA,43924,Sweden,SWE,43970,/worldcup/matches/round=337/match=3080/index.html#nosticky,1-1
+1994,Match 30,Washington Dc,Italy,ITA,43954,Mexico,MEX,43911,/worldcup/matches/round=337/match=3078/index.html#nosticky,1-1
+1994,Match 31,San Francisco,Russia,RUS,43965,Cameroon,CMR,43849,/worldcup/matches/round=337/match=3079/index.html#nosticky,6-1
+1994,Match 33,Orlando,Morocco,MAR,43872,Netherlands,NED,43960,/worldcup/matches/round=337/match=3081/index.html#nosticky,1-2
+1994,Match 34,Washington Dc,Belgium,BEL,43935,Saudi Arabia,KSA,43835,/worldcup/matches/round=337/match=3082/index.html#nosticky,0-1
+1994,Match 35,Boston,Greece,GRE,43949,Nigeria,NGA,43876,/worldcup/matches/round=337/match=3083/index.html#nosticky,0-2
+1994,Match 36,Dallas,Argentina,ARG,43922,Bulgaria,BUL,43936,/worldcup/matches/round=337/match=3084/index.html#nosticky,0-2
+1994,Match 37,Chicago,Germany,GER,43948,Belgium,BEL,43935,/worldcup/matches/round=338/match=3085/index.html#nosticky,3-2
+1994,Match 38,Washington Dc,Spain,ESP,43969,Switzerland,SUI,43971,/worldcup/matches/round=338/match=3086/index.html#nosticky,3-0
+1994,Match 39,Dallas,Saudi Arabia,KSA,43835,Sweden,SWE,43970,/worldcup/matches/round=338/match=3087/index.html#nosticky,1-3
+1994,Match 40,Los Angeles,Romania,ROU,43964,Argentina,ARG,43922,/worldcup/matches/round=338/match=3088/index.html#nosticky,3-2
+1994,Match 41,Orlando,Netherlands,NED,43960,Republic of Ireland,IRL,43953,/worldcup/matches/round=338/match=3089/index.html#nosticky,2-0
+1994,Match 42,San Francisco,Brazil,BRA,43924,USA,USA,43921,/worldcup/matches/round=338/match=3090/index.html#nosticky,1-0
+1994,Match 43,Boston,Nigeria,NGA,43876,Italy,ITA,43954,/worldcup/matches/round=338/match=3091/index.html#nosticky,1-2
+1994,Match 44,New York/New Jersey,Mexico,MEX,43911,Bulgaria,BUL,43936,/worldcup/matches/round=338/match=3092/index.html#nosticky,1-1
+1994,Match 45,Boston,Italy,ITA,43954,Spain,ESP,43969,/worldcup/matches/round=796/match=3097/index.html#nosticky,2-1
+1994,Match 46,Dallas,Netherlands,NED,43960,Brazil,BRA,43924,/worldcup/matches/round=796/match=3098/index.html#nosticky,2-3
+1994,Match 47,New York/New Jersey,Bulgaria,BUL,43936,Germany,GER,43948,/worldcup/matches/round=796/match=3096/index.html#nosticky,2-1
+1994,Match 48,San Francisco,Romania,ROU,43964,Sweden,SWE,43970,/worldcup/matches/round=796/match=3095/index.html#nosticky,2-2
+1994,Match 49,New York/New Jersey,Bulgaria,BUL,43936,Italy,ITA,43954,/worldcup/matches/round=3461/match=3100/index.html#nosticky,1-2
+1994,Match 50,Los Angeles,Sweden,SWE,43970,Brazil,BRA,43924,/worldcup/matches/round=3461/match=3099/index.html#nosticky,0-1
+1994,Match 51,Los Angeles,Sweden,SWE,43970,Bulgaria,BUL,43936,/worldcup/matches/round=3460/match=3103/index.html#nosticky,4-0
+1994,Match 52,Los Angeles,Brazil,BRA,43924,Italy,ITA,43954,/worldcup/matches/round=3459/match=3104/index.html#nosticky,0-0
+1990,Match 1,Milan,Argentina,ARG,43922,Cameroon,CMR,43849,/worldcup/matches/round=322/match=26/index.html#nosticky,0-1
+1990,Match 2,Bari,Soviet Union,URS,44026,Romania,ROU,43964,/worldcup/matches/round=322/match=342/index.html#nosticky,0-2
+1990,Match 4,Bologna,United Arab Emirates,UAE,43840,Colombia,COL,43926,/worldcup/matches/round=322/match=119/index.html#nosticky,0-2
+1990,Match 3,Rome,Italy,ITA,43954,Austria,AUT,43934,/worldcup/matches/round=322/match=42/index.html#nosticky,1-0
+1990,Match 5,Florence,USA,USA,43921,Czechoslovakia,TCH,44025,/worldcup/matches/round=322/match=355/index.html#nosticky,1-5
+1990,Match 6,Turin,Brazil,BRA,43924,Sweden,SWE,43970,/worldcup/matches/round=322/match=75/index.html#nosticky,2-1
+1990,Match 7,Milan,Germany FR,FRG,44023,Yugoslavia,YUG,43975,/worldcup/matches/round=322/match=201/index.html#nosticky,4-1
+1990,Match 8,Genoa,Costa Rica,CRC,43901,Scotland,SCO,43967,/worldcup/matches/round=322/match=127/index.html#nosticky,1-0
+1990,Match 9,Cagliari,England,ENG,43942,Republic of Ireland,IRL,43953,/worldcup/matches/round=322/match=161/index.html#nosticky,1-1
+1990,Match 10,Verona,Belgium,BEL,43935,Korea Republic,KOR,43822,/worldcup/matches/round=322/match=57/index.html#nosticky,2-0
+1990,Match 11,Palermo,Netherlands,NED,43960,Egypt,EGY,43855,/worldcup/matches/round=322/match=151/index.html#nosticky,1-1
+1990,Match 12,Udine,Uruguay,URU,43930,Spain,ESP,43969,/worldcup/matches/round=322/match=180/index.html#nosticky,0-0
+1990,Match 13,Naples,Argentina,ARG,43922,Soviet Union,URS,44026,/worldcup/matches/round=322/match=30/index.html#nosticky,2-0
+1990,Match 16,Bari,Cameroon,CMR,43849,Romania,ROU,43964,/worldcup/matches/round=322/match=108/index.html#nosticky,2-1
+1990,Match 14,Bologna,Yugoslavia,YUG,43975,Colombia,COL,43926,/worldcup/matches/round=322/match=120/index.html#nosticky,1-0
+1990,Match 15,Rome,Italy,ITA,43954,USA,USA,43921,/worldcup/matches/round=322/match=265/index.html#nosticky,1-0
+1990,Match 17,Florence,Austria,AUT,43934,Czechoslovakia,TCH,44025,/worldcup/matches/round=322/match=43/index.html#nosticky,0-1
+1990,Match 18,Milan,Germany FR,FRG,44023,United Arab Emirates,UAE,43840,/worldcup/matches/round=322/match=198/index.html#nosticky,5-1
+1990,Match 19,Turin,Brazil,BRA,43924,Costa Rica,CRC,43901,/worldcup/matches/round=322/match=73/index.html#nosticky,1-0
+1990,Match 20,Genoa,Sweden,SWE,43970,Scotland,SCO,43967,/worldcup/matches/round=322/match=348/index.html#nosticky,1-2
+1990,Match 21,Cagliari,England,ENG,43942,Netherlands,NED,43960,/worldcup/matches/round=322/match=160/index.html#nosticky,0-0
+1990,Match 22,Palermo,Republic of Ireland,IRL,43953,Egypt,EGY,43855,/worldcup/matches/round=322/match=152/index.html#nosticky,0-0
+1990,Match 24,Udine,Korea Republic,KOR,43822,Spain,ESP,43969,/worldcup/matches/round=322/match=175/index.html#nosticky,1-3
+1990,Match 23,Verona,Belgium,BEL,43935,Uruguay,URU,43930,/worldcup/matches/round=322/match=66/index.html#nosticky,3-1
+1990,Match 25,Naples,Argentina,ARG,43922,Romania,ROU,43964,/worldcup/matches/round=322/match=29/index.html#nosticky,1-1
+1990,Match 26,Bari,Cameroon,CMR,43849,Soviet Union,URS,44026,/worldcup/matches/round=322/match=111/index.html#nosticky,0-4
+1990,Match 27,Milan,Germany FR,FRG,44023,Colombia,COL,43926,/worldcup/matches/round=322/match=114/index.html#nosticky,1-1
+1990,Match 28,Bologna,Yugoslavia,YUG,43975,United Arab Emirates,UAE,43840,/worldcup/matches/round=322/match=364/index.html#nosticky,4-1
+1990,Match 29,Rome,Italy,ITA,43954,Czechoslovakia,TCH,44025,/worldcup/matches/round=322/match=263/index.html#nosticky,2-0
+1990,Match 30,Florence,Austria,AUT,43934,USA,USA,43921,/worldcup/matches/round=322/match=48/index.html#nosticky,2-1
+1990,Match 31,Turin,Brazil,BRA,43924,Scotland,SCO,43967,/worldcup/matches/round=322/match=74/index.html#nosticky,1-0
+1990,Match 32,Genoa,Sweden,SWE,43970,Costa Rica,CRC,43901,/worldcup/matches/round=322/match=128/index.html#nosticky,1-2
+1990,Match 34,Udine,Korea Republic,KOR,43822,Uruguay,URU,43930,/worldcup/matches/round=322/match=290/index.html#nosticky,0-1
+1990,Match 33,Verona,Belgium,BEL,43935,Spain,ESP,43969,/worldcup/matches/round=322/match=56/index.html#nosticky,1-2
+1990,Match 36,Palermo,Republic of Ireland,IRL,43953,Netherlands,NED,43960,/worldcup/matches/round=322/match=228/index.html#nosticky,1-1
+1990,Match 35,Cagliari,England,ENG,43942,Egypt,EGY,43855,/worldcup/matches/round=322/match=150/index.html#nosticky,1-0
+1990,Match 37,Naples,Cameroon,CMR,43849,Colombia,COL,43926,/worldcup/matches/round=323/match=102/index.html#nosticky,2-1
+1990,Match 38,Bari,Czechoslovakia,TCH,44025,Costa Rica,CRC,43901,/worldcup/matches/round=323/match=129/index.html#nosticky,4-1
+1990,Match 39,Turin,Brazil,BRA,43924,Argentina,ARG,43922,/worldcup/matches/round=323/match=25/index.html#nosticky,0-1
+1990,Match 40,Milan,Germany FR,FRG,44023,Netherlands,NED,43960,/worldcup/matches/round=323/match=196/index.html#nosticky,2-1
+1990,Match 41,Genoa,Republic of Ireland,IRL,43953,Romania,ROU,43964,/worldcup/matches/round=323/match=248/index.html#nosticky,0-0
+1990,Match 42,Rome,Italy,ITA,43954,Uruguay,URU,43930,/worldcup/matches/round=323/match=264/index.html#nosticky,2-0
+1990,Match 43,Verona,Spain,ESP,43969,Yugoslavia,YUG,43975,/worldcup/matches/round=323/match=181/index.html#nosticky,1-2
+1990,Match 44,Bologna,England,ENG,43942,Belgium,BEL,43935,/worldcup/matches/round=323/match=55/index.html#nosticky,1-0
+1990,Match 45,Florence,Yugoslavia,YUG,43975,Argentina,ARG,43922,/worldcup/matches/round=751/match=31/index.html#nosticky,0-0
+1990,Match 46,Rome,Italy,ITA,43954,Republic of Ireland,IRL,43953,/worldcup/matches/round=751/match=243/index.html#nosticky,1-0
+1990,Match 47,Milan,Germany FR,FRG,44023,Czechoslovakia,TCH,44025,/worldcup/matches/round=751/match=197/index.html#nosticky,1-0
+1990,Match 48,Naples,England,ENG,43942,Cameroon,CMR,43849,/worldcup/matches/round=751/match=103/index.html#nosticky,3-2
+1990,Match 49,Naples,Italy,ITA,43954,Argentina,ARG,43922,/worldcup/matches/round=3464/match=28/index.html#nosticky,1-1
+1990,Match 50,Turin,Germany FR,FRG,44023,England,ENG,43942,/worldcup/matches/round=3464/match=159/index.html#nosticky,1-1
+1990,Match 51,Bari,Italy,ITA,43954,England,ENG,43942,/worldcup/matches/round=3463/match=162/index.html#nosticky,2-1
+1990,Match 52,Rome,Germany FR,FRG,44023,Argentina,ARG,43922,/worldcup/matches/round=3462/match=27/index.html#nosticky,1-0
+1986,Match 1,Mexico City,Bulgaria,BUL,43936,Italy,ITA,43954,/worldcup/matches/round=308/match=459/index.html#nosticky,1-1
+1986,Match 2,Leon,Canada,CAN,43899,France,FRA,43946,/worldcup/matches/round=308/match=468/index.html#nosticky,0-1
+1986,Match 3,Guadalajara,Spain,ESP,43969,Brazil,BRA,43924,/worldcup/matches/round=308/match=439/index.html#nosticky,0-1
+1986,Match 5,Irapuato,Soviet Union,URS,44026,Hungary,HUN,43950,/worldcup/matches/round=308/match=610/index.html#nosticky,6-0
+1986,Match 4,Mexico City,Argentina,ARG,43922,Korea Republic,KOR,43822,/worldcup/matches/round=308/match=395/index.html#nosticky,3-1
+1986,Match 6,Monterrey,Morocco,MAR,43872,Poland,POL,43962,/worldcup/matches/round=308/match=674/index.html#nosticky,0-0
+1986,Match 8,Guadalajara,Algeria,ALG,43843,Northern Ireland,NIR,43952,/worldcup/matches/round=308/match=379/index.html#nosticky,1-1
+1986,Match 7,Mexico City,Belgium,BEL,43935,Mexico,MEX,43911,/worldcup/matches/round=308/match=428/index.html#nosticky,1-2
+1986,Match 9,Monterrey,Portugal,POR,43963,England,ENG,43942,/worldcup/matches/round=308/match=538/index.html#nosticky,1-0
+1986,Match 10,Toluca,Paraguay,PAR,43928,Iraq,IRQ,43818,/worldcup/matches/round=308/match=628/index.html#nosticky,1-0
+1986,Match 12,Nezahualcoyotl,Scotland,SCO,43967,Denmark,DEN,43941,/worldcup/matches/round=308/match=517/index.html#nosticky,0-1
+1986,Match 11,Queretaro,Uruguay,URU,43930,Germany FR,FRG,44023,/worldcup/matches/round=308/match=585/index.html#nosticky,1-1
+1986,Match 13,Puebla,Italy,ITA,43954,Argentina,ARG,43922,/worldcup/matches/round=308/match=394/index.html#nosticky,1-1
+1986,Match 15,Leon,France,FRA,43946,Soviet Union,URS,44026,/worldcup/matches/round=308/match=571/index.html#nosticky,1-1
+1986,Match 14,Mexico City,Korea Republic,KOR,43822,Bulgaria,BUL,43936,/worldcup/matches/round=308/match=460/index.html#nosticky,1-1
+1986,Match 16,Irapuato,Hungary,HUN,43950,Canada,CAN,43899,/worldcup/matches/round=308/match=475/index.html#nosticky,2-0
+1986,Match 17,Guadalajara,Brazil,BRA,43924,Algeria,ALG,43843,/worldcup/matches/round=308/match=377/index.html#nosticky,1-0
+1986,Match 18,Monterrey,England,ENG,43942,Morocco,MAR,43872,/worldcup/matches/round=308/match=533/index.html#nosticky,0-0
+1986,Match 20,Guadalajara,Northern Ireland,NIR,43952,Spain,ESP,43969,/worldcup/matches/round=308/match=551/index.html#nosticky,1-2
+1986,Match 19,Mexico City,Mexico,MEX,43911,Paraguay,PAR,43928,/worldcup/matches/round=308/match=680/index.html#nosticky,1-1
+1986,Match 21,Monterrey,Poland,POL,43962,Portugal,POR,43963,/worldcup/matches/round=308/match=701/index.html#nosticky,1-0
+1986,Match 22,Toluca,Iraq,IRQ,43818,Belgium,BEL,43935,/worldcup/matches/round=308/match=427/index.html#nosticky,1-2
+1986,Match 24,Nezahualcoyotl,Denmark,DEN,43941,Uruguay,URU,43930,/worldcup/matches/round=308/match=522/index.html#nosticky,6-1
+1986,Match 23,Queretaro,Germany FR,FRG,44023,Scotland,SCO,43967,/worldcup/matches/round=308/match=580/index.html#nosticky,2-1
+1986,Match 25,Leon,Hungary,HUN,43950,France,FRA,43946,/worldcup/matches/round=308/match=567/index.html#nosticky,0-3
+1986,Match 26,Irapuato,Soviet Union,URS,44026,Canada,CAN,43899,/worldcup/matches/round=308/match=476/index.html#nosticky,2-0
+1986,Match 27,Puebla,Korea Republic,KOR,43822,Italy,ITA,43954,/worldcup/matches/round=308/match=643/index.html#nosticky,2-3
+1986,Match 28,Mexico City,Argentina,ARG,43922,Bulgaria,BUL,43936,/worldcup/matches/round=308/match=389/index.html#nosticky,2-0
+1986,Match 30,Toluca,Paraguay,PAR,43928,Belgium,BEL,43935,/worldcup/matches/round=308/match=429/index.html#nosticky,2-2
+1986,Match 29,Mexico City,Iraq,IRQ,43818,Mexico,MEX,43911,/worldcup/matches/round=308/match=627/index.html#nosticky,0-1
+1986,Match 31,Guadalajara,Portugal,POR,43963,Morocco,MAR,43872,/worldcup/matches/round=308/match=675/index.html#nosticky,1-3
+1986,Match 32,Monterrey,England,ENG,43942,Poland,POL,43962,/worldcup/matches/round=308/match=537/index.html#nosticky,3-0
+1986,Match 33,Guadalajara,Northern Ireland,NIR,43952,Brazil,BRA,43924,/worldcup/matches/round=308/match=441/index.html#nosticky,0-3
+1986,Match 34,Monterrey,Algeria,ALG,43843,Spain,ESP,43969,/worldcup/matches/round=308/match=378/index.html#nosticky,0-3
+1986,Match 36,Nezahualcoyotl,Scotland,SCO,43967,Uruguay,URU,43930,/worldcup/matches/round=308/match=712/index.html#nosticky,0-0
+1986,Match 35,Queretaro,Denmark,DEN,43941,Germany FR,FRG,44023,/worldcup/matches/round=308/match=512/index.html#nosticky,2-0
+1986,Match 38,Leon,Soviet Union,URS,44026,Belgium,BEL,43935,/worldcup/matches/round=309/match=432/index.html#nosticky,3-4
+1986,Match 37,Mexico City,Mexico,MEX,43911,Bulgaria,BUL,43936,/worldcup/matches/round=309/match=463/index.html#nosticky,2-0
+1986,Match 39,Puebla,Argentina,ARG,43922,Uruguay,URU,43930,/worldcup/matches/round=309/match=398/index.html#nosticky,1-0
+1986,Match 40,Guadalajara,Brazil,BRA,43924,Poland,POL,43962,/worldcup/matches/round=309/match=444/index.html#nosticky,4-0
+1986,Match 41,Mexico City,Italy,ITA,43954,France,FRA,43946,/worldcup/matches/round=309/match=568/index.html#nosticky,0-2
+1986,Match 42,Monterrey,Morocco,MAR,43872,Germany FR,FRG,44023,/worldcup/matches/round=309/match=574/index.html#nosticky,0-1
+1986,Match 43,Mexico City,England,ENG,43942,Paraguay,PAR,43928,/worldcup/matches/round=309/match=536/index.html#nosticky,3-0
+1986,Match 44,Queretaro,Denmark,DEN,43941,Spain,ESP,43969,/worldcup/matches/round=309/match=511/index.html#nosticky,1-5
+1986,Match 45,Guadalajara,Brazil,BRA,43924,France,FRA,43946,/worldcup/matches/round=714/match=440/index.html#nosticky,1-1
+1986,Match 46,Monterrey,Germany FR,FRG,44023,Mexico,MEX,43911,/worldcup/matches/round=714/match=575/index.html#nosticky,0-0
+1986,Match 47,Puebla,Spain,ESP,43969,Belgium,BEL,43935,/worldcup/matches/round=714/match=421/index.html#nosticky,1-1
+1986,Match 48,Mexico City,Argentina,ARG,43922,England,ENG,43942,/worldcup/matches/round=714/match=392/index.html#nosticky,2-1
+1986,Match 50,Guadalajara,France,FRA,43946,Germany FR,FRG,44023,/worldcup/matches/round=3469/match=564/index.html#nosticky,0-2
+1986,Match 49,Mexico City,Argentina,ARG,43922,Belgium,BEL,43935,/worldcup/matches/round=3469/match=388/index.html#nosticky,2-0
+1986,Match 51,Puebla,France,FRA,43946,Belgium,BEL,43935,/worldcup/matches/round=3468/match=422/index.html#nosticky,4-2
+1986,Match 52,Mexico City,Argentina,ARG,43922,Germany FR,FRG,44023,/worldcup/matches/round=3467/match=393/index.html#nosticky,3-2
+1982,Match 1,Barcelona,Argentina,ARG,43922,Belgium,BEL,43935,/worldcup/matches/round=293/match=749/index.html#nosticky,0-1
+1982,Match 2,Vigo,Italy,ITA,43954,Poland,POL,43962,/worldcup/matches/round=293/match=995/index.html#nosticky,0-0
+1982,Match 3,Seville,Brazil,BRA,43924,Soviet Union,URS,44026,/worldcup/matches/round=293/match=791/index.html#nosticky,2-1
+1982,Match 4,La CoruÃ±A,Peru,PER,43929,Cameroon,CMR,43849,/worldcup/matches/round=293/match=833/index.html#nosticky,0-0
+1982,Match 5,Elche,Hungary,HUN,43950,El Salvador,SLV,43904,/worldcup/matches/round=293/match=896/index.html#nosticky,10-1
+1982,Match 6,Malaga,Scotland,SCO,43967,New Zealand,NZL,43978,/worldcup/matches/round=293/match=1051/index.html#nosticky,5-2
+1982,Match 7,Gijon,Germany FR,FRG,44023,Algeria,ALG,43843,/worldcup/matches/round=293/match=741/index.html#nosticky,1-2
+1982,Match 8,Bilbao,England,ENG,43942,France,FRA,43946,/worldcup/matches/round=293/match=878/index.html#nosticky,3-1
+1982,Match 9,Valencia,Spain,ESP,43969,Honduras,HON,43909,/worldcup/matches/round=293/match=901/index.html#nosticky,1-1
+1982,Match 10,Oviedo,Chile,CHI,43925,Austria,AUT,43934,/worldcup/matches/round=293/match=764/index.html#nosticky,0-1
+1982,Match 11,Valladolid,Czechoslovakia,TCH,44025,Kuwait,KUW,43823,/worldcup/matches/round=293/match=1012/index.html#nosticky,1-1
+1982,Match 12,Zaragoza,Yugoslavia,YUG,43975,Northern Ireland,NIR,43952,/worldcup/matches/round=293/match=1044/index.html#nosticky,0-0
+1982,Match 13,Vigo,Italy,ITA,43954,Peru,PER,43929,/worldcup/matches/round=293/match=994/index.html#nosticky,1-1
+1982,Match 14,Alicante,Argentina,ARG,43922,Hungary,HUN,43950,/worldcup/matches/round=293/match=752/index.html#nosticky,4-1
+1982,Match 15,Seville,Brazil,BRA,43924,Scotland,SCO,43967,/worldcup/matches/round=293/match=790/index.html#nosticky,4-1
+1982,Match 16,La CoruÃ±A,Poland,POL,43962,Cameroon,CMR,43849,/worldcup/matches/round=293/match=834/index.html#nosticky,0-0
+1982,Match 17,Elche,Belgium,BEL,43935,El Salvador,SLV,43904,/worldcup/matches/round=293/match=774/index.html#nosticky,1-0
+1982,Match 18,Malaga,Soviet Union,URS,44026,New Zealand,NZL,43978,/worldcup/matches/round=293/match=1054/index.html#nosticky,3-0
+1982,Match 19,Gijon,Germany FR,FRG,44023,Chile,CHI,43925,/worldcup/matches/round=293/match=813/index.html#nosticky,4-1
+1982,Match 20,Bilbao,England,ENG,43942,Czechoslovakia,TCH,44025,/worldcup/matches/round=293/match=889/index.html#nosticky,2-0
+1982,Match 21,Valencia,Spain,ESP,43969,Yugoslavia,YUG,43975,/worldcup/matches/round=293/match=903/index.html#nosticky,2-1
+1982,Match 22,Oviedo,Algeria,ALG,43843,Austria,AUT,43934,/worldcup/matches/round=293/match=739/index.html#nosticky,0-2
+1982,Match 23,Valladolid,France,FRA,43946,Kuwait,KUW,43823,/worldcup/matches/round=293/match=919/index.html#nosticky,4-1
+1982,Match 24,Zaragoza,Honduras,HON,43909,Northern Ireland,NIR,43952,/worldcup/matches/round=293/match=959/index.html#nosticky,1-1
+1982,Match 25,La CoruÃ±A,Poland,POL,43962,Peru,PER,43929,/worldcup/matches/round=293/match=1055/index.html#nosticky,5-1
+1982,Match 26,Elche,Belgium,BEL,43935,Hungary,HUN,43950,/worldcup/matches/round=293/match=779/index.html#nosticky,1-1
+1982,Match 27,Malaga,Soviet Union,URS,44026,Scotland,SCO,43967,/worldcup/matches/round=293/match=1071/index.html#nosticky,2-2
+1982,Match 28,Vigo,Italy,ITA,43954,Cameroon,CMR,43849,/worldcup/matches/round=293/match=828/index.html#nosticky,1-1
+1982,Match 29,Alicante,Argentina,ARG,43922,El Salvador,SLV,43904,/worldcup/matches/round=293/match=751/index.html#nosticky,2-0
+1982,Match 30,Seville,Brazil,BRA,43924,New Zealand,NZL,43978,/worldcup/matches/round=293/match=789/index.html#nosticky,4-0
+1982,Match 31,Oviedo,Algeria,ALG,43843,Chile,CHI,43925,/worldcup/matches/round=293/match=740/index.html#nosticky,3-2
+1982,Match 32,Valladolid,France,FRA,43946,Czechoslovakia,TCH,44025,/worldcup/matches/round=293/match=922/index.html#nosticky,1-1
+1982,Match 33,Zaragoza,Honduras,HON,43909,Yugoslavia,YUG,43975,/worldcup/matches/round=293/match=962/index.html#nosticky,0-1
+1982,Match 34,Gijon,Germany FR,FRG,44023,Austria,AUT,43934,/worldcup/matches/round=293/match=770/index.html#nosticky,1-0
+1982,Match 35,Bilbao,England,ENG,43942,Kuwait,KUW,43823,/worldcup/matches/round=293/match=882/index.html#nosticky,1-0
+1982,Match 36,Valencia,Northern Ireland,NIR,43952,Spain,ESP,43969,/worldcup/matches/round=293/match=902/index.html#nosticky,1-0
+1982,Match 37,Madrid,Austria,AUT,43934,France,FRA,43946,/worldcup/matches/round=294/match=767/index.html#nosticky,0-1
+1982,Match 38,Barcelona,Poland,POL,43962,Belgium,BEL,43935,/worldcup/matches/round=294/match=782/index.html#nosticky,3-0
+1982,Match 39,Barcelona,Italy,ITA,43954,Argentina,ARG,43922,/worldcup/matches/round=294/match=753/index.html#nosticky,2-1
+1982,Match 40,Madrid,Germany FR,FRG,44023,England,ENG,43942,/worldcup/matches/round=294/match=879/index.html#nosticky,0-0
+1982,Match 41,Madrid,Austria,AUT,43934,Northern Ireland,NIR,43952,/worldcup/matches/round=294/match=771/index.html#nosticky,2-2
+1982,Match 42,Barcelona,Belgium,BEL,43935,Soviet Union,URS,44026,/worldcup/matches/round=294/match=783/index.html#nosticky,0-1
+1982,Match 43,Barcelona,Argentina,ARG,43922,Brazil,BRA,43924,/worldcup/matches/round=294/match=750/index.html#nosticky,1-3
+1982,Match 44,Madrid,Germany FR,FRG,44023,Spain,ESP,43969,/worldcup/matches/round=294/match=900/index.html#nosticky,2-1
+1982,Match 45,Madrid,France,FRA,43946,Northern Ireland,NIR,43952,/worldcup/matches/round=294/match=920/index.html#nosticky,4-1
+1982,Match 46,Barcelona,Poland,POL,43962,Soviet Union,URS,44026,/worldcup/matches/round=294/match=1058/index.html#nosticky,0-0
+1982,Match 47,Barcelona,Italy,ITA,43954,Brazil,BRA,43924,/worldcup/matches/round=294/match=788/index.html#nosticky,3-2
+1982,Match 48,Madrid,Spain,ESP,43969,England,ENG,43942,/worldcup/matches/round=294/match=877/index.html#nosticky,0-0
+1982,Match 49,Barcelona,Poland,POL,43962,Italy,ITA,43954,/worldcup/matches/round=295/match=996/index.html#nosticky,0-2
+1982,Match 50,Seville,Germany FR,FRG,44023,France,FRA,43946,/worldcup/matches/round=295/match=914/index.html#nosticky,3-3
+1982,Match 51,Alicante,Poland,POL,43962,France,FRA,43946,/worldcup/matches/round=676/match=921/index.html#nosticky,3-2
+1982,Match 52,Madrid,Italy,ITA,43954,Germany FR,FRG,44023,/worldcup/matches/round=3475/match=923/index.html#nosticky,3-1
+1978,Match 1,Buenos Aires,Germany FR,FRG,44023,Poland,POL,43962,/worldcup/matches/round=278/match=2351/index.html#nosticky,0-0
+1978,Match 3,Mar Del Plata,Italy,ITA,43954,France,FRA,43946,/worldcup/matches/round=278/match=2347/index.html#nosticky,2-1
+1978,Match 4,Rosario,Tunisia,TUN,43888,Mexico,MEX,43911,/worldcup/matches/round=278/match=2433/index.html#nosticky,3-1
+1978,Match 2,Buenos Aires,Argentina,ARG,43922,Hungary,HUN,43950,/worldcup/matches/round=278/match=2199/index.html#nosticky,2-1
+1978,Match 6,Mar Del Plata,Sweden,SWE,43970,Brazil,BRA,43924,/worldcup/matches/round=278/match=2253/index.html#nosticky,1-1
+1978,Match 5,Buenos Aires,Austria,AUT,43934,Spain,ESP,43969,/worldcup/matches/round=278/match=2216/index.html#nosticky,2-1
+1978,Match 7,Cordoba,Peru,PER,43929,Scotland,SCO,43967,/worldcup/matches/round=278/match=2451/index.html#nosticky,3-1
+1978,Match 8,Mendoza,Netherlands,NED,43960,IR Iran,IRN,43817,/worldcup/matches/round=278/match=2388/index.html#nosticky,3-0
+1978,Match 10,Mar Del Plata,Italy,ITA,43954,Hungary,HUN,43950,/worldcup/matches/round=278/match=2396/index.html#nosticky,3-1
+1978,Match 11,Rosario,Poland,POL,43962,Tunisia,TUN,43888,/worldcup/matches/round=278/match=2454/index.html#nosticky,1-0
+1978,Match 12,Cordoba,Germany FR,FRG,44023,Mexico,MEX,43911,/worldcup/matches/round=278/match=2350/index.html#nosticky,6-0
+1978,Match 9,Buenos Aires,Argentina,ARG,43922,France,FRA,43946,/worldcup/matches/round=278/match=2197/index.html#nosticky,2-1
+1978,Match 14,Mar Del Plata,Brazil,BRA,43924,Spain,ESP,43969,/worldcup/matches/round=278/match=2246/index.html#nosticky,0-0
+1978,Match 13,Buenos Aires,Austria,AUT,43934,Sweden,SWE,43970,/worldcup/matches/round=278/match=2224/index.html#nosticky,1-0
+1978,Match 15,Cordoba,Scotland,SCO,43967,IR Iran,IRN,43817,/worldcup/matches/round=278/match=2408/index.html#nosticky,1-1
+1978,Match 16,Mendoza,Netherlands,NED,43960,Peru,PER,43929,/worldcup/matches/round=278/match=2394/index.html#nosticky,0-0
+1978,Match 18,Mar Del Plata,France,FRA,43946,Hungary,HUN,43950,/worldcup/matches/round=278/match=2344/index.html#nosticky,3-1
+1978,Match 19,Rosario,Poland,POL,43962,Mexico,MEX,43911,/worldcup/matches/round=278/match=2431/index.html#nosticky,3-1
+1978,Match 20,Cordoba,Germany FR,FRG,44023,Tunisia,TUN,43888,/worldcup/matches/round=278/match=2352/index.html#nosticky,0-0
+1978,Match 17,Buenos Aires,Italy,ITA,43954,Argentina,ARG,43922,/worldcup/matches/round=278/match=2200/index.html#nosticky,1-0
+1978,Match 22,Mar Del Plata,Brazil,BRA,43924,Austria,AUT,43934,/worldcup/matches/round=278/match=2215/index.html#nosticky,1-0
+1978,Match 21,Buenos Aires,Spain,ESP,43969,Sweden,SWE,43970,/worldcup/matches/round=278/match=2337/index.html#nosticky,1-0
+1978,Match 23,Cordoba,Peru,PER,43929,IR Iran,IRN,43817,/worldcup/matches/round=278/match=2405/index.html#nosticky,4-1
+1978,Match 24,Mendoza,Scotland,SCO,43967,Netherlands,NED,43960,/worldcup/matches/round=278/match=2395/index.html#nosticky,3-2
+1978,Match 25,Buenos Aires,Germany FR,FRG,44023,Italy,ITA,43954,/worldcup/matches/round=279/match=2349/index.html#nosticky,0-0
+1978,Match 27,Cordoba,Netherlands,NED,43960,Austria,AUT,43934,/worldcup/matches/round=279/match=2220/index.html#nosticky,5-1
+1978,Match 28,Mendoza,Brazil,BRA,43924,Peru,PER,43929,/worldcup/matches/round=279/match=2251/index.html#nosticky,3-0
+1978,Match 26,Rosario,Argentina,ARG,43922,Poland,POL,43962,/worldcup/matches/round=279/match=2202/index.html#nosticky,2-0
+1978,Match 32,Mendoza,Poland,POL,43962,Peru,PER,43929,/worldcup/matches/round=279/match=2450/index.html#nosticky,1-0
+1978,Match 29,Buenos Aires,Italy,ITA,43954,Austria,AUT,43934,/worldcup/matches/round=279/match=2221/index.html#nosticky,1-0
+1978,Match 31,Cordoba,Germany FR,FRG,44023,Netherlands,NED,43960,/worldcup/matches/round=279/match=2348/index.html#nosticky,2-2
+1978,Match 30,Rosario,Argentina,ARG,43922,Brazil,BRA,43924,/worldcup/matches/round=279/match=2196/index.html#nosticky,0-0
+1978,Match 33,Buenos Aires,Netherlands,NED,43960,Italy,ITA,43954,/worldcup/matches/round=279/match=2391/index.html#nosticky,2-1
+1978,Match 35,Cordoba,Austria,AUT,43934,Germany FR,FRG,44023,/worldcup/matches/round=279/match=2217/index.html#nosticky,3-2
+1978,Match 36,Mendoza,Brazil,BRA,43924,Poland,POL,43962,/worldcup/matches/round=279/match=2252/index.html#nosticky,3-1
+1978,Match 34,Rosario,Argentina,ARG,43922,Peru,PER,43929,/worldcup/matches/round=279/match=2201/index.html#nosticky,6-0
+1978,Match 37,Buenos Aires,Brazil,BRA,43924,Italy,ITA,43954,/worldcup/matches/round=280/match=2247/index.html#nosticky,2-1
+1978,Match 38,Buenos Aires,Argentina,ARG,43922,Netherlands,NED,43960,/worldcup/matches/round=639/match=2198/index.html#nosticky,3-1
+1974,Match 3,Frankfurt/Main,Brazil,BRA,43924,Yugoslavia,YUG,43975,/worldcup/matches/round=262/match=1986/index.html#nosticky,0-0
+1974,Match 1,Berlin West,Germany FR,FRG,44023,Chile,CHI,43925,/worldcup/matches/round=262/match=2003/index.html#nosticky,1-0
+1974,Match 2,Hamburg,German DR,GDR,44024,Australia,AUS,43976,/worldcup/matches/round=262/match=1955/index.html#nosticky,2-0
+1974,Match 4,Dortmund,Zaire,ZAI,43890,Scotland,SCO,43967,/worldcup/matches/round=262/match=2176/index.html#nosticky,0-2
+1974,Match 5,Hanover,Uruguay,URU,43930,Netherlands,NED,43960,/worldcup/matches/round=262/match=2098/index.html#nosticky,0-2
+1974,Match 6,DÃ¼Sseldorf,Sweden,SWE,43970,Bulgaria,BUL,43936,/worldcup/matches/round=262/match=1995/index.html#nosticky,0-0
+1974,Match 7,Munich,Italy,ITA,43954,Haiti,HAI,43908,/worldcup/matches/round=262/match=2083/index.html#nosticky,3-1
+1974,Match 8,Stuttgart,Poland,POL,43962,Argentina,ARG,43922,/worldcup/matches/round=262/match=1952/index.html#nosticky,3-2
+1974,Match 10,Hamburg,Australia,AUS,43976,Germany FR,FRG,44023,/worldcup/matches/round=262/match=1954/index.html#nosticky,0-3
+1974,Match 12,Frankfurt/Main,Scotland,SCO,43967,Brazil,BRA,43924,/worldcup/matches/round=262/match=1985/index.html#nosticky,0-0
+1974,Match 9,Berlin West,Chile,CHI,43925,German DR,GDR,44024,/worldcup/matches/round=262/match=2004/index.html#nosticky,1-1
+1974,Match 11,Gelsenkirchen,Yugoslavia,YUG,43975,Zaire,ZAI,43890,/worldcup/matches/round=262/match=2186/index.html#nosticky,9-0
+1974,Match 13,Dortmund,Netherlands,NED,43960,Sweden,SWE,43970,/worldcup/matches/round=262/match=2097/index.html#nosticky,0-0
+1974,Match 14,Hanover,Bulgaria,BUL,43936,Uruguay,URU,43930,/worldcup/matches/round=262/match=1996/index.html#nosticky,1-1
+1974,Match 15,Munich,Haiti,HAI,43908,Poland,POL,43962,/worldcup/matches/round=262/match=2085/index.html#nosticky,0-7
+1974,Match 16,Stuttgart,Argentina,ARG,43922,Italy,ITA,43954,/worldcup/matches/round=262/match=1949/index.html#nosticky,1-1
+1974,Match 19,Frankfurt/Main,Scotland,SCO,43967,Yugoslavia,YUG,43975,/worldcup/matches/round=262/match=2175/index.html#nosticky,1-1
+1974,Match 17,Berlin West,Australia,AUS,43976,Chile,CHI,43925,/worldcup/matches/round=262/match=1953/index.html#nosticky,0-0
+1974,Match 20,Gelsenkirchen,Zaire,ZAI,43890,Brazil,BRA,43924,/worldcup/matches/round=262/match=1987/index.html#nosticky,0-3
+1974,Match 18,Hamburg,German DR,GDR,44024,Germany FR,FRG,44023,/worldcup/matches/round=262/match=2062/index.html#nosticky,1-0
+1974,Match 21,Dortmund,Bulgaria,BUL,43936,Netherlands,NED,43960,/worldcup/matches/round=262/match=1990/index.html#nosticky,1-4
+1974,Match 23,Munich,Argentina,ARG,43922,Haiti,HAI,43908,/worldcup/matches/round=262/match=1947/index.html#nosticky,4-1
+1974,Match 22,DÃ¼Sseldorf,Sweden,SWE,43970,Uruguay,URU,43930,/worldcup/matches/round=262/match=2181/index.html#nosticky,3-0
+1974,Match 24,Stuttgart,Poland,POL,43962,Italy,ITA,43954,/worldcup/matches/round=262/match=2129/index.html#nosticky,2-1
+1974,Match 27,DÃ¼Sseldorf,Yugoslavia,YUG,43975,Germany FR,FRG,44023,/worldcup/matches/round=263/match=2066/index.html#nosticky,0-2
+1974,Match 25,Hanover,Brazil,BRA,43924,German DR,GDR,44024,/worldcup/matches/round=263/match=1982/index.html#nosticky,1-0
+1974,Match 26,Gelsenkirchen,Netherlands,NED,43960,Argentina,ARG,43922,/worldcup/matches/round=263/match=1948/index.html#nosticky,4-0
+1974,Match 28,Stuttgart,Sweden,SWE,43970,Poland,POL,43962,/worldcup/matches/round=263/match=2167/index.html#nosticky,0-1
+1974,Match 30,Hanover,Argentina,ARG,43922,Brazil,BRA,43924,/worldcup/matches/round=263/match=1945/index.html#nosticky,1-2
+1974,Match 32,Frankfurt/Main,Poland,POL,43962,Yugoslavia,YUG,43975,/worldcup/matches/round=263/match=2170/index.html#nosticky,2-1
+1974,Match 29,Gelsenkirchen,German DR,GDR,44024,Netherlands,NED,43960,/worldcup/matches/round=263/match=2067/index.html#nosticky,0-2
+1974,Match 31,DÃ¼Sseldorf,Germany FR,FRG,44023,Sweden,SWE,43970,/worldcup/matches/round=263/match=2065/index.html#nosticky,4-2
+1974,Match 35,Frankfurt/Main,Poland,POL,43962,Germany FR,FRG,44023,/worldcup/matches/round=263/match=2064/index.html#nosticky,0-1
+1974,Match 34,Dortmund,Netherlands,NED,43960,Brazil,BRA,43924,/worldcup/matches/round=263/match=1983/index.html#nosticky,2-0
+1974,Match 33,Gelsenkirchen,Argentina,ARG,43922,German DR,GDR,44024,/worldcup/matches/round=263/match=1946/index.html#nosticky,1-1
+1974,Match 36,DÃ¼Sseldorf,Sweden,SWE,43970,Yugoslavia,YUG,43975,/worldcup/matches/round=263/match=2182/index.html#nosticky,2-1
+1974,Match 37,Munich,Brazil,BRA,43924,Poland,POL,43962,/worldcup/matches/round=264/match=1984/index.html#nosticky,0-1
+1974,Match 38,Munich,Netherlands,NED,43960,Germany FR,FRG,44023,/worldcup/matches/round=605/match=2063/index.html#nosticky,1-2
+1970,Match 1,Mexico City,Mexico,MEX,43911,Soviet Union,URS,44026,/worldcup/matches/round=250/match=1902/index.html#nosticky,0-0
+1970,Match 2,Puebla,Uruguay,URU,43930,Israel,ISR,43984,/worldcup/matches/round=250/match=1881/index.html#nosticky,2-0
+1970,Match 4,Leon,Peru,PER,43929,Bulgaria,BUL,43936,/worldcup/matches/round=250/match=1780/index.html#nosticky,3-2
+1970,Match 3,Guadalajara,England,ENG,43942,Romania,ROU,43964,/worldcup/matches/round=250/match=1812/index.html#nosticky,1-0
+1970,Match 6,Toluca,Italy,ITA,43954,Sweden,SWE,43970,/worldcup/matches/round=250/match=1883/index.html#nosticky,1-0
+1970,Match 8,Leon,Germany FR,FRG,44023,Morocco,MAR,43872,/worldcup/matches/round=250/match=1839/index.html#nosticky,2-1
+1970,Match 7,Guadalajara,Brazil,BRA,43924,Czechoslovakia,TCH,44025,/worldcup/matches/round=250/match=1770/index.html#nosticky,4-1
+1970,Match 5,Mexico City,Belgium,BEL,43935,El Salvador,SLV,43904,/worldcup/matches/round=250/match=1747/index.html#nosticky,3-0
+1970,Match 10,Puebla,Uruguay,URU,43930,Italy,ITA,43954,/worldcup/matches/round=250/match=1884/index.html#nosticky,0-0
+1970,Match 12,Leon,Peru,PER,43929,Morocco,MAR,43872,/worldcup/matches/round=250/match=1893/index.html#nosticky,3-0
+1970,Match 11,Guadalajara,Romania,ROU,43964,Czechoslovakia,TCH,44025,/worldcup/matches/round=250/match=1919/index.html#nosticky,2-1
+1970,Match 9,Mexico City,Soviet Union,URS,44026,Belgium,BEL,43935,/worldcup/matches/round=250/match=1753/index.html#nosticky,4-1
+1970,Match 14,Toluca,Sweden,SWE,43970,Israel,ISR,43984,/worldcup/matches/round=250/match=1880/index.html#nosticky,1-1
+1970,Match 16,Leon,Germany FR,FRG,44023,Bulgaria,BUL,43936,/worldcup/matches/round=250/match=1774/index.html#nosticky,5-2
+1970,Match 15,Guadalajara,Brazil,BRA,43924,England,ENG,43942,/worldcup/matches/round=250/match=1764/index.html#nosticky,1-0
+1970,Match 13,Mexico City,Mexico,MEX,43911,El Salvador,SLV,43904,/worldcup/matches/round=250/match=1820/index.html#nosticky,4-0
+1970,Match 18,Puebla,Sweden,SWE,43970,Uruguay,URU,43930,/worldcup/matches/round=250/match=1922/index.html#nosticky,1-0
+1970,Match 20,Leon,Germany FR,FRG,44023,Peru,PER,43929,/worldcup/matches/round=250/match=1840/index.html#nosticky,3-1
+1970,Match 19,Guadalajara,Brazil,BRA,43924,Romania,ROU,43964,/worldcup/matches/round=250/match=1769/index.html#nosticky,3-2
+1970,Match 17,Mexico City,Soviet Union,URS,44026,El Salvador,SLV,43904,/worldcup/matches/round=250/match=1823/index.html#nosticky,2-0
+1970,Match 22,Toluca,Italy,ITA,43954,Israel,ISR,43984,/worldcup/matches/round=250/match=1877/index.html#nosticky,0-0
+1970,Match 24,Leon,Bulgaria,BUL,43936,Morocco,MAR,43872,/worldcup/matches/round=250/match=1779/index.html#nosticky,1-1
+1970,Match 23,Guadalajara,England,ENG,43942,Czechoslovakia,TCH,44025,/worldcup/matches/round=250/match=1813/index.html#nosticky,1-0
+1970,Match 21,Mexico City,Mexico,MEX,43911,Belgium,BEL,43935,/worldcup/matches/round=250/match=1752/index.html#nosticky,1-0
+1970,Match 26,Toluca,Italy,ITA,43954,Mexico,MEX,43911,/worldcup/matches/round=251/match=1882/index.html#nosticky,4-1
+1970,Match 28,Leon,Germany FR,FRG,44023,England,ENG,43942,/worldcup/matches/round=251/match=1811/index.html#nosticky,3-2
+1970,Match 27,Guadalajara,Brazil,BRA,43924,Peru,PER,43929,/worldcup/matches/round=251/match=1768/index.html#nosticky,4-2
+1970,Match 25,Mexico City,Uruguay,URU,43930,Soviet Union,URS,44026,/worldcup/matches/round=251/match=1925/index.html#nosticky,1-0
+1970,Match 29,Guadalajara,Brazil,BRA,43924,Uruguay,URU,43930,/worldcup/matches/round=569/match=1771/index.html#nosticky,3-1
+1970,Match 30,Mexico City,Italy,ITA,43954,Germany FR,FRG,44023,/worldcup/matches/round=569/match=1838/index.html#nosticky,4-3
+1970,Match 31,Mexico City,Germany FR,FRG,44023,Uruguay,URU,43930,/worldcup/matches/round=3477/match=1843/index.html#nosticky,1-0
+1970,Match 32,Mexico City,Brazil,BRA,43924,Italy,ITA,43954,/worldcup/matches/round=3476/match=1765/index.html#nosticky,4-1
+1966,Match 1,London,England,ENG,43942,Uruguay,URU,43930,/worldcup/matches/round=238/match=1636/index.html#nosticky,0-0
+1966,Match 2,Sheffield,Germany FR,FRG,44023,Switzerland,SUI,43971,/worldcup/matches/round=238/match=1656/index.html#nosticky,5-0
+1966,Match 3,Liverpool,Brazil,BRA,43924,Bulgaria,BUL,43936,/worldcup/matches/round=238/match=1596/index.html#nosticky,2-0
+1966,Match 4,Middlesbrough,Soviet Union,URS,44026,Korea DPR,PRK,43821,/worldcup/matches/round=238/match=1710/index.html#nosticky,3-0
+1966,Match 5,London,France,FRA,43946,Mexico,MEX,43911,/worldcup/matches/round=238/match=1650/index.html#nosticky,1-1
+1966,Match 7,Manchester,Portugal,POR,43963,Hungary,HUN,43950,/worldcup/matches/round=238/match=1675/index.html#nosticky,3-1
+1966,Match 6,Birmingham,Argentina,ARG,43922,Spain,ESP,43969,/worldcup/matches/round=238/match=1578/index.html#nosticky,2-1
+1966,Match 8,Sunderland,Italy,ITA,43954,Chile,CHI,43925,/worldcup/matches/round=238/match=1608/index.html#nosticky,2-0
+1966,Match 9,London,Uruguay,URU,43930,France,FRA,43946,/worldcup/matches/round=238/match=1653/index.html#nosticky,2-1
+1966,Match 10,Sheffield,Spain,ESP,43969,Switzerland,SUI,43971,/worldcup/matches/round=238/match=1641/index.html#nosticky,2-1
+1966,Match 11,Liverpool,Hungary,HUN,43950,Brazil,BRA,43924,/worldcup/matches/round=238/match=1597/index.html#nosticky,3-1
+1966,Match 12,Middlesbrough,Korea DPR,PRK,43821,Chile,CHI,43925,/worldcup/matches/round=238/match=1609/index.html#nosticky,1-1
+1966,Match 15,Manchester,Portugal,POR,43963,Bulgaria,BUL,43936,/worldcup/matches/round=238/match=1602/index.html#nosticky,3-0
+1966,Match 14,Birmingham,Germany FR,FRG,44023,Argentina,ARG,43922,/worldcup/matches/round=238/match=1579/index.html#nosticky,0-0
+1966,Match 16,Sunderland,Soviet Union,URS,44026,Italy,ITA,43954,/worldcup/matches/round=238/match=1682/index.html#nosticky,1-0
+1966,Match 13,London,England,ENG,43942,Mexico,MEX,43911,/worldcup/matches/round=238/match=1634/index.html#nosticky,2-0
+1966,Match 17,London,Uruguay,URU,43930,Mexico,MEX,43911,/worldcup/matches/round=238/match=1689/index.html#nosticky,0-0
+1966,Match 18,Sheffield,Argentina,ARG,43922,Switzerland,SUI,43971,/worldcup/matches/round=238/match=1582/index.html#nosticky,2-0
+1966,Match 19,Liverpool,Portugal,POR,43963,Brazil,BRA,43924,/worldcup/matches/round=238/match=1598/index.html#nosticky,3-1
+1966,Match 20,Middlesbrough,Korea DPR,PRK,43821,Italy,ITA,43954,/worldcup/matches/round=238/match=1679/index.html#nosticky,1-0
+1966,Match 21,London,England,ENG,43942,France,FRA,43946,/worldcup/matches/round=238/match=1632/index.html#nosticky,2-0
+1966,Match 23,Manchester,Hungary,HUN,43950,Bulgaria,BUL,43936,/worldcup/matches/round=238/match=1599/index.html#nosticky,3-1
+1966,Match 22,Birmingham,Germany FR,FRG,44023,Spain,ESP,43969,/worldcup/matches/round=238/match=1637/index.html#nosticky,2-1
+1966,Match 24,Sunderland,Soviet Union,URS,44026,Chile,CHI,43925,/worldcup/matches/round=238/match=1610/index.html#nosticky,2-1
+1966,Match 25,London,England,ENG,43942,Argentina,ARG,43922,/worldcup/matches/round=239/match=1577/index.html#nosticky,1-0
+1966,Match 26,Sheffield,Germany FR,FRG,44023,Uruguay,URU,43930,/worldcup/matches/round=239/match=1660/index.html#nosticky,4-0
+1966,Match 27,Sunderland,Soviet Union,URS,44026,Hungary,HUN,43950,/worldcup/matches/round=239/match=1676/index.html#nosticky,2-1
+1966,Match 28,Liverpool,Portugal,POR,43963,Korea DPR,PRK,43821,/worldcup/matches/round=239/match=1702/index.html#nosticky,5-3
+1966,Match 29,Liverpool,Germany FR,FRG,44023,Soviet Union,URS,44026,/worldcup/matches/round=536/match=1659/index.html#nosticky,2-1
+1966,Match 30,London,England,ENG,43942,Portugal,POR,43963,/worldcup/matches/round=536/match=1635/index.html#nosticky,2-1
+1966,Match 31,London,Portugal,POR,43963,Soviet Union,URS,44026,/worldcup/matches/round=3479/match=1709/index.html#nosticky,2-1
+1966,Match 32,London,England,ENG,43942,Germany FR,FRG,44023,/worldcup/matches/round=3478/match=1633/index.html#nosticky,4-2
+1962,Match 1,Arica,Uruguay,URU,43930,Colombia,COL,43926,/worldcup/matches/round=231/match=1479/index.html#nosticky,2-1
+1962,Match 3,Vina Del Mar,Brazil,BRA,43924,Mexico,MEX,43911,/worldcup/matches/round=231/match=1461/index.html#nosticky,2-0
+1962,Match 4,Rancagua,Argentina,ARG,43922,Bulgaria,BUL,43936,/worldcup/matches/round=231/match=1447/index.html#nosticky,1-0
+1962,Match 2,Santiago De Chile,Chile,CHI,43925,Switzerland,SUI,43971,/worldcup/matches/round=231/match=1473/index.html#nosticky,3-1
+1962,Match 5,Arica,Soviet Union,URS,44026,Yugoslavia,YUG,43975,/worldcup/matches/round=231/match=1563/index.html#nosticky,2-0
+1962,Match 7,Vina Del Mar,Czechoslovakia,TCH,44025,Spain,ESP,43969,/worldcup/matches/round=231/match=1498/index.html#nosticky,1-0
+1962,Match 8,Rancagua,Hungary,HUN,43950,England,ENG,43942,/worldcup/matches/round=231/match=1490/index.html#nosticky,2-1
+1962,Match 6,Santiago De Chile,Germany FR,FRG,44023,Italy,ITA,43954,/worldcup/matches/round=231/match=1507/index.html#nosticky,0-0
+1962,Match 9,Arica,Yugoslavia,YUG,43975,Uruguay,URU,43930,/worldcup/matches/round=231/match=1564/index.html#nosticky,3-1
+1962,Match 11,Vina Del Mar,Brazil,BRA,43924,Czechoslovakia,TCH,44025,/worldcup/matches/round=231/match=1462/index.html#nosticky,0-0
+1962,Match 12,Rancagua,England,ENG,43942,Argentina,ARG,43922,/worldcup/matches/round=231/match=1450/index.html#nosticky,3-1
+1962,Match 10,Santiago De Chile,Chile,CHI,43925,Italy,ITA,43954,/worldcup/matches/round=231/match=1472/index.html#nosticky,2-0
+1962,Match 13,Arica,Soviet Union,URS,44026,Colombia,COL,43926,/worldcup/matches/round=231/match=1478/index.html#nosticky,4-4
+1962,Match 15,Vina Del Mar,Spain,ESP,43969,Mexico,MEX,43911,/worldcup/matches/round=231/match=1497/index.html#nosticky,1-0
+1962,Match 16,Rancagua,Hungary,HUN,43950,Bulgaria,BUL,43936,/worldcup/matches/round=231/match=1470/index.html#nosticky,6-1
+1962,Match 14,Santiago De Chile,Germany FR,FRG,44023,Switzerland,SUI,43971,/worldcup/matches/round=231/match=1510/index.html#nosticky,2-1
+1962,Match 17,Arica,Soviet Union,URS,44026,Uruguay,URU,43930,/worldcup/matches/round=231/match=1562/index.html#nosticky,2-1
+1962,Match 19,Vina Del Mar,Brazil,BRA,43924,Spain,ESP,43969,/worldcup/matches/round=231/match=1460/index.html#nosticky,2-1
+1962,Match 20,Rancagua,Hungary,HUN,43950,Argentina,ARG,43922,/worldcup/matches/round=231/match=1451/index.html#nosticky,0-0
+1962,Match 18,Santiago De Chile,Germany FR,FRG,44023,Chile,CHI,43925,/worldcup/matches/round=231/match=1471/index.html#nosticky,2-0
+1962,Match 21,Arica,Yugoslavia,YUG,43975,Colombia,COL,43926,/worldcup/matches/round=231/match=1480/index.html#nosticky,5-0
+1962,Match 23,Vina Del Mar,Mexico,MEX,43911,Czechoslovakia,TCH,44025,/worldcup/matches/round=231/match=1544/index.html#nosticky,3-1
+1962,Match 24,Rancagua,England,ENG,43942,Bulgaria,BUL,43936,/worldcup/matches/round=231/match=1464/index.html#nosticky,0-0
+1962,Match 22,Santiago De Chile,Italy,ITA,43954,Switzerland,SUI,43971,/worldcup/matches/round=231/match=1532/index.html#nosticky,3-0
+1962,Match 25,Arica,Chile,CHI,43925,Soviet Union,URS,44026,/worldcup/matches/round=232/match=1474/index.html#nosticky,2-1
+1962,Match 27,Vina Del Mar,Brazil,BRA,43924,England,ENG,43942,/worldcup/matches/round=232/match=1459/index.html#nosticky,3-1
+1962,Match 28,Rancagua,Czechoslovakia,TCH,44025,Hungary,HUN,43950,/worldcup/matches/round=232/match=1525/index.html#nosticky,1-0
+1962,Match 26,Santiago De Chile,Yugoslavia,YUG,43975,Germany FR,FRG,44023,/worldcup/matches/round=232/match=1511/index.html#nosticky,1-0
+1962,Match 30,Vina Del Mar,Czechoslovakia,TCH,44025,Yugoslavia,YUG,43975,/worldcup/matches/round=514/match=1559/index.html#nosticky,3-1
+1962,Match 29,Santiago De Chile,Brazil,BRA,43924,Chile,CHI,43925,/worldcup/matches/round=514/match=1458/index.html#nosticky,4-2
+1962,Match 31,Santiago De Chile,Chile,CHI,43925,Yugoslavia,YUG,43975,/worldcup/matches/round=3481/match=1475/index.html#nosticky,1-0
+1962,Match 32,Santiago De Chile,Brazil,BRA,43924,Czechoslovakia,TCH,44025,/worldcup/matches/round=3480/match=1463/index.html#nosticky,3-1
+1958,Match 1,Solna,Sweden,SWE,43970,Mexico,MEX,43911,/worldcup/matches/round=220/match=1415/index.html#nosticky,3-0
+1958,Match 5,Gothenburg,Soviet Union,URS,44026,England,ENG,43942,/worldcup/matches/round=220/match=1372/index.html#nosticky,2-2
+1958,Match 7,MalmÃ¶,Argentina,ARG,43922,Germany FR,FRG,44023,/worldcup/matches/round=220/match=1323/index.html#nosticky,1-3
+1958,Match 2,Sandviken,Hungary,HUN,43950,Wales,WAL,43974,/worldcup/matches/round=220/match=1407/index.html#nosticky,1-1
+1958,Match 3,NorrkÃ¶Ping,France,FRA,43946,Paraguay,PAR,43928,/worldcup/matches/round=220/match=1386/index.html#nosticky,7-3
+1958,Match 4,Vasteras,Yugoslavia,YUG,43975,Scotland,SCO,43967,/worldcup/matches/round=220/match=1434/index.html#nosticky,1-1
+1958,Match 6,Udevalla,Brazil,BRA,43924,Austria,AUT,43934,/worldcup/matches/round=220/match=1326/index.html#nosticky,3-0
+1958,Match 8,Halmstad,Northern Ireland,NIR,43952,Czechoslovakia,TCH,44025,/worldcup/matches/round=220/match=1421/index.html#nosticky,1-0
+1958,Match 12,Gothenburg,Brazil,BRA,43924,England,ENG,43942,/worldcup/matches/round=220/match=1339/index.html#nosticky,0-0
+1958,Match 9,Solna,Mexico,MEX,43911,Wales,WAL,43974,/worldcup/matches/round=220/match=1418/index.html#nosticky,1-1
+1958,Match 10,NorrkÃ¶Ping,Paraguay,PAR,43928,Scotland,SCO,43967,/worldcup/matches/round=220/match=1423/index.html#nosticky,3-2
+1958,Match 11,Vasteras,Yugoslavia,YUG,43975,France,FRA,43946,/worldcup/matches/round=220/match=1388/index.html#nosticky,3-2
+1958,Match 13,Boras,Soviet Union,URS,44026,Austria,AUT,43934,/worldcup/matches/round=220/match=1332/index.html#nosticky,2-0
+1958,Match 14,Helsingborg,Germany FR,FRG,44023,Czechoslovakia,TCH,44025,/worldcup/matches/round=220/match=1391/index.html#nosticky,2-2
+1958,Match 15,Halmstad,Argentina,ARG,43922,Northern Ireland,NIR,43952,/worldcup/matches/round=220/match=1324/index.html#nosticky,3-1
+1958,Match 16,Solna,Sweden,SWE,43970,Hungary,HUN,43950,/worldcup/matches/round=220/match=1406/index.html#nosticky,2-1
+1958,Match 17,Solna,Sweden,SWE,43970,Wales,WAL,43974,/worldcup/matches/round=220/match=1438/index.html#nosticky,0-0
+1958,Match 21,Gothenburg,Brazil,BRA,43924,Soviet Union,URS,44026,/worldcup/matches/round=220/match=1344/index.html#nosticky,2-0
+1958,Match 23,MalmÃ¶,Germany FR,FRG,44023,Northern Ireland,NIR,43952,/worldcup/matches/round=220/match=1389/index.html#nosticky,2-2
+1958,Match 18,Sandviken,Hungary,HUN,43950,Mexico,MEX,43911,/worldcup/matches/round=220/match=1403/index.html#nosticky,4-0
+1958,Match 19,Eskilstuna,Paraguay,PAR,43928,Yugoslavia,YUG,43975,/worldcup/matches/round=220/match=1426/index.html#nosticky,3-3
+1958,Match 20,Orebro,France,FRA,43946,Scotland,SCO,43967,/worldcup/matches/round=220/match=1387/index.html#nosticky,2-1
+1958,Match 22,Boras,England,ENG,43942,Austria,AUT,43934,/worldcup/matches/round=220/match=1327/index.html#nosticky,2-2
+1958,Match 24,Helsingborg,Czechoslovakia,TCH,44025,Argentina,ARG,43922,/worldcup/matches/round=220/match=1325/index.html#nosticky,6-1
+1958,Match 37,Gothenburg,Soviet Union,URS,44026,England,ENG,43942,/worldcup/matches/round=220/match=1373/index.html#nosticky,1-0
+1958,Match 39,MalmÃ¶,Northern Ireland,NIR,43952,Czechoslovakia,TCH,44025,/worldcup/matches/round=220/match=1422/index.html#nosticky,2-1
+1958,Match 33,Solna,Wales,WAL,43974,Hungary,HUN,43950,/worldcup/matches/round=220/match=1408/index.html#nosticky,2-1
+1958,Match 27,Gothenburg,Brazil,BRA,43924,Wales,WAL,43974,/worldcup/matches/round=221/match=1345/index.html#nosticky,1-0
+1958,Match 28,MalmÃ¶,Germany FR,FRG,44023,Yugoslavia,YUG,43975,/worldcup/matches/round=221/match=1392/index.html#nosticky,1-0
+1958,Match 25,Solna,Sweden,SWE,43970,Soviet Union,URS,44026,/worldcup/matches/round=221/match=1437/index.html#nosticky,2-0
+1958,Match 26,NorrkÃ¶Ping,France,FRA,43946,Northern Ireland,NIR,43952,/worldcup/matches/round=221/match=1385/index.html#nosticky,4-0
+1958,Match 30,Gothenburg,Sweden,SWE,43970,Germany FR,FRG,44023,/worldcup/matches/round=488/match=1390/index.html#nosticky,3-1
+1958,Match 29,Solna,Brazil,BRA,43924,France,FRA,43946,/worldcup/matches/round=488/match=1340/index.html#nosticky,5-2
+1958,Match 31,Gothenburg,France,FRA,43946,Germany FR,FRG,44023,/worldcup/matches/round=3483/match=1382/index.html#nosticky,6-3
+1958,Match 32,Solna,Brazil,BRA,43924,Sweden,SWE,43970,/worldcup/matches/round=3482/match=1343/index.html#nosticky,5-2
+1954,Match 1,Berne,Uruguay,URU,43930,Czechoslovakia,TCH,44025,/worldcup/matches/round=211/match=1315/index.html#nosticky,2-0
+1954,Match 2,Zurich,Austria,AUT,43934,Scotland,SCO,43967,/worldcup/matches/round=211/match=1236/index.html#nosticky,1-0
+1954,Match 3,Geneva,Brazil,BRA,43924,Mexico,MEX,43911,/worldcup/matches/round=211/match=1249/index.html#nosticky,5-0
+1954,Match 4,Lausanne,Yugoslavia,YUG,43975,France,FRA,43946,/worldcup/matches/round=211/match=1276/index.html#nosticky,1-0
+1954,Match 5,Berne,Germany FR,FRG,44023,Turkey,TUR,43972,/worldcup/matches/round=211/match=1283/index.html#nosticky,4-1
+1954,Match 8,Zurich,Hungary,HUN,43950,Korea Republic,KOR,43822,/worldcup/matches/round=211/match=1294/index.html#nosticky,9-0
+1954,Match 6,Basel,England,ENG,43942,Belgium,BEL,43935,/worldcup/matches/round=211/match=1240/index.html#nosticky,4-4
+1954,Match 7,Lausanne,Switzerland,SUI,43971,Italy,ITA,43954,/worldcup/matches/round=211/match=1300/index.html#nosticky,2-1
+1954,Match 12,Basel,Uruguay,URU,43930,Scotland,SCO,43967,/worldcup/matches/round=211/match=1313/index.html#nosticky,7-0
+1954,Match 9,Zurich,Austria,AUT,43934,Czechoslovakia,TCH,44025,/worldcup/matches/round=211/match=1238/index.html#nosticky,5-0
+1954,Match 11,Geneva,France,FRA,43946,Mexico,MEX,43911,/worldcup/matches/round=211/match=1275/index.html#nosticky,3-2
+1954,Match 10,Lausanne,Brazil,BRA,43924,Yugoslavia,YUG,43975,/worldcup/matches/round=211/match=1252/index.html#nosticky,1-1
+1954,Match 14,Basel,Hungary,HUN,43950,Germany FR,FRG,44023,/worldcup/matches/round=211/match=1277/index.html#nosticky,8-3
+1954,Match 15,Geneva,Turkey,TUR,43972,Korea Republic,KOR,43822,/worldcup/matches/round=211/match=1304/index.html#nosticky,7-0
+1954,Match 13,Berne,England,ENG,43942,Switzerland,SUI,43971,/worldcup/matches/round=211/match=1263/index.html#nosticky,2-0
+1954,Match 16,Lugano,Italy,ITA,43954,Belgium,BEL,43935,/worldcup/matches/round=211/match=1243/index.html#nosticky,4-1
+1954,Match 0,Zurich,Germany FR,FRG,44023,Turkey,TUR,43972,/worldcup/matches/round=211/match=1284/index.html#nosticky,7-2
+1954,Match 211,Basel,Switzerland,SUI,43971,Italy,ITA,43954,/worldcup/matches/round=211/match=1301/index.html#nosticky,4-1
+1954,Match 20,Basel,Uruguay,URU,43930,England,ENG,43942,/worldcup/matches/round=212/match=1264/index.html#nosticky,4-2
+1954,Match 19,Lausanne,Austria,AUT,43934,Switzerland,SUI,43971,/worldcup/matches/round=212/match=1237/index.html#nosticky,7-5
+1954,Match 17,Geneva,Germany FR,FRG,44023,Yugoslavia,YUG,43975,/worldcup/matches/round=212/match=1285/index.html#nosticky,2-0
+1954,Match 18,Berne,Hungary,HUN,43950,Brazil,BRA,43924,/worldcup/matches/round=212/match=1248/index.html#nosticky,4-2
+1954,Match 21,Basel,Germany FR,FRG,44023,Austria,AUT,43934,/worldcup/matches/round=462/match=1233/index.html#nosticky,6-1
+1954,Match 22,Lausanne,Hungary,HUN,43950,Uruguay,URU,43930,/worldcup/matches/round=462/match=1295/index.html#nosticky,4-2
+1954,Match 23,Zurich,Austria,AUT,43934,Uruguay,URU,43930,/worldcup/matches/round=3485/match=1239/index.html#nosticky,3-1
+1954,Match 24,Berne,Germany FR,FRG,44023,Hungary,HUN,43950,/worldcup/matches/round=3484/match=1278/index.html#nosticky,3-2
+1950,Match 1,Rio De Janeiro,Brazil,BRA,43924,Mexico,MEX,43911,/worldcup/matches/round=208/match=1187/index.html#nosticky,4-0
+1950,Match 2,Rio De Janeiro,England,ENG,43942,Chile,CHI,43925,/worldcup/matches/round=208/match=1192/index.html#nosticky,2-0
+1950,Match 3,Curitiba,Spain,ESP,43969,USA,USA,43921,/worldcup/matches/round=208/match=1208/index.html#nosticky,3-1
+1950,Match 4,Sao Paulo,Sweden,SWE,43970,Italy,ITA,43954,/worldcup/matches/round=208/match=1219/index.html#nosticky,3-2
+1950,Match 5,Belo Horizonte,Yugoslavia,YUG,43975,Switzerland,SUI,43971,/worldcup/matches/round=208/match=1230/index.html#nosticky,3-0
+1950,Match 6,Sao Paulo,Brazil,BRA,43924,Switzerland,SUI,43971,/worldcup/matches/round=208/match=1188/index.html#nosticky,2-2
+1950,Match 7,Porto Alegre,Yugoslavia,YUG,43975,Mexico,MEX,43911,/worldcup/matches/round=208/match=1225/index.html#nosticky,4-1
+1950,Match 8,Rio De Janeiro,Spain,ESP,43969,Chile,CHI,43925,/worldcup/matches/round=208/match=1193/index.html#nosticky,2-0
+1950,Match 9,Curitiba,Sweden,SWE,43970,Paraguay,PAR,43928,/worldcup/matches/round=208/match=1228/index.html#nosticky,2-2
+1950,Match 10,Belo Horizonte,USA,USA,43921,England,ENG,43942,/worldcup/matches/round=208/match=1202/index.html#nosticky,1-0
+1950,Match 11,Rio De Janeiro,Brazil,BRA,43924,Yugoslavia,YUG,43975,/worldcup/matches/round=208/match=1191/index.html#nosticky,2-0
+1950,Match 12,Rio De Janeiro,Spain,ESP,43969,England,ENG,43942,/worldcup/matches/round=208/match=1199/index.html#nosticky,1-0
+1950,Match 13,Sao Paulo,Italy,ITA,43954,Paraguay,PAR,43928,/worldcup/matches/round=208/match=1218/index.html#nosticky,2-0
+1950,Match 16,Belo Horizonte,Uruguay,URU,43930,Bolivia,BOL,43923,/worldcup/matches/round=208/match=1185/index.html#nosticky,8-0
+1950,Match 14,Porto Alegre,Switzerland,SUI,43971,Mexico,MEX,43911,/worldcup/matches/round=208/match=1222/index.html#nosticky,2-1
+1950,Match 15,Recife,Chile,CHI,43925,USA,USA,43921,/worldcup/matches/round=208/match=1194/index.html#nosticky,5-2
+1950,Match 17,Sao Paulo,Uruguay,URU,43930,Spain,ESP,43969,/worldcup/matches/round=209/match=1207/index.html#nosticky,2-2
+1950,Match 18,Rio De Janeiro,Brazil,BRA,43924,Sweden,SWE,43970,/worldcup/matches/round=209/match=1189/index.html#nosticky,7-1
+1950,Match 19,Rio De Janeiro,Brazil,BRA,43924,Spain,ESP,43969,/worldcup/matches/round=209/match=1186/index.html#nosticky,6-1
+1950,Match 20,Sao Paulo,Uruguay,URU,43930,Sweden,SWE,43970,/worldcup/matches/round=209/match=1231/index.html#nosticky,3-2
+1950,Match 21,Sao Paulo,Sweden,SWE,43970,Spain,ESP,43969,/worldcup/matches/round=209/match=1206/index.html#nosticky,3-1
+1950,Match 22,Rio De Janeiro,Uruguay,URU,43930,Brazil,BRA,43924,/worldcup/matches/round=209/match=1190/index.html#nosticky,2-1
+1938,Match 1,Paris,Switzerland,SUI,43971,Germany,GER,43948,/worldcup/matches/round=206/match=1165/index.html#nosticky,1-1
+1938,Match 2,Reims,Hungary,HUN,43950,Dutch East Indies,INH,44031,/worldcup/matches/round=206/match=1173/index.html#nosticky,6-0
+1938,Match 3,Colombes,France,FRA,43946,Belgium,BEL,43935,/worldcup/matches/round=206/match=1146/index.html#nosticky,3-1
+1938,Match 4,Toulouse,Cuba,CUB,43902,Romania,ROU,43964,/worldcup/matches/round=206/match=1156/index.html#nosticky,3-3
+1938,Match 5,Marseilles,Italy,ITA,43954,Norway,NOR,43961,/worldcup/matches/round=206/match=1179/index.html#nosticky,2-1
+1938,Match 6,Strasbourg,Brazil,BRA,43924,Poland,POL,43962,/worldcup/matches/round=206/match=1150/index.html#nosticky,6-5
+1938,Match 7,Le Havre,Czechoslovakia,TCH,44025,Netherlands,NED,43960,/worldcup/matches/round=206/match=1172/index.html#nosticky,3-0
+1938,Match 8,Toulouse,Cuba,CUB,43902,Romania,ROU,43964,/worldcup/matches/round=206/match=1157/index.html#nosticky,2-1
+1938,Match 9,Paris,Switzerland,SUI,43971,Germany,GER,43948,/worldcup/matches/round=206/match=1166/index.html#nosticky,4-2
+1938,Match 10,Bordeaux,Brazil,BRA,43924,Czechoslovakia,TCH,44025,/worldcup/matches/round=429/match=1152/index.html#nosticky,1-1
+1938,Match 11,Lille,Hungary,HUN,43950,Switzerland,SUI,43971,/worldcup/matches/round=429/match=1175/index.html#nosticky,2-0
+1938,Match 12,Antibes,Sweden,SWE,43970,Cuba,CUB,43902,/worldcup/matches/round=429/match=1158/index.html#nosticky,8-0
+1938,Match 13,Colombes,Italy,ITA,43954,France,FRA,43946,/worldcup/matches/round=429/match=1164/index.html#nosticky,3-1
+1938,Match 14,Bordeaux,Brazil,BRA,43924,Czechoslovakia,TCH,44025,/worldcup/matches/round=429/match=1153/index.html#nosticky,2-1
+1938,Match 15,Paris,Hungary,HUN,43950,Sweden,SWE,43970,/worldcup/matches/round=3489/match=1176/index.html#nosticky,5-1
+1938,Match 16,Marseilles,Italy,ITA,43954,Brazil,BRA,43924,/worldcup/matches/round=3489/match=1149/index.html#nosticky,2-1
+1938,Match 17,Bordeaux,Brazil,BRA,43924,Sweden,SWE,43970,/worldcup/matches/round=3488/match=1151/index.html#nosticky,4-2
+1938,Match 18,Colombes,Italy,ITA,43954,Hungary,HUN,43950,/worldcup/matches/round=3487/match=1174/index.html#nosticky,4-2
+1934,Match 2,Turin,Austria,AUT,43934,France,FRA,43946,/worldcup/matches/round=204/match=1104/index.html#nosticky,3-2
+1934,Match 5,Naples,Hungary,HUN,43950,Egypt,EGY,43855,/worldcup/matches/round=204/match=1119/index.html#nosticky,4-2
+1934,Match 6,Milan,Switzerland,SUI,43971,Netherlands,NED,43960,/worldcup/matches/round=204/match=1133/index.html#nosticky,3-2
+1934,Match 1,Bologna,Sweden,SWE,43970,Argentina,ARG,43922,/worldcup/matches/round=204/match=1102/index.html#nosticky,3-2
+1934,Match 3,Florence,Germany,GER,43948,Belgium,BEL,43935,/worldcup/matches/round=204/match=1108/index.html#nosticky,5-2
+1934,Match 4,Genoa,Spain,ESP,43969,Brazil,BRA,43924,/worldcup/matches/round=204/match=1111/index.html#nosticky,3-1
+1934,Match 7,Rome,Italy,ITA,43954,USA,USA,43921,/worldcup/matches/round=204/match=1135/index.html#nosticky,7-1
+1934,Match 8,Trieste,Czechoslovakia,TCH,44025,Romania,ROU,43964,/worldcup/matches/round=204/match=1141/index.html#nosticky,2-1
+1934,Match 9,Turin,Czechoslovakia,TCH,44025,Switzerland,SUI,43971,/worldcup/matches/round=418/match=1143/index.html#nosticky,3-2
+1934,Match 10,Milan,Germany,GER,43948,Sweden,SWE,43970,/worldcup/matches/round=418/match=1129/index.html#nosticky,2-1
+1934,Match 11,Florence,Italy,ITA,43954,Spain,ESP,43969,/worldcup/matches/round=418/match=1122/index.html#nosticky,1-1
+1934,Match 12,Bologna,Austria,AUT,43934,Hungary,HUN,43950,/worldcup/matches/round=418/match=1106/index.html#nosticky,2-1
+1934,Match 13,Florence,Italy,ITA,43954,Spain,ESP,43969,/worldcup/matches/round=418/match=1123/index.html#nosticky,1-0
+1934,Match 14,Milan,Italy,ITA,43954,Austria,AUT,43934,/worldcup/matches/round=3492/match=1107/index.html#nosticky,1-0
+1934,Match 15,Rome,Czechoslovakia,TCH,44025,Germany,GER,43948,/worldcup/matches/round=3492/match=1130/index.html#nosticky,3-1
+1934,Match 16,Naples,Germany,GER,43948,Austria,AUT,43934,/worldcup/matches/round=3491/match=1105/index.html#nosticky,3-2
+1934,Match 17,Rome,Italy,ITA,43954,Czechoslovakia,TCH,44025,/worldcup/matches/round=3490/match=1134/index.html#nosticky,2-1
+1930,Match 1,Montevideo,France,FRA,43946,Mexico,MEX,43911,/worldcup/matches/round=201/match=1096/index.html#nosticky,4-1
+1930,Match 2,Montevideo,USA,USA,43921,Belgium,BEL,43935,/worldcup/matches/round=201/match=1090/index.html#nosticky,3-0
+1930,Match 3,Montevideo,Yugoslavia,YUG,43975,Brazil,BRA,43924,/worldcup/matches/round=201/match=1093/index.html#nosticky,2-1
+1930,Match 4,Montevideo,Romania,ROU,43964,Peru,PER,43929,/worldcup/matches/round=201/match=1098/index.html#nosticky,3-1
+1930,Match 5,Montevideo,Argentina,ARG,43922,France,FRA,43946,/worldcup/matches/round=201/match=1085/index.html#nosticky,1-0
+1930,Match 6,Montevideo,Chile,CHI,43925,Mexico,MEX,43911,/worldcup/matches/round=201/match=1095/index.html#nosticky,3-0
+1930,Match 7,Montevideo,Yugoslavia,YUG,43975,Bolivia,BOL,43923,/worldcup/matches/round=201/match=1092/index.html#nosticky,4-0
+1930,Match 8,Montevideo,USA,USA,43921,Paraguay,PAR,43928,/worldcup/matches/round=201/match=1097/index.html#nosticky,3-0
+1930,Match 9,Montevideo,Uruguay,URU,43930,Peru,PER,43929,/worldcup/matches/round=201/match=1099/index.html#nosticky,1-0
+1930,Match 10,Montevideo,Chile,CHI,43925,France,FRA,43946,/worldcup/matches/round=201/match=1094/index.html#nosticky,1-0
+1930,Match 11,Montevideo,Argentina,ARG,43922,Mexico,MEX,43911,/worldcup/matches/round=201/match=1086/index.html#nosticky,6-3
+1930,Match 12,Montevideo,Brazil,BRA,43924,Bolivia,BOL,43923,/worldcup/matches/round=201/match=1091/index.html#nosticky,4-0
+1930,Match 13,Montevideo,Paraguay,PAR,43928,Belgium,BEL,43935,/worldcup/matches/round=201/match=1089/index.html#nosticky,1-0
+1930,Match 14,Montevideo,Uruguay,URU,43930,Romania,ROU,43964,/worldcup/matches/round=201/match=1100/index.html#nosticky,4-0
+1930,Match 15,Montevideo,Argentina,ARG,43922,Chile,CHI,43925,/worldcup/matches/round=201/match=1084/index.html#nosticky,3-1
+1930,Match 16,Montevideo,Argentina,ARG,43922,USA,USA,43921,/worldcup/matches/round=202/match=1088/index.html#nosticky,6-1
+1930,Match 17,Montevideo,Uruguay,URU,43930,Yugoslavia,YUG,43975,/worldcup/matches/round=202/match=1101/index.html#nosticky,6-1
+1930,Match 18,Montevideo,Uruguay,URU,43930,Argentina,ARG,43922,/worldcup/matches/round=405/match=1087/index.html#nosticky,4-2
