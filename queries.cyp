@@ -1,11 +1,11 @@
 // Top scorer across all World Cups
-MATCH (player)-[:STARTED|:SUBSTITUTE]->(stats)-[:SCORED_GOAL]->(goal),
-      (stats)-[:IN_MATCH]->()<-[:CONTAINS_MATCH]-(wc:WorldCup)-[:IN_YEAR]->(year)
+MATCH (player)-->(stats)-[:SCORED_GOAL]->(goal),
+      (stats)-[:IN_MATCH]->()<-[:CONTAINS_MATCH]-(wc:WorldCup)
 WHERE goal.type IN ["goal", "penalty"]
-WITH  player.name AS player, COUNT(*) AS goals, COLLECT(DISTINCT year.year) AS competitions
-UNWIND competitions AS competition 
+WITH  player.name AS player, count(*) AS goals, collect(DISTINCT wc.year) AS competitions
+UNWIND competitions AS competition
 WITH player, goals, competition ORDER BY player, goals, competition
-RETURN player, goals, COLLECT(competition) AS competitions
+RETURN player, goals, collect(competition) AS competitions
 ORDER BY goals DESC
 LIMIT 20
 
@@ -24,10 +24,9 @@ LIMIT 5
 
 // Stadiums that hosted the most matches over all World Cups with World Cups ordered by year ascending
 
-MATCH (stadium:Stadium)<-[:PLAYED_IN_STADIUM]-()<-[:CONTAINS_MATCH]-(wc)-[:HOSTED_BY]-(host),
-      (wc)-[:IN_YEAR]-(year)
+MATCH (stadium:Stadium)<-[:PLAYED_IN_STADIUM]-()<-[:CONTAINS_MATCH]-(wc)-[:HOSTED_BY]-(host)
 
-WITH stadium, host, COUNT(*) as count, COLLECT(DISTINCT year.year) AS years
+WITH stadium, host, COUNT(*) as count, COLLECT(DISTINCT wc.year) AS years
 
 UNWIND years as year
 
@@ -36,35 +35,29 @@ ORDER BY stadium.name, host.name, year
 
 RETURN stadium.name, host.name, COLLECT(year) AS years, count
 ORDER BY count DESC
-LIMIT 5
+LIMIT 5;
 
 // Countries that hosted most world cups
 
-MATCH (host:Country)<-[:HOSTED_BY]-()-[:IN_YEAR]->(year)
+MATCH (host:Country)<-[:HOSTED_BY]-(wc)
 
-WITH host, COUNT(*) AS times, COLLECT(year.year) AS years
+WITH host, COUNT(*) AS times, COLLECT(wc.year) AS years
 UNWIND years AS year
 
 WITH host, times, year
 ORDER BY times DESC, year
 
 RETURN host.name, times, COLLECT(year) AS years
-ORDER BY times DESC
-
-// show the phases
-MATCH (p:Phase)
-RETURN p
+ORDER BY times DESC;
 
 // Hosts who reached the final
 
-MATCH (phase:Phase {name: "Final"})<-[:IN_PHASE]-(match),
-      (match)-[rel:HOME_TEAM|:AWAY_TEAM]-(host:Country)<-[:HOSTED_BY]-(worldCup),
+MATCH (match:Match {round: "Final"})<-[:PLAYED_IN]-(host:Country)<-[:HOSTED_BY]-(worldCup),
       (worldCup)-[:CONTAINS_MATCH]->(match)
-RETURN  host.name, match.description, worldCup.name
+RETURN  host.name, match.description, worldCup.name;
 
 // Hosts who won the World Cup
-MATCH (phase:Phase {name: "Final"})<-[:IN_PHASE]-(match),
-      (match)-[rel:HOME_TEAM|:AWAY_TEAM]->(host:Country)<-[:HOSTED_BY]-(worldCup),
+MATCH (match:Match {round: "Final"})-[rel:HOME_TEAM|:AWAY_TEAM]->(host:Country)<-[:HOSTED_BY]-(worldCup),
       (worldCup)-[:CONTAINS_MATCH]->(match)
 
 WITH match, host, worldCup,
@@ -72,41 +65,41 @@ WITH match, host, worldCup,
      CASE WHEN TYPE(rel) = "HOME_TEAM" THEN match.a_score ELSE match.h_score END AS oppositionGoals
 WHERE toInt(hostGoals) > toInt(oppositionGoals)
 
-RETURN host.name, worldCup.name
+RETURN host.name, worldCup.name;
 
 // England squad in 1966
 
 MATCH (c:Country {name: "England"})-[:NAMED_SQUAD]->(squad),
-      (squad)-[:FOR_WORLD_CUP]->(worldCup)-[:IN_YEAR]->(year {year: 1966}),
+      (squad)-[:FOR_WORLD_CUP]->(worldCup:WorldCup {year: 1966}),
       (squad)<-[:IN_SQUAD]-(player)
-RETURN c, squad, year, worldCup, player
+RETURN player.name, player.dob;
 
 // Squad sizes over the years
 
 MATCH (c:Country)-[:NAMED_SQUAD]->(squad),
-      (squad)-[:FOR_WORLD_CUP]->(worldCup)-[:IN_YEAR]-(year),
+      (squad)-[:FOR_WORLD_CUP]->(wc),
       (squad)<-[:IN_SQUAD]-(player)
-WITH c.name AS country, worldCup.name AS worldCup, COUNT(*) as squadSize, year
-ORDER BY year.year
-RETURN country, worldCup, squadSize
+WITH c.name AS country, wc.name AS worldCup, COUNT(*) as squadSize, wc.year AS year
+ORDER BY year
+RETURN country, worldCup, squadSize;
 
 // Players named in more than 2 World Cup Squads
-MATCH (year:Year)<-[:IN_YEAR]-()<-[:FOR_WORLD_CUP]-(squad)<-[:IN_SQUAD]-(player), (country)-[:NAMED_SQUAD]->(squad)
-WITH player, country, COLLECT(year.year) AS wcs, COUNT(*) AS times
+MATCH (wc)<-[:FOR_WORLD_CUP]-(squad)<-[:IN_SQUAD]-(player), (country)-[:NAMED_SQUAD]->(squad)
+WITH player, country, collect(wc.year) AS wcs, COUNT(*) AS times
 WHERE times > 3
 
 UNWIND wcs AS wc
 WITH player, country, wc, times
 ORDER BY times DESC, wc
 
-RETURN player.name, times, COLLECT(wc), country.name
-ORDER BY times DESC
+RETURN player.name, times, collect(wc), country.name
+ORDER BY times DESC;
 
 // Queries from the London Hackathon - 18th June 2014
 
 // Find teams that beat each other in the same world cups
 MATCH (s:Squad) -[:BEAT]-> () -[:BEAT]-> (s)
-RETURN s
+RETURN s;
 
 // Revenge is a dish best served cold
 // Find how long it took for a team to gain revenge for an earlier defeat
