@@ -6,12 +6,6 @@ import re
 with open("data/2018/import/matches.csv", "w") as matches_file:
     writer = csv.writer(matches_file, delimiter=",")
 
-    # "data/2018/matches/43950024.html"
-
-
-    # world_cup, id, home, away, h_score, a_score, match_number, new_match_number, date, time, stadium, attendance, \
-    # phase, year, host
-
     writer.writerow([
         "id",
         "home_id", "home", "home_code",
@@ -30,9 +24,9 @@ with open("data/2018/import/matches.csv", "w") as matches_file:
             header = soup.select("div h1 a")[0].text
 
             groups = re.match("(\d{4}) FIFA World Cup (.*?)™", header)
-            year = groups[0]
-            host = groups[1]
-            world_cup = groups[2]
+            world_cup = groups[0]
+            year = groups[1]
+            host = groups[2]
 
             home_element = soup.select("div.home")
 
