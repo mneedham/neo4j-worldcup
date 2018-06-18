@@ -22,7 +22,7 @@ MERGE (match)-[:AWAY_TEAM]->(away)
 MERGE (match)<-[:PLAYED_IN]-(away)
 
 MERGE (worldCup:WorldCup {name: csvLine.world_cup})
-ON CREATE SET worldCup.year = toInteger(csvLine.year)
+SET worldCup.year = toInteger(csvLine.year)
 
 MERGE (match)<-[:CONTAINS_MATCH]-(worldCup)
 
