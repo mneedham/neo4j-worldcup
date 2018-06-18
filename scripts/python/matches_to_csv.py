@@ -12,7 +12,8 @@ with open("data/2018/import/matches.csv", "w") as matches_file:
         "away_id", "away", "away_code",
         "h_score", "a_score",
         "date", "stadium",  "round",
-        "world_cup",  "year", "host"
+        "world_cup",  "year", "host",
+        "reasonWin"
     ])
 
     for match_file in glob.glob("data/2018/matches/*.html"):
@@ -26,6 +27,9 @@ with open("data/2018/import/matches.csv", "w") as matches_file:
             world_cup = groups[0]
             year = groups[1]
             host = groups[2]
+
+            if year == "1974":
+                host = "Germany FR"
 
             home_element = soup.select("div.home")
 
@@ -52,13 +56,17 @@ with open("data/2018/import/matches.csv", "w") as matches_file:
 
             h_score, a_score = soup.select("span.s-scoreText")[0].text.split("-")
 
+            reason_win = soup.select("div.mu-reasonwin span.text-reasonwin")[0].text
+
             values = [
                 match_id,
                 home_id, home, home_code,
                 away_id, away, away_code,
                 h_score, a_score,
                 date, stadium, round,
-                world_cup, year, host
+                world_cup, year, host,
+                reason_win
+
             ]
             values = [value.strip() if type(value) is str else value for value in values]
             writer.writerow(values)

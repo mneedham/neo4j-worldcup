@@ -2,6 +2,11 @@ USING PERIODIC COMMIT 1000
 //LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/mneedham/neo4j-worldcup/master/data/2018/import/matches.csv" AS csvLine
 LOAD CSV WITH HEADERS FROM "file:///matches.csv" AS csvLine
 
+WITH csvLine, apoc.text.regexGroups(csvLine.reasonWin, "\\((\\d) - (\\d)\\)")[0] AS reasonWin
+WITH apoc.map.merge(csvLine,  { h_penalties: toInteger(reasonWin[1]), a_penalties: toInteger(reasonWin[2])}) AS csvLine
+
+MATCH (worldCup:WorldCup {year: toInteger(csvLine.year)})
+
 MERGE (match:Match {id: toInteger(csvLine.id)})
 SET match.h_score = toInteger(csvLine.h_score),
     match.a_score = toInteger(csvLine.a_score),
@@ -9,20 +14,39 @@ SET match.h_score = toInteger(csvLine.h_score),
     match.description = csvLine.home + " vs. " + csvLine.away,
     match.round = csvLine.round
 
-MERGE (home:Country {id: toInteger(csvLine.home_id)})
-ON CREATE SET home.name = csvLine.home, home.code = csvLine.home_code
+FOREACH(i IN CASE WHEN exists(csvLine.reasonWin) THEN [1] ELSE [] END |
+	MERGE (match:Match {id: toInteger(csvLine.id)})
+	SET match:ExtraTime
+)
+
+FOREACH(i IN CASE WHEN csvLine.reasonWin contains "penalties" THEN [1] ELSE [] END |
+	MERGE (match:Match {id: toInteger(csvLine.id)})
+	SET match:Penalties
+)
+
+WITH *
+
+MATCH (home:Country {id: toInteger(csvLine.home_id)})
+SET home.code = csvLine.home_code
+
+WITH *
 
 MERGE (match)-[:HOME_TEAM]->(home)
-MERGE (match)<-[:PLAYED_IN]-(home)
+MERGE (match)<-[homePlayed:PLAYED_IN]-(home)
+SET homePlayed.score = toInteger(csvLine.h_score),
+    homePlayed.penalties = toInteger(csvLine.h_penalties)
 
-MERGE (away:Country {id: toInteger(csvLine.away_id)})
-ON CREATE SET away.name = csvLine.away, away.code = csvLine.away_code
+WITH *
+
+MATCH (away:Country {id: toInteger(csvLine.away_id)})
+SET away.code = csvLine.away_code
+
+WITH *
 
 MERGE (match)-[:AWAY_TEAM]->(away)
-MERGE (match)<-[:PLAYED_IN]-(away)
-
-MERGE (worldCup:WorldCup {name: csvLine.world_cup})
-SET worldCup.year = toInteger(csvLine.year)
+MERGE (match)<-[awayPlayed:PLAYED_IN]-(away)
+SET awayPlayed.score = toInteger(csvLine.a_score),
+    awayPlayed.penalties = toInteger(csvLine.a_penalties)
 
 MERGE (match)<-[:CONTAINS_MATCH]-(worldCup)
 

@@ -1,20 +1,21 @@
 import csv
 from multiprocessing.pool import ThreadPool
 from time import time as timer
-
+import os
 import requests
 
 
 def fetch_url(entry):
     filename, uri = entry
+    path = "data/2018/teams/{0}".format(filename)
 
-    r = requests.get(uri, stream=True)
-    if r.status_code == 200:
-        path = "data/2018/teams/{0}".format(filename)
-        with open(path, 'wb') as f:
-            for chunk in r:
-                f.write(chunk)
-        return path
+    if not os.path.exists(path):
+        r = requests.get(uri, stream=True)
+        if r.status_code == 200:
+            with open(path, 'wb') as f:
+                for chunk in r:
+                    f.write(chunk)
+    return path
 
 
 def teams_uri(year, team_id):

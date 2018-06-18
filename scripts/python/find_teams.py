@@ -3,6 +3,7 @@ import csv
 from bs4 import BeautifulSoup
 
 world_cups = {
+    2018: "https://www.fifa.com/worldcup",
     2014: "https://www.fifa.com/worldcup/archive/brazil2014",
     2010: "https://www.fifa.com/worldcup/archive/southafrica2010",
     2006: "https://www.fifa.com/worldcup/archive/germany2006",
@@ -36,6 +37,9 @@ with open("data/2018/teams.csv", "w") as teams_file:
         soup = BeautifulSoup(r.text, "html.parser")
         teams = soup.select("div.team-qualifiedteams li")
 
+        if len(teams) == 0:
+            teams = soup.select("div.col-xs-6")
+
         for team in teams:
             team_element = team.select("a")[0]
 
@@ -49,3 +53,4 @@ with open("data/2018/teams.csv", "w") as teams_file:
             values = [value.strip() if type(value) is str else value
                       for value in values]
             writer.writerow(values)
+
