@@ -6,6 +6,8 @@ MATCH (worldCup:WorldCup {year: toInteger(csvLine.year)}),
       (c:Country {id: toInteger(csvLine.teamId)})
 
 MERGE (squad:Squad {name: c.name + " Squad for " + worldCup.name })
+SET squad.year = toInteger(csvLine.year)
+
 MERGE (c)-[:NAMED_SQUAD]->(squad)-[:FOR_WORLD_CUP]->(worldCup)
 
 MERGE (p:Player {id: toInteger(csvLine.playerId)})

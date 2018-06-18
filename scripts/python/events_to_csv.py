@@ -36,10 +36,14 @@ with open("data/2018/import/events.csv", "w") as matches_file:
 
                         event_time = event_time.replace("OG", "").replace("PEN", "").strip()
 
-                        # print(player_id, scoring_team_id, event_time, event_type)
-
                         values = [
                             match_id, player_id, event_time, event_type, scoring_team_id
                         ]
                         values = [value.strip() if type(value) is str else value for value in values]
                         writer.writerow(values)
+
+            # events = soup.select("div.p-lu-info")
+            # for event in events:
+            #     yellow_cards = event.select("span.p-e span.yellow-card")
+
+

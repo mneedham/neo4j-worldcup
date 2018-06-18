@@ -22,3 +22,5 @@ CREATE CONSTRAINT ON (s:Squad)
 ASSERT s.name IS UNIQUE;
 
 CREATE INDEX ON :Appearance(name);
+
+CREATE INDEX ON :Player(name);

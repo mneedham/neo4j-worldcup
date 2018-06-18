@@ -95,6 +95,14 @@ ORDER BY times DESC, wc
 RETURN player.name, times, collect(wc), country.name
 ORDER BY times DESC;
 
+// Top goalscoring substitutes
+
+MATCH (country:Country)-[:NAMED_SQUAD]-(squad:Squad)<-[:IN_SQUAD]-(player:Player)-[:SUBSTITUTE]->(app:Appearance)-[:IN_MATCH]->(match:Match), (squad)-[:FOR_WORLD_CUP]->(wc:WorldCup)-[:CONTAINS_MATCH]->(match)
+MATCH (app)-[:SCORED_GOAL]->(goal:Goal)
+RETURN player.name, count(goal) AS goals
+ORDER BY goals DESC
+LIMIT 10;
+
 // Queries from the London Hackathon - 18th June 2014
 
 // Find teams that beat each other in the same world cups
