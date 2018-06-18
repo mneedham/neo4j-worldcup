@@ -5,7 +5,7 @@ import json
 import re
 from bs4 import BeautifulSoup
 
-with open("data/2018/import/lineups2.csv", "w") as lineups_file:
+with open("data/2018/import/lineups.csv", "w") as lineups_file:
     writer = csv.writer(lineups_file, delimiter=",")
 
     writer.writerow([
