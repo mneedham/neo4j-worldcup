@@ -25,37 +25,25 @@ world_cups = {
     1930: "https://www.fifa.com/worldcup/archive/uruguay1930"
 }
 
-with open("data/2018/matches.csv", "w") as matches_file:
-    writer = csv.writer(matches_file, delimiter=",")
-    writer.writerow([
-        "year", "matchNumber", "venue", "home", "homeCode", "homeId", "away", "awayCode", "awayId", "link", "result"
-    ])
+with open("data/2018/teams.csv", "w") as teams_file:
+    writer = csv.writer(teams_file, delimiter=",")
+    writer.writerow(["year", "teamId", "team", "link"])
 
     for year, download_link in list(world_cups.items()):
         print(year)
-        r = requests.get("{0}/matches".format(download_link))
+        r = requests.get("{0}/teams".format(download_link))
 
         soup = BeautifulSoup(r.text, "html.parser")
-        matches = soup.select("div.match-list div.result")
+        teams = soup.select("div.team-qualifiedteams li")
 
-        for match in matches:
-            match_number = match.select(".mu-i-matchnum")[0].text
-            venue = match.select(".mu-i-venue")[0].text
-            home = match.select(".home .t-nText")[0].text
-            home_code = match.select(".home .t-nTri")[0].text
-            home_id = match.select(".home")[0]["data-team-id"]
-            away = match.select(".away .t-nText")[0].text
-            away_code = match.select(".away .t-nTri")[0].text
-            away_id = match.select(".away")[0]["data-team-id"]
-            link = match.select("a.mu-m-link")[0]["href"]
-            result = match.select('.s-scoreText')[0].text
+        for team in teams:
+            team_element = team.select("a")[0]
 
             values = [
                 year,
-                match_number, venue,
-                home, home_code, home_id,
-                away, away_code, away_id,
-                link, result
+                team_element["href"].split("/")[-2].replace("team=", ""),
+                team_element.text,
+                team_element["href"]
             ]
 
             values = [value.strip() if type(value) is str else value
