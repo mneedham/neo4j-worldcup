@@ -2,7 +2,7 @@ USING PERIODIC COMMIT 1000
 //LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/mneedham/neo4j-worldcup/master/data/import/squads.csv" AS csvLine
 LOAD CSV WITH HEADERS FROM "file:///squads.csv" AS csvLine
 
-MATCH (y:Year {year: toInteger(csvLine.year)})<-[:IN_YEAR]-(worldCup),
+MATCH (worldCup:WorldCup {year: toInteger(csvLine.year)}),
       (c:Country {id: toInteger(csvLine.teamId)})
 
 MERGE (squad:Squad {name: c.name + " Squad for " + worldCup.name })

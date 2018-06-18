@@ -21,8 +21,6 @@ ON CREATE SET away.name = csvLine.away, away.code = csvLine.away_code
 MERGE (match)-[:AWAY_TEAM]->(away)
 MERGE (match)<-[:PLAYED_IN]-(away)
 
-MERGE (year:Year {year: toInt(csvLine.year)})
-
 MERGE (worldCup:WorldCup {name: csvLine.world_cup})
 ON CREATE SET worldCup.year = toInteger(csvLine.year)
 
@@ -37,8 +35,6 @@ FOREACH(i IN CASE WHEN csvLine.host = "Korea/Japan" THEN [1] ELSE [] END |
 FOREACH(i IN CASE WHEN csvLine.host <> "Korea/Japan" THEN [1] ELSE [] END |
 	MERGE (host:Country {name: csvLine.host})
 	MERGE (host)<-[:HOSTED_BY]-(worldCup))
-
-MERGE (year)<-[:IN_YEAR]-(worldCup)
 
 MERGE (stadium:Stadium {name: csvLine.stadium})
 MERGE (match)-[:PLAYED_IN_STADIUM]->(stadium);

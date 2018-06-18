@@ -4,6 +4,8 @@ ASSERT m.id IS UNIQUE;
 CREATE CONSTRAINT ON (w:WorldCup)
 ASSERT w.name IS UNIQUE;
 
+CREATE INDEX ON :WorldCup(year);
+
 CREATE CONSTRAINT ON (s:Stadium)
 ASSERT s.name IS UNIQUE;
 
