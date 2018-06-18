@@ -22,7 +22,6 @@ with open("data/2018/import/matches.csv", "w") as matches_file:
             soup = BeautifulSoup(file.read(), "html.parser")
 
             header = soup.select("div h1 a")[0].text
-
             groups = re.match("(\d{4}) FIFA World Cup (.*?)™", header)
             world_cup = groups[0]
             year = groups[1]

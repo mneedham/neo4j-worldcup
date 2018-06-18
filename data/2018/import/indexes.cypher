@@ -20,3 +20,5 @@ ASSERT y.year IS UNIQUE;
 
 CREATE CONSTRAINT ON (s:Squad)
 ASSERT s.name IS UNIQUE;
+
+CREATE INDEX ON :Appearance(name);
