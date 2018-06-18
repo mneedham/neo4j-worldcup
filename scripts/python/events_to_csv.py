@@ -47,7 +47,7 @@ with open("data/2018/import/events.csv", "w") as matches_file:
                         values = [
                             match_id, player_id, event_time, event_type, scoring_team_id
                         ]
-                        
+
                         values = [str(value).strip() for value in values]
                         writer.writerow(values)
 
