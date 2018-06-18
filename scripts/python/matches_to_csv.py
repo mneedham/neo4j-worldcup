@@ -3,7 +3,7 @@ import glob
 from bs4 import BeautifulSoup
 import re
 
-with open("data/2018/import/matches2.csv", "w") as matches_file:
+with open("data/2018/import/matches.csv", "w") as matches_file:
     writer = csv.writer(matches_file, delimiter=",")
 
     writer.writerow([
