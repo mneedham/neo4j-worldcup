@@ -41,4 +41,4 @@ with open("data/2018/import/squads.csv", "w") as squads_file:
                     dob = player.select("div.p-ag span")[0]["data-birthdate"]
 
                     if not position == "0":
-                        writer.writerow([year, team_id, id, name, position, dob])
+                        writer.writerow([year, team_id, id, name.title(), position, dob])
