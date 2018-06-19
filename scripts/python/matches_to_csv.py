@@ -34,7 +34,7 @@ with open("data/2018/import/matches.csv", "w") as matches_file:
             year = int(groups[1])
             host = groups[2]
 
-            if year == "1974":
+            if year == 1974:
                 host = "Germany FR"
 
             home_element = soup.select("div.home")
@@ -80,6 +80,7 @@ with open("data/2018/import/matches.csv", "w") as matches_file:
             if len(score) == 2:
                 h_score, a_score = score
 
+            reason_win = ""
             if year == 2018:
                 reasons_selector = "div.fi-mu__details div.fi-mu__reasonwin-wrap div.fi-mu__reasonwin"
                 reason_win_elements = [

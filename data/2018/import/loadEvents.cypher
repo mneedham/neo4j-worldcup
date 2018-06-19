@@ -1,6 +1,7 @@
 USING PERIODIC COMMIT 1000
-//LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/mneedham/neo4j-worldcup/master/data/import/events.csv" AS csvLine
-LOAD CSV WITH HEADERS FROM "file:///events.csv" AS csvLine
+
+//LOAD CSV WITH HEADERS FROM "file:///events.csv" AS csvLine
+LOAD CSV WITH HEADERS FROM "https://github.com/mneedham/neo4j-worldcup/raw/master/data/2018/import/events.csv" AS csvLine
 
 MATCH (match:Match {id: toInteger(csvLine.match_id)})
 MATCH (player:Player {id: toInteger(csvLine.player_id)})

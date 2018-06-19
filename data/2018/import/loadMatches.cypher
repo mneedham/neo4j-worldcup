@@ -1,6 +1,6 @@
 USING PERIODIC COMMIT 1000
-//LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/mneedham/neo4j-worldcup/master/data/2018/import/matches.csv" AS csvLine
-LOAD CSV WITH HEADERS FROM "file:///matches.csv" AS csvLine
+//LOAD CSV WITH HEADERS FROM "file:///matches.csv" AS csvLine
+LOAD CSV WITH HEADERS FROM "https://github.com/mneedham/neo4j-worldcup/raw/master/data/2018/import/matches.csv" AS csvLine
 
 WITH csvLine, apoc.text.regexGroups(csvLine.reasonWin, "\\((\\d) - (\\d)\\)")[0] AS reasonWin
 WITH apoc.map.merge(csvLine,  { h_penalties: toInteger(reasonWin[1]), a_penalties: toInteger(reasonWin[2])}) AS csvLine
@@ -50,13 +50,13 @@ SET awayPlayed.score = toInteger(csvLine.a_score),
 
 MERGE (match)<-[:CONTAINS_MATCH]-(worldCup)
 
-FOREACH(i IN CASE WHEN csvLine.host = "Korea/Japan" THEN [1] ELSE [] END |
+FOREACH(i IN CASE WHEN toInteger(csvLine.year) = 2002 THEN [1] ELSE [] END |
 	MERGE (host1:Country {name: "Korea Republic"})
 	MERGE (host2:Country {name: "Japan"})
 	MERGE (host1)<-[:HOSTED_BY]-(worldCup)
 	MERGE (host2)<-[:HOSTED_BY]-(worldCup))
 
-FOREACH(i IN CASE WHEN csvLine.host <> "Korea/Japan" THEN [1] ELSE [] END |
+FOREACH(i IN CASE WHEN toInteger(csvLine.year) <> 2002 THEN [1] ELSE [] END |
 	MERGE (host:Country {name: csvLine.host})
 	MERGE (host)<-[:HOSTED_BY]-(worldCup))
 

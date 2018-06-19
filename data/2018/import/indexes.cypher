@@ -22,3 +22,19 @@ ASSERT s.name IS UNIQUE;
 CREATE INDEX ON :Appearance(name);
 
 CREATE INDEX ON :Player(name);
+
+
+CALL apoc.schema.assert(
+  {
+    Player:['name'],
+    Appearance:['name']
+  },
+  {
+    Match:['id'],
+    WorldCup:['year'],
+    Stadium:['name'],
+    Country:['id'],
+    Player:['id'],
+    Squad:['name']
+  }
+);
