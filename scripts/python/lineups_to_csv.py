@@ -15,6 +15,7 @@ with open("data/2018/import/lineups.csv", "w") as lineups_file:
     for match_file in glob.glob("data/2018/matches/*.html"):
         match_id = match_file.split("/")[-1].replace(".html", "")
         print(match_id)
+
         with open(match_file, "r") as file:
             soup = BeautifulSoup(file.read(), "html.parser")
 
@@ -39,7 +40,7 @@ with open("data/2018/import/lineups.csv", "w") as lineups_file:
                             year, match_id, home_team["IdTeam"], type, player["IdPlayer"]
                         ])
 
-                    away_team = the_json["HomeTeam"]
+                    away_team = the_json["AwayTeam"]
                     players = away_team["Players"]
                     for player in players:
                         type = "STARTED" if player["Status"] == 1 else "SUBSTITUTE"
