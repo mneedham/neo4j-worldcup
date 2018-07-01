@@ -426,7 +426,7 @@ id,home_id,home,home_code,away_id,away,away_code,h_score,a_score,date,stadium,ro
 8759,43924,Brazil,BRA,43961,Norway,NOR,1,2,23 Jun 1998 - 21:00 Local time,Stade Vélodrome,Group matches - Group A,1998 FIFA World Cup France,1998,France,
 1578,43922,Argentina,ARG,43969,Spain,ESP,2,1,13 Jul 1966 - 19:30 Local time,Villa Park,Group matches - Group 2,1966 FIFA World Cup England,1966,England,
 263,43954,Italy,ITA,44025,Czechoslovakia,TCH,2,0,19 Jun 1990 - 21:00 Local time,Stadio Olimpico,Group matches - Group A,1990 FIFA World Cup Italy,1990,Italy,
-300331517,43969,Spain,ESP,43965,Russia,RUS,,,01 Jul 2018 - 17:00      Local time,Luzhniki Stadium,"Round of 16,",2018 FIFA World Cup Russia,2018,Russia,
+300331517,43969,Spain,ESP,43965,Russia,RUS,1,1,01 Jul 2018 - 17:00      Local time,Luzhniki Stadium,"Round of 16,",2018 FIFA World Cup Russia,2018,Russia,Russia win on penalties (3 - 4)
 1313,43930,Uruguay,URU,43967,Scotland,SCO,7,0,19 Jun 1954 - 16:50 Local time,St. Jakob,Group matches - Group 3,1954 FIFA World Cup Switzerland,1954,Switzerland,
 1893,43929,Peru,PER,43872,Morocco,MAR,3,0,06 Jun 1970 - 16:00 Local time,Nou Camp - Estadio León,Group matches - Group 4,1970 FIFA World Cup Mexico,1970,Mexico,
 2246,43924,Brazil,BRA,43969,Spain,ESP,0,0,07 Jun 1978 - 13:45 Local time,Estadio José María Minella,Group matches - Group 3,1978 FIFA World Cup Argentina,1978,Argentina,
@@ -705,7 +705,7 @@ id,home_id,home,home_code,away_id,away,away_code,h_score,a_score,date,stadium,ro
 97410028,43819,Japan,JPN,43938,Croatia,CRO,0,0,18 Jun 2006 - 15:00 Local time,Franken-Stadion,Group matches - Group F,2006 FIFA World Cup Germany,2006,Germany,
 180,43930,Uruguay,URU,43969,Spain,ESP,0,0,13 Jun 1990 - 17:00 Local time,Friuli,Group matches - Group E,1990 FIFA World Cup Italy,1990,Italy,
 300331532,43822,Korea Republic,KOR,43948,Germany,GER,2,0,27 Jun 2018 - 17:00      Local time,Kazan Arena,"First stage - Group F,",2018 FIFA World Cup Russia,2018,Russia,
-300331498,43938,Croatia,CRO,43941,Denmark,DEN,,,01 Jul 2018 - 21:00      Local time,Nizhny Novgorod Stadium,"Round of 16,",2018 FIFA World Cup Russia,2018,Russia,
+300331498,43938,Croatia,CRO,43941,Denmark,DEN,1,1,01 Jul 2018 - 21:00      Local time,Nizhny Novgorod Stadium,"Round of 16,",2018 FIFA World Cup Russia,2018,Russia,Croatia win on penalties (3 - 2)
 753,43954,Italy,ITA,43922,Argentina,ARG,2,1,29 Jun 1982 - 17:15 Local time,Sarria,Second round - Group 3,1982 FIFA World Cup Spain,1982,Spain,
 1459,43924,Brazil,BRA,43942,England,ENG,3,1,10 Jun 1962 - 14:30 Local time,Estadio Sausalito,Quarter-finals,1962 FIFA World Cup Chile,1962,Chile,
 196,44023,Germany FR,FRG,43960,Netherlands,NED,2,1,24 Jun 1990 - 21:00 Local time,Giuseppe Meazza,Round of 16,1990 FIFA World Cup Italy,1990,Italy,
@@ -721,6 +721,7 @@ id,home_id,home,home_code,away_id,away,away_code,h_score,a_score,date,stadium,ro
 712,43967,Scotland,SCO,43930,Uruguay,URU,0,0,13 Jun 1986 - 12:00 Local time,Neza,Group matches - Group E,1986 FIFA World Cup Mexico,1986,Mexico,
 1300,43971,Switzerland,SUI,43954,Italy,ITA,2,1,17 Jun 1954 - 17:50 Local time,La Pontaise,Group matches - Group 4,1954 FIFA World Cup Switzerland,1954,Switzerland,
 97410049,43948,Germany,GER,43970,Sweden,SWE,2,0,24 Jun 2006 - 17:00 Local time,"FIFA World Cup Stadium, Munich",Round of 16,2006 FIFA World Cup Germany,2006,Germany,
+300331504,43965,Russia,RUS,43938,Croatia,CRO,,,07 Jul 2018 - 21:00      Local time,Fisht Stadium,"Quarter-finals,",2018 FIFA World Cup Russia,2018,Russia,
 159,44023,Germany FR,FRG,43942,England,ENG,1,1,04 Jul 1990 - 20:00 Local time,Stadio delle Alpi,Semi-finals,1990 FIFA World Cup Italy,1990,Italy,win on penalties (4 - 3)
 1479,43930,Uruguay,URU,43926,Colombia,COL,2,1,30 May 1962 - 15:00 Local time,Carlos Dittborn,Group matches - Group 1,1962 FIFA World Cup Chile,1962,Chile,
 1880,43970,Sweden,SWE,43984,Israel,ISR,1,1,07 Jun 1970 - 12:00 Local time,Luis Dosal,Group matches - Group 2,1970 FIFA World Cup Mexico,1970,Mexico,
