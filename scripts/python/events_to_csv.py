@@ -37,6 +37,8 @@ with open("data/2018/import/events.csv", "w") as matches_file:
                         event_type = "goal"
                         if type == 1:
                             event_type = "penalty"
+                            if scorer["Period"] == 11:
+                                event_type = "penalty-shootout"
                         if type == 3:
                             event_type = "owngoal"
 
@@ -57,6 +59,8 @@ with open("data/2018/import/events.csv", "w") as matches_file:
                         event_type = "goal"
                         if type == 1:
                             event_type = "penalty"
+                            if scorer["Period"] == 11:
+                                event_type = "penalty-shootout"
                         if type == 3:
                             event_type = "owngoal"
 

@@ -104,7 +104,7 @@ id,home_id,home,home_code,away_id,away,away_code,h_score,a_score,date,stadium,ro
 3104,43924,Brazil,BRA,43954,Italy,ITA,0,0,17 Jul 1994 - 12:30 Local time,Rose Bowl,Final,1994 FIFA World Cup USA,1994,USA,win on penalties (3 - 2)
 300186506,43843,Algeria,ALG,43965,Russia,RUS,1,1,26 Jun 2014 - 17:00 Local time,Arena da Baixada,First stage - Group H,2014 FIFA World Cup Brazil,2014,Brazil,
 675,43963,Portugal,POR,43872,Morocco,MAR,1,3,11 Jun 1986 - 16:00 Local time,Tres de Marzo,Group matches - Group F,1986 FIFA World Cup Mexico,1986,Mexico,
-300331551,43935,Belgium,BEL,43819,Japan,JPN,,,02 Jul 2018 - 21:00      Local time,Rostov Arena,"Round of 16,",2018 FIFA World Cup Russia,2018,Russia,
+300331551,43935,Belgium,BEL,43819,Japan,JPN,3,2,02 Jul 2018 - 21:00      Local time,Rostov Arena,"Round of 16,",2018 FIFA World Cup Russia,2018,Russia,
 2083,43954,Italy,ITA,43908,Haiti,HAI,3,1,15 Jun 1974 - 18:00 Local time,Olympiastadion,Group matches - Group 4,1974 FIFA World Cup Germany,1974,Germany FR,
 2129,43962,Poland,POL,43954,Italy,ITA,2,1,23 Jun 1974 - 16:00 Local time,Neckarstadion,Group matches - Group 4,1974 FIFA World Cup Germany,1974,Germany FR,
 1882,43954,Italy,ITA,43911,Mexico,MEX,4,1,14 Jun 1970 - 12:00 Local time,Luis Dosal,Quarter-finals,1970 FIFA World Cup Mexico,1970,Mexico,
@@ -283,6 +283,7 @@ id,home_id,home,home_code,away_id,away,away_code,h_score,a_score,date,stadium,ro
 1650,43946,France,FRA,43911,Mexico,MEX,1,1,13 Jul 1966 - 19:30 Local time,Wembley Stadium,Group matches - Group 1,1966 FIFA World Cup England,1966,England,
 1345,43924,Brazil,BRA,43974,Wales,WAL,1,0,19 Jun 1958 - 19:00 Local time,Nya Ullevi,Quarter-finals,1958 FIFA World Cup Sweden,1958,Sweden,
 300186453,43849,Cameroon,CMR,43938,Croatia,CRO,0,4,18 Jun 2014 - 18:00 Local time,Arena Amazonia,First stage - Group A,2014 FIFA World Cup Brazil,2014,Brazil,
+300331541,43970,Sweden,SWE,43942,England,ENG,,,07 Jul 2018 - 18:00      Local time,Samara Arena,"Quarter-finals,",2018 FIFA World Cup Russia,2018,Russia,
 300061465,43843,Algeria,ALG,43968,Slovenia,SVN,0,1,13 Jun 2010 - 13:30 Local time,Peter Mokaba Stadium,First stage - Group C,2010 FIFA World Cup South Africa,2010,South Africa,
 1095,43925,Chile,CHI,43911,Mexico,MEX,3,0,16 Jul 1930 - 14:45 Local time,Parque Central,Group matches - Group 1,1930 FIFA World Cup Uruguay,1930,Uruguay,
 1996,43936,Bulgaria,BUL,43930,Uruguay,URU,1,1,19 Jun 1974 - 19:30 Local time,Niedersachsenstadion,Group matches - Group 3,1974 FIFA World Cup Germany,1974,Germany FR,
@@ -485,7 +486,7 @@ id,home_id,home,home_code,away_id,away,away_code,h_score,a_score,date,stadium,ro
 1982,43924,Brazil,BRA,44024,German DR,GDR,1,0,26 Jun 1974 - 19:30 Local time,Niedersachsenstadion,Second round - Group A,1974 FIFA World Cup Germany,1974,Germany FR,
 300061471,1902465,Serbia,SRB,43860,Ghana,GHA,0,1,13 Jun 2010 - 16:00 Local time,Loftus Versfeld Stadium,First stage - Group D,2010 FIFA World Cup South Africa,2010,South Africa,
 3053,43926,Colombia,COL,43964,Romania,ROU,1,3,18 Jun 1994 - 19:30 Local time,Rose Bowl,Group matches - Group A,1994 FIFA World Cup USA,1994,USA,
-300331514,43970,Sweden,SWE,43971,Switzerland,SUI,,,03 Jul 2018 - 17:00      Local time,Saint Petersburg Stadium,"Round of 16,",2018 FIFA World Cup Russia,2018,Russia,
+300331514,43970,Sweden,SWE,43971,Switzerland,SUI,1,0,03 Jul 2018 - 17:00      Local time,Saint Petersburg Stadium,"Round of 16,",2018 FIFA World Cup Russia,2018,Russia,
 97410059,43942,England,ENG,43963,Portugal,POR,0,0,01 Jul 2006 - 17:00 Local time,"FIFA World Cup Stadium, Gelsenkirchen",Quarter-finals,2006 FIFA World Cup Germany,2006,Germany,win on penalties (1 - 3)
 1193,43969,Spain,ESP,43925,Chile,CHI,2,0,29 Jun 1950 - 15:00 Local time,'Maracanã - Estádio Jornalista Mário Filho,Group matches - Group 2,1950 FIFA World Cup Brazil,1950,Brazil,
 300186492,43911,Mexico,MEX,43849,Cameroon,CMR,1,0,13 Jun 2014 - 13:00 Local time,Estadio das Dunas,First stage - Group A,2014 FIFA World Cup Brazil,2014,Brazil,
@@ -495,6 +496,7 @@ id,home_id,home,home_code,away_id,away,away_code,h_score,a_score,date,stadium,ro
 8776,43946,France,FRA,43928,Paraguay,PAR,1,0,28 Jun 1998 - 16:30 Local time,Stade Felix Bollaert,Round of 16,1998 FIFA World Cup France,1998,France,France win after extra time
 3090,43924,Brazil,BRA,43921,USA,USA,1,0,04 Jul 1994 - 12:30 Local time,Stanford Stadium,Round of 16,1994 FIFA World Cup USA,1994,USA,
 1107,43954,Italy,ITA,43934,Austria,AUT,1,0,03 Jun 1934 - 16:30 Local time,San Siro,Semi-finals,1934 FIFA World Cup Italy,1934,Italy,
+300331538,43924,Brazil,BRA,43935,Belgium,BEL,,,06 Jul 2018 - 21:00      Local time,Kazan Arena,"Quarter-finals,",2018 FIFA World Cup Russia,2018,Russia,
 923,43954,Italy,ITA,44023,Germany FR,FRG,3,1,11 Jul 1982 - 20:00 Local time,Santiago Bernabeu,Final,1982 FIFA World Cup Spain,1982,Spain,
 43950020,43941,Denmark,DEN,43879,Senegal,SEN,1,1,06 Jun 2002 - 15:30 Local time,Daegu World Cup Stadium,Group matches - Group A,2002 FIFA World Cup Korea,2002,Korea,
 889,43942,England,ENG,44025,Czechoslovakia,TCH,2,0,20 Jun 1982 - 17:15 Local time,San Mames,Group matches - Group 4,1982 FIFA World Cup Spain,1982,Spain,
@@ -578,7 +580,7 @@ id,home_id,home,home_code,away_id,away,away_code,h_score,a_score,date,stadium,ro
 1327,43942,England,ENG,43934,Austria,AUT,2,2,15 Jun 1958 - 19:00 Local time,Ryavallen,Group matches - Group 4,1958 FIFA World Cup Sweden,1958,Sweden,
 26,43922,Argentina,ARG,43849,Cameroon,CMR,0,1,08 Jun 1990 - 18:00 Local time,Giuseppe Meazza,Group matches - Group B,1990 FIFA World Cup Italy,1990,Italy,
 2337,43969,Spain,ESP,43970,Sweden,SWE,1,0,11 Jun 1978 - 13:45 Local time,Jose Amalfitani,Group matches - Group 3,1978 FIFA World Cup Argentina,1978,Argentina,
-300331535,43924,Brazil,BRA,43911,Mexico,MEX,,,02 Jul 2018 - 18:00      Local time,Samara Arena,"Round of 16,",2018 FIFA World Cup Russia,2018,Russia,
+300331535,43924,Brazil,BRA,43911,Mexico,MEX,2,0,02 Jul 2018 - 18:00      Local time,Samara Arena,"Round of 16,",2018 FIFA World Cup Russia,2018,Russia,
 30,43922,Argentina,ARG,44026,Soviet Union,URS,2,0,13 Jun 1990 - 21:00 Local time,San Paolo,Group matches - Group B,1990 FIFA World Cup Italy,1990,Italy,
 538,43963,Portugal,POR,43942,England,ENG,1,0,03 Jun 1986 - 16:00 Local time,Tecnologico,Group matches - Group F,1986 FIFA World Cup Mexico,1986,Mexico,
 1389,44023,Germany FR,FRG,43952,Northern Ireland,NIR,2,2,15 Jun 1958 - 19:00 Local time,Malmo Stadion,Group matches - Group 1,1958 FIFA World Cup Sweden,1958,Sweden,
@@ -649,7 +651,7 @@ id,home_id,home,home_code,away_id,away,away_code,h_score,a_score,date,stadium,ro
 959,43909,Honduras,HON,43952,Northern Ireland,NIR,1,1,21 Jun 1982 - 21:00 Local time,La Romareda,Group matches - Group 5,1982 FIFA World Cup Spain,1982,Spain,
 300061470,43948,Germany,GER,1902465,Serbia,SRB,0,1,18 Jun 2010 - 13:30 Local time,Port Elizabeth Stadium,First stage - Group D,2010 FIFA World Cup South Africa,2010,South Africa,
 3052,43954,Italy,ITA,43953,Republic of Ireland,IRL,0,1,18 Jun 1994 - 16:00 Local time,Giants Stadium,Group matches - Group E,1994 FIFA World Cup USA,1994,USA,
-300331542,43926,Colombia,COL,43942,England,ENG,,,03 Jul 2018 - 21:00      Local time,Spartak Stadium,"Round of 16,",2018 FIFA World Cup Russia,2018,Russia,
+300331542,43926,Colombia,COL,43942,England,ENG,1,1,03 Jul 2018 - 21:00      Local time,Spartak Stadium,"Round of 16,",2018 FIFA World Cup Russia,2018,Russia,England win on penalties (3 - 4)
 1653,43930,Uruguay,URU,43946,France,FRA,2,1,15 Jul 1966 - 19:30 Local time,White City,Group matches - Group 1,1966 FIFA World Cup England,1966,England,
 300186515,43927,Ecuador,ECU,43946,France,FRA,0,0,25 Jun 2014 - 17:00 Local time,Estadio do Maracana,First stage - Group E,2014 FIFA World Cup Brazil,2014,Brazil,
 1995,43970,Sweden,SWE,43936,Bulgaria,BUL,0,0,15 Jun 1974 - 16:00 Local time,Rheinstadion,Group matches - Group 3,1974 FIFA World Cup Germany,1974,Germany FR,
