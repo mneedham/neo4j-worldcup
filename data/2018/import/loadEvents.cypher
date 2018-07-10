@@ -8,7 +8,7 @@ MATCH (player:Player {id: toInteger(csvLine.player_id)})
 MATCH (player)-[:STARTED|:SUBSTITUTE]->(appearance)-[:IN_MATCH]->(match)
 
 // goals
-FOREACH(n IN (CASE WHEN csvLine.type IN ["penalty", "goal", "owngoal"] THEN [1] else [] END) |
+FOREACH(n IN (CASE WHEN csvLine.type IN ["penalty-shootout", "penalty", "goal", "owngoal"] THEN [1] else [] END) |
 		MERGE (appearance)-[:SCORED_GOAL]->(penalty:Goal {time: csvLine.time, type: csvLine.type})
 )
 

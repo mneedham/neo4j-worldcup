@@ -11,13 +11,13 @@ MATCH (player)-[:STARTED|:SUBSTITUTE]->(stats)-[:IN_MATCH]->(match)
 FOREACH(n IN (CASE WHEN csvLine.type IN ["penalty", "goal", "owngoal"] THEN [1] else [] END) |
 	FOREACH(t IN CASE WHEN team = home THEN [home] ELSE [away] END |
 		MERGE (stats)-[:SCORED_GOAL]->(penalty:Goal {time: csvLine.time, type: csvLine.type})
-	)		
+	)
 )
 
 // cards
 FOREACH(n IN (CASE WHEN csvLine.type IN ["yellow", "red", "yellowred"] THEN [1] else [] END) |
 	FOREACH(t IN CASE WHEN team = home THEN [home] ELSE [away] END |
 		MERGE (stats)-[:RECEIVED_CARD]->(card {time: csvLine.time, type: csvLine.type})
-	)		
+	)
 )
 ;
